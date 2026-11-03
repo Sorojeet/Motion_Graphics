@@ -58,3 +58,9 @@ d = 4.0; lfo = .75 + .25 * np.sin(2 * np.pi * t(d) / 4); fade = np.minimum(1, np
 save("ambience-wind", filt(noise(d), "band", [150, 900]) * lfo * fade, .5)
 save("ambience-drone", (tone(d, 55) + .5 * tone(d, 82.4) + .25 * tone(d, 110)) * lfo * fade, .5)
 print("sfx built")
+d = 4.0
+_o = np.zeros(int(SR * d))
+for _ in range(150):
+    _s = int(rng.random() * SR * (d - .08)); _k = noise(.03) * env(.03, .0005, 180) * rng.uniform(.25, 1); _o[_s:_s + len(_k)] += _k
+_roar = filt(noise(d), "low", 420) * (.8 + .2 * np.sin(2 * np.pi * t(d) / d * 3))
+save("fire-crackle", (filt(_o, "high", 1200) + 1.4 * _roar) * np.minimum(1, np.minimum(t(d), d - t(d)) / .25), .5)

@@ -16,11 +16,12 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `templates/` | 8 transparent text layouts in 9:16 and 16:9 | SVG with editable text, PNG |
 | `guides/` | Safe-zone overlays for layout checks. Don't export these into a video | SVG, PNG |
 | `animated/` | Transparent clips: text, transitions, effects and character loops | WebM (VP9 with alpha) |
-| `sfx/` | 16 sound effects | WAV, 48 kHz, mono |
+| `sfx/` | 17 sound effects | WAV, 48 kHz, mono |
 | `public/fonts/` | Montserrat (headings) and Inter (body) | TTF |
 | `narration/` | Narration scripts, with a demo in `public/narration/demo/` | Text, WAV, JSON, SRT |
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
+| `remotion/three/` | First-person 3D kit: camera, sky, instancing, apple, hand, forest, falling leaves, glowing particles | React Three Fiber (TSX) |
 | `lib/`, `scripts/` | Source art and build scripts | JS, Python |
 
 ## Using the assets
