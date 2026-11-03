@@ -10,6 +10,8 @@ export const icons = {
   "pause":'<path d="M8 5v14M16 5v14"/>',
   "search":'<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/>',
   "question":'<path d="M8.5 8.5a3.5 3.5 0 1 1 5.6 2.8c-1.3 1-2.1 1.7-2.1 3.2"/><path d="M12 18.5v.01"/>',
+  "baby":'<circle cx="12" cy="9" r="6"/><path d="M12 3c-1.2 1.2-1.2 2.4 0 3"/><path d="M9.8 11c1.2 1.3 3.2 1.3 4.4 0"/><path d="M9.5 8.5v.01M14.5 8.5v.01"/><path d="M7 21c0-3.5 2-6 5-6s5 2.5 5 6"/>',
+  "wrench":'<path d="M20.5 6.5a5 5 0 0 1-6.6 6.2L7 19.6a2 2 0 0 1-2.8-2.8l6.9-6.9A5 5 0 0 1 17.5 3.5L14.5 6.5l3 3z"/>',
   "warning":'<path d="M12 3.5L22 20.5H2z"/><path d="M12 10v5M12 18v.01"/>',
   "info":'<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/>',
   "clock":'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',

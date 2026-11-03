@@ -9,9 +9,9 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | Folder | Contents | Formats |
 |---|---|---|
 | `shapes/` | 20 shapes in white, cyan, amber and coral | SVG, PNG |
-| `icons/` | 42 line icons in white and cyan | SVG, PNG |
-| `props/` | 16 scene objects: earth, rocket, house, car, meteor and more | SVG, PNG |
-| `characters/` | 2 characters (`alex`, `maya`) with 10 poses each | SVG, PNG |
+| `icons/` | 44 line icons in white and cyan | SVG, PNG |
+| `props/` | 18 scene objects: earth, rocket, house, car, plane, vault and more | SVG, PNG |
+| `characters/` | 12 characters with 10 poses each. Men: `alex`, `omar`, `kenji`, `luis`, `arthur`, `dev`. Women: `maya`, `zara`, `mei`, `aisha`, `elena`, `ruth` | SVG, PNG |
 | `backgrounds/` | 10 backgrounds in 9:16 and 16:9 | SVG, PNG |
 | `templates/` | 8 transparent text layouts in 9:16 and 16:9 | SVG with editable text, PNG |
 | `guides/` | Safe-zone overlays for layout checks. Don't export these into a video | SVG, PNG |

@@ -13,7 +13,7 @@ sections = []
 def sec(title, items, tw, th, tile=SURF): sections.append((title, items, tw, th, tile))
 name = lambda f: os.path.splitext(os.path.basename(f))[0]
 g = lambda p: [(name(f), f) for f in sorted(glob.glob(p))]
-sec("Characters", g("characters/alex/png/*.png") + g("characters/maya/png/*.png"), 180, 270)
+sec("Characters", g("characters/alex/png/*.png") + g("characters/maya/png/*.png") + [(f"{n} idle", f"characters/{n}/png/idle.png") for n in ["omar", "kenji", "luis", "arthur", "dev", "zara", "mei", "aisha", "elena", "ruth"]], 180, 270)
 sec("Props", g("props/png/*.png"), 165, 165)
 sec("Icons", g("icons/white/png/*.png"), 95, 95)
 sec("Shapes (+ white, amber, coral versions)", g("shapes/cyan/png/*.png"), 165, 165)
