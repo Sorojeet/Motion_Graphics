@@ -7,8 +7,8 @@ import { createRequire } from "node:module";
 import path from "node:path";
 const args = process.argv.slice(2), mov = args.includes("--mov"), still = args.includes("--still"), filter = args.find((a) => !a.startsWith("--"));
 let browserExecutable; try { browserExecutable = createRequire(import.meta.url)("playwright").chromium.executablePath(); } catch { try { const r = createRequire("/opt/"); browserExecutable = r("playwright").chromium.executablePath(); } catch {} }
-const serveUrl = await bundle({ entryPoint: path.resolve("remotion/index.ts"), publicDir: path.resolve("fonts") });
-const comps = (await getCompositions(serveUrl, { browserExecutable })).filter((c) => !filter || new RegExp(filter).test(c.id));
+const serveUrl = await bundle({ entryPoint: path.resolve("remotion/index.ts"), publicDir: path.resolve("public") });
+const comps = (await getCompositions(serveUrl, { browserExecutable })).filter((c) => c.id !== "NarrationDemo" && !filter || new RegExp(filter).test(c.id));
 const groupOf = (id) => /^(alex|maya)/.test(id) ? "characters" : /^(TitleCard|LowerThird|Caption|StatCounter|Callout|EndCard)/.test(id) ? "text" : /^(CircleIris|DiagonalWipe|StripeWipe|ShutterWipe|Flash)/.test(id) ? "transitions" : "effects";
 for (const composition of comps) {
   const dir = mov ? `out/mov/${groupOf(composition.id)}` : `animated/${groupOf(composition.id)}`; mkdirSync(dir, { recursive: true });

@@ -66,3 +66,17 @@ export const EndCard: React.FC<{ line1?: string; line2?: string; cta?: string }>
     <div style={{ marginTop: 44, padding: "30px 56px", borderRadius: 60, background: c.coral, color: c.bgDeep, fontFamily: HEADING, fontWeight: 800, fontSize: 44, transform: `scale(${e * pulse})` }}>{cta}</div>
   </AbsoluteFill>;
 };
+
+export type NarrationData = { duration: number; beats: { voice: string; text: string; start: number; end: number }[]; chunks: { voice: string; start: number; end: number; words: { text: string; highlight: boolean; start: number; end: number }[] }[] };
+
+// Captions synced to scripts/narrate.py output. Pass the imported narration.json as `data`.
+export const NarrationCaptions: React.FC<{ data: NarrationData }> = ({ data }) => {
+  const f = useCurrentFrame(); const { fps, width: w, height: h } = useVideoConfig(); const s = safeZone(w, h); const t = f / fps;
+  const chunk = data.chunks.find((x, i) => t >= x.start && t < (data.chunks[i + 1]?.start ?? x.end + 0.4));
+  if (!chunk) return null;
+  return <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: s.bottom + 20, paddingLeft: s.left, paddingRight: s.right }}>
+    <div style={{ background: `${c.bgDeep}E0`, borderRadius: 28, padding: "22px 34px", textAlign: "center", fontFamily: BODY, fontWeight: 700, fontSize: 54, lineHeight: 1.25, color: c.text }}>
+      {chunk.words.map((word, i) => { const on = t >= word.start && t < word.end; return <span key={i} style={{ display: "inline-block", marginRight: 14, color: word.highlight ? c.amber : c.text, opacity: t >= word.start ? 1 : 0.55, transform: `scale(${on ? 1.06 : 1})` }}>{word.text}</span>; })}
+    </div>
+  </AbsoluteFill>;
+};

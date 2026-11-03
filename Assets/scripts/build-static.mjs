@@ -8,7 +8,7 @@ import { poses, presets, characterSvg } from "../lib/character.js";
 
 const theme = JSON.parse(readFileSync("theme/theme.json", "utf8"));
 const c = theme.colors, HF = theme.fonts.heading, BF = theme.fonts.body;
-const fontFiles = readdirSync("fonts").filter((f) => f.endsWith(".ttf")).map((f) => `fonts/${f}`);
+const fontFiles = readdirSync("public/fonts").filter((f) => f.endsWith(".ttf")).map((f) => `public/fonts/${f}`);
 const png = (svg, opts = {}) => new Resvg(svg, { font: { fontFiles, loadSystemFonts: false, defaultFontFamily: BF }, ...opts }).render().asPng();
 const emit = (dir, name, svg, pngOpts) => {
   mkdirSync(`${dir}/svg`, { recursive: true }); mkdirSync(`${dir}/png`, { recursive: true });

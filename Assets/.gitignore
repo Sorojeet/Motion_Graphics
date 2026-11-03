@@ -2,3 +2,6 @@ node_modules/
 out/
 .DS_Store
 *.log
+.models/
+public/narration/*
+!public/narration/demo/

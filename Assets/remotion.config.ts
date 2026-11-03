@@ -1,3 +1,3 @@
 import { Config } from "@remotion/cli/config";
-Config.setPublicDir("fonts");
+Config.setPublicDir("public");
 Config.setVideoImageFormat("png");

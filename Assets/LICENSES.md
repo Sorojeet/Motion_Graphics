@@ -5,8 +5,12 @@
 | Shapes, icons, props, characters, backgrounds, templates, guides | Original, drawn in code for this repository | Owned by the repository owner |
 | Animated clips and `remotion/` components | Original, made with Remotion | Owned by the repository owner; see Remotion below |
 | Sound effects (`sfx/`) | Original, synthesized by `scripts/build_sfx.py` with no samples | Owned by the repository owner |
-| Montserrat | The Montserrat Project Authors | SIL Open Font License 1.1, see `fonts/OFL-Montserrat.txt` |
-| Inter | The Inter Project Authors | SIL Open Font License 1.1, see `fonts/OFL-Inter.txt` |
+| Montserrat | The Montserrat Project Authors | SIL Open Font License 1.1, see `public/fonts/OFL-Montserrat.txt` |
+| Inter | The Inter Project Authors | SIL Open Font License 1.1, see `public/fonts/OFL-Inter.txt` |
+| Narration voices (`am_michael`, `af_bella`), downloaded on first run | [Kokoro](https://github.com/hexgrad/kokoro) model | Apache 2.0 |
+| Narration tool | [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx) | MIT |
+
+The voices are AI generated. Check each platform's current rules on disclosing synthetic voices.
 
 ## Remotion
 

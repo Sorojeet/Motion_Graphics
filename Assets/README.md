@@ -17,7 +17,8 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `guides/` | Safe-zone overlays for layout checks. Don't export these into a video | SVG, PNG |
 | `animated/` | Transparent clips: text, transitions, effects and character loops | WebM (VP9 with alpha) |
 | `sfx/` | 16 sound effects | WAV, 48 kHz, mono |
-| `fonts/` | Montserrat (headings) and Inter (body) | TTF |
+| `public/fonts/` | Montserrat (headings) and Inter (body) | TTF |
+| `narration/` | Narration scripts, with a demo in `public/narration/demo/` | Text, WAV, JSON, SRT |
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
 | `lib/`, `scripts/` | Source art and build scripts | JS, Python |
@@ -42,6 +43,38 @@ import { Character, TitleCard, Confetti, CircleIris, Icon, Prop } from "./compon
 <Character look="maya" action="wave" height={700} />
 <Caption text="The tides would *collapse* overnight" />
 ```
+
+## Narration
+
+There are two voices: `michael` and `bella`. Write a script with one line per voice, like `narration/scripts/demo.txt`:
+
+```text
+michael: What if the *Moon* disappeared tonight?
+bella: At first, you might not notice.
+```
+
+Then generate the audio and captions:
+
+```bash
+pip install -r narration/requirements.txt   # also needs ffmpeg
+npm run narrate -- narration/scripts/my-video.txt
+npm run narrate -- narration/scripts/my-video.txt --speed 0.95   # slower
+```
+
+The first run downloads the voice model (about 350 MB) to `.models/`, which isn't committed. Each video gets `public/narration/my-video/` with:
+
+- `narration.wav`: the audio, leveled to about -16 LUFS
+- `narration.srt`: captions for any video editor
+- `narration.json`: timings for Remotion, including when each line starts, for syncing scenes
+
+```tsx
+import data from "../public/narration/my-video/narration.json";
+
+<Audio src={staticFile("narration/my-video/narration.wav")} />
+<NarrationCaptions data={data} />
+```
+
+Caption phrases are timed exactly from the generated audio, but word highlighting within a phrase is estimated. Output for new videos isn't committed by default; remove the `public/narration/*` line in `.gitignore` to keep it. To add a voice, edit `VOICES` in `scripts/narrate.py`.
 
 ## Good to know
 

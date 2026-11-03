@@ -4,7 +4,7 @@ import glob, os, subprocess, tempfile
 from PIL import Image, ImageDraw, ImageFont
 BG, SURF, TXT, MUT, CY = "#0B1426", "#16233D", "#F4F7FB", "#9FB0C9", "#22D3EE"
 W, M = 2000, 50
-H1 = ImageFont.truetype("fonts/Montserrat_800ExtraBold.ttf", 56); H2 = ImageFont.truetype("fonts/Montserrat_700Bold.ttf", 34); L = ImageFont.truetype("fonts/Inter_500Medium.ttf", 17)
+H1 = ImageFont.truetype("public/fonts/Montserrat_800ExtraBold.ttf", 56); H2 = ImageFont.truetype("public/fonts/Montserrat_700Bold.ttf", 34); L = ImageFont.truetype("public/fonts/Inter_500Medium.ttf", 17)
 def frame(path, t):
     with tempfile.TemporaryDirectory() as d:
         o = f"{d}/f.png"; subprocess.run(["ffmpeg", "-v", "error", "-c:v", "libvpx-vp9", "-ss", str(t), "-i", path, "-frames:v", "1", o], check=True)

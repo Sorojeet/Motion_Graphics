@@ -11,7 +11,7 @@ export const loadFont = () => {
   started = true;
   const handle = delayRender("Loading fonts");
   Promise.all(files.map(async ([family, file, weight]) => {
-    const f = new FontFace(family, `url(${staticFile(file)})`, { weight: String(weight) });
+    const f = new FontFace(family, `url(${staticFile(`fonts/${file}`)})`, { weight: String(weight) });
     document.fonts.add(await f.load());
   })).then(() => continueRender(handle));
 };

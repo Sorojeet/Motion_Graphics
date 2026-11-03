@@ -8,6 +8,7 @@
     "build:static": "node scripts/build-static.mjs",
     "build:sfx": "python3 scripts/build_sfx.py",
     "build:animated": "node scripts/render-animated.mjs",
+    "narrate": "python3 scripts/narrate.py",
     "build:preview": "python3 scripts/build_preview.py",
     "studio": "remotion studio remotion/index.ts"
   },
