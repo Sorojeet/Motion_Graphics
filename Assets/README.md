@@ -23,6 +23,7 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `remotion/` | Editable source for all animations | React (TSX) |
 | `remotion/three/` | First-person 3D kit: camera, sky, instancing, apple, hand, forest, falling leaves, glowing particles | React Three Fiber (TSX) |
 | `remotion/three/fphand.tsx` | Detailed first-person hand and forearm: 10 poses, 4 sleeve types, optional watch. See `preview/fp-hand.png` and `preview/fp-hand-details.png` | React Three Fiber (TSX) |
+| `remotion/three/crowd.tsx` | Lightweight background people for crowds, in endless variety from seeds. See `preview/background-characters.png` | React Three Fiber (TSX) |
 | `remotion/three/man.tsx` | Detailed stylized 3D man for third-person explainers: 5 outfits, 12 poses and 7 expressions, with a beard. See `preview/man-character.png` | React Three Fiber (TSX) |
 | `remotion/three/trees.tsx` | 12 detailed 3D trees and 8 close-up leaves. See `preview/tree-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/vehicles.tsx` | 22 detailed 3D vehicles: cars, truck, buses, bikes, auto rickshaw, train, tram, aircraft and boats. See `preview/vehicle-varieties.png` | React Three Fiber (TSX) |
@@ -116,6 +117,18 @@ import { FPHand } from "./three/fphand";
 Poses: `open`, `relaxed`, `hold`, `grip`, `fist`, `point`, `thumbsup`, `pinch`, `peace`, `reach`. Sleeves: `long`, `rolled`, `short`, `bare`.
 
 It uses the same setup as `Hand` in `kit.tsx`, so it can replace it in new videos: palm up at the origin, fingers toward -z, arm toward +z, about the same size. `side` is `left` (default) or `right`. `grip` (0 to 1) overrides the pose with open-to-closed fingers, and `wiggle` with `t` adds small finger motion. `Hand` stays in the kit so earlier videos don't change. Rotate the whole hand for poses like `thumbsup`.
+
+## 3D background people
+
+```tsx
+import { Crowd, Extra } from "./three/crowd";
+
+<Crowd count={40} seed={3} area={[24, 14]} poses={["stand", "talk", "phone"]} t={time} />
+<Crowd count={20} seed={8} area={[6, 30]} flow={1.4} t={time} />   // people walking along z
+<Extra seed={5} spec={{ kind: "elderwoman" }} pose="wave" t={time} position={[2, 0, -4]} />
+```
+
+Each `seed` gives a person with their own age, body type, skin tone, hair and clothes, always the same for that seed. `spec` or `force` overrides any of these, such as `{ kind: "girl", top: "#c33" }`. Kinds: `man`, `woman`, `boy`, `girl`, `elderman`, `elderwoman`. Poses: `stand`, `talk`, `phone`, `wave`, `cheer`, `lookup`, `clap`, `armscrossed`, `sit`, `walk`, `run`. `Crowd` can also place each person with `members`. They're simple shapes built for mid and far distance, so use `Man` for anyone close to the camera.
 
 ## Narration
 
