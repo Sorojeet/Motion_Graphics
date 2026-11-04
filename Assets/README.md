@@ -22,6 +22,7 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
 | `remotion/three/` | First-person 3D kit: camera, sky, instancing, apple, hand, forest, falling leaves, glowing particles | React Three Fiber (TSX) |
+| `remotion/three/fphand.tsx` | Detailed first-person hand and forearm: 10 poses, 4 sleeve types, optional watch. See `preview/fp-hand.png` and `preview/fp-hand-details.png` | React Three Fiber (TSX) |
 | `remotion/three/man.tsx` | Detailed stylized 3D man for third-person explainers: 5 outfits, 12 poses and 7 expressions, with a beard. See `preview/man-character.png` | React Three Fiber (TSX) |
 | `remotion/three/trees.tsx` | 12 detailed 3D trees and 8 close-up leaves. See `preview/tree-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/vehicles.tsx` | 22 detailed 3D vehicles: cars, truck, buses, bikes, auto rickshaw, train, tram, aircraft and boats. See `preview/vehicle-varieties.png` | React Three Fiber (TSX) |
@@ -102,6 +103,19 @@ Outfits: `outfit="shirt"` (default), `tshirt`, `hoodie`, `suit`, `jacket`. Each 
 Poses: `idle`, `explain`, `point`, `present`, `wave`, `think`, `shrug`, `shock`, `thumbsup`, `crossed`, `walk`, `run`. Expressions: `neutral`, `smile`, `happy`, `worried`, `surprised`, `angry`, `thinking`.
 
 He is about 1.78 m tall, feet on y = 0, facing +z. `t` (seconds) drives breathing, blinking, gestures and walking. `from` and `blend` (0 to 1) move smoothly between poses, and `look` is the eye direction, `[x, y]` from -1 to 1. His mouth follows `expression`, since he is a main character for third-person shots and isn't lip-synced. `walk` and `run` animate in place, so move `position` yourself. Colors are set with `colors` (`skin`, `hair`, `shirt`, `pants`, `shoes`, `sole`, `eyes`, `belt`, `inner`, `accent`), and `beard` (on by default), `stubble` (0 to 1) and `glasses` change his look.
+
+## 3D first-person hand
+
+```tsx
+import { FPHand } from "./three/fphand";
+
+<FPHand pose="hold" sleeve="long" colors={{ sleeve: "#2f7f86", cuff: "#256a70" }} rotation={[0, 0.75, 0]} />
+<FPHand from="relaxed" pose="fist" blend={progress} side="right" sleeve="bare" watch />
+```
+
+Poses: `open`, `relaxed`, `hold`, `grip`, `fist`, `point`, `thumbsup`, `pinch`, `peace`, `reach`. Sleeves: `long`, `rolled`, `short`, `bare`.
+
+It uses the same setup as `Hand` in `kit.tsx`, so it can replace it in new videos: palm up at the origin, fingers toward -z, arm toward +z, about the same size. `side` is `left` (default) or `right`. `grip` (0 to 1) overrides the pose with open-to-closed fingers, and `wiggle` with `t` adds small finger motion. `Hand` stays in the kit so earlier videos don't change. Rotate the whole hand for poses like `thumbsup`.
 
 ## Narration
 
