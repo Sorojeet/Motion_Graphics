@@ -22,6 +22,7 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
 | `remotion/three/` | First-person 3D kit: camera, sky, instancing, apple, hand, forest, falling leaves, glowing particles | React Three Fiber (TSX) |
+| `remotion/three/man.tsx` | Detailed stylized 3D man for third-person explainers: 5 outfits, 12 poses and 7 expressions, with a beard. See `preview/man-character.png` | React Three Fiber (TSX) |
 | `remotion/three/trees.tsx` | 12 detailed 3D trees and 8 close-up leaves. See `preview/tree-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/vehicles.tsx` | 22 detailed 3D vehicles: cars, truck, buses, bikes, auto rickshaw, train, tram, aircraft and boats. See `preview/vehicle-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/fish.tsx` | 10 detailed 3D fish: goldfish, koi, clownfish, angelfish, trout, bass, tuna, catfish, piranha, blue tang. See `preview/fish-varieties.png` | React Three Fiber (TSX) |
@@ -85,6 +86,22 @@ import { Leaf, Tree } from "./three/trees";
 Trees: `oak`, `maple`, `birch`, `pine`, `cypress`, `palm`, `cherry`, `willow`, `banyan`, `baobab`, `apple`, `dead`. Leaves: `oak`, `maple`, `birch`, `ginkgo`, `peepal`, `willow`, `palm`, `pine`.
 
 Trees are roughly real size in meters, based at y = 0. `seed` gives a different tree of the same kind, `t` and `wind` sway it, `dry` browns the leaves, and `leafAmount` (1 to 0) thins them. Each tree has thousands of leaves, so use few up close and the lighter `Forest` from `kit.tsx` for distant woodland. `Leaf` is about 1 unit long, and `dry` browns it from the edges inward.
+
+## 3D man
+
+```tsx
+import { Man } from "./three/man";
+
+<Man pose="explain" expression="smile" t={time} rotation={[0, 0.3, 0]} />
+<Man from="idle" pose="point" blend={progress} expression="surprised" t={time} />
+<Man pose="walk" t={time} position={[0, 0, walkZ]} colors={{ shirt: "#a33", pants: "#333" }} glasses />
+```
+
+Outfits: `outfit="shirt"` (default), `tshirt`, `hoodie`, `suit`, `jacket`. Each has its own default colors, and `colors` overrides them for one video (`inner` is the undershirt or dress shirt and drawstrings, `accent` is the tie).
+
+Poses: `idle`, `explain`, `point`, `present`, `wave`, `think`, `shrug`, `shock`, `thumbsup`, `crossed`, `walk`, `run`. Expressions: `neutral`, `smile`, `happy`, `worried`, `surprised`, `angry`, `thinking`.
+
+He is about 1.78 m tall, feet on y = 0, facing +z. `t` (seconds) drives breathing, blinking, gestures and walking. `from` and `blend` (0 to 1) move smoothly between poses, and `look` is the eye direction, `[x, y]` from -1 to 1. His mouth follows `expression`, since he is a main character for third-person shots and isn't lip-synced. `walk` and `run` animate in place, so move `position` yourself. Colors are set with `colors` (`skin`, `hair`, `shirt`, `pants`, `shoes`, `sole`, `eyes`, `belt`, `inner`, `accent`), and `beard` (on by default), `stubble` (0 to 1) and `glasses` change his look.
 
 ## Narration
 
