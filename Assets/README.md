@@ -22,6 +22,7 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
 | `remotion/three/` | First-person 3D kit: camera, sky, instancing, apple, hand, forest, falling leaves, glowing particles | React Three Fiber (TSX) |
+| `remotion/three/fish.tsx` | 10 detailed 3D fish: goldfish, koi, clownfish, angelfish, trout, bass, tuna, catfish, piranha, blue tang. See `preview/fish-varieties.png` | React Three Fiber (TSX) |
 | `lib/`, `scripts/` | Source art and build scripts | JS, Python |
 
 ## Using the assets
@@ -44,6 +45,17 @@ import { Character, TitleCard, Confetti, CircleIris, Icon, Prop } from "./compon
 <Character look="maya" action="wave" height={700} />
 <Caption text="The tides would *collapse* overnight" />
 ```
+
+## 3D fish
+
+```tsx
+import { Fish } from "./three/fish";
+
+<Fish variety="koi" t={time} position={[0, 0, 0]} scale={1} />
+<Fish variety="trout" swing={0} colors={{ fin: "#8899aa" }} />   // still pose, custom fin color
+```
+
+The head points toward +x and each fish is about 2 units long. `t` is the time in seconds and drives the swimming, `speed` and `swing` set the tail beat, and `phase` keeps a school out of step. Any color can be overridden with `colors`, without editing the file.
 
 ## Narration
 
