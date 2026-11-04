@@ -22,6 +22,7 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
 | `remotion/three/` | First-person 3D kit: camera, sky, instancing, apple, hand, forest, falling leaves, glowing particles | React Three Fiber (TSX) |
+| `remotion/three/vehicles.tsx` | 22 detailed 3D vehicles: cars, truck, buses, bikes, auto rickshaw, train, tram, aircraft and boats. See `preview/vehicle-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/fish.tsx` | 10 detailed 3D fish: goldfish, koi, clownfish, angelfish, trout, bass, tuna, catfish, piranha, blue tang. See `preview/fish-varieties.png` | React Three Fiber (TSX) |
 | `lib/`, `scripts/` | Source art and build scripts | JS, Python |
 
@@ -56,6 +57,19 @@ import { Fish } from "./three/fish";
 ```
 
 The head points toward +x and each fish is about 2 units long. `t` is the time in seconds and drives the swimming, `speed` and `swing` set the tail beat, and `phase` keeps a school out of step. Any color can be overridden with `colors`, without editing the file.
+
+## 3D vehicles
+
+```tsx
+import { Vehicle } from "./three/vehicles";
+
+<Vehicle variety="suv" t={time} speed={12} lights colors={{ paint: "#2255aa" }} />
+<Vehicle variety="helicopter" t={time} rotorSpeed={40} position={[0, 20, 0]} />
+```
+
+Varieties: `sedan`, `hatchback`, `suv`, `sports`, `pickup`, `taxi`, `truck`, `citybus`, `schoolbus`, `doubledecker`, `bicycle`, `motorcycle`, `scooter`, `autorickshaw`, `train`, `tram`, `airliner`, `propplane`, `helicopter`, `jet`, `speedboat`, `cargoship`.
+
+The front points toward +x, wheels rest on y = 0, and sizes are roughly real meters, so scale them to fit. `speed` (meters per second) spins the wheels and `rotorSpeed` spins propellers and rotors. They don't move the vehicle: animate `position` yourself. `lights` turns the lamps on, and `colors` sets `paint`, `accent` and `trim`. If you see flickering on far-away or very small vehicles, add `logarithmicDepthBuffer: true` to the canvas `gl` settings, as the preview does.
 
 ## Narration
 
