@@ -22,6 +22,7 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
 | `remotion/three/` | First-person 3D kit: camera, sky, instancing, apple, hand, forest, falling leaves, glowing particles | React Three Fiber (TSX) |
+| `remotion/three/trees.tsx` | 12 detailed 3D trees and 8 close-up leaves. See `preview/tree-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/vehicles.tsx` | 22 detailed 3D vehicles: cars, truck, buses, bikes, auto rickshaw, train, tram, aircraft and boats. See `preview/vehicle-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/fish.tsx` | 10 detailed 3D fish: goldfish, koi, clownfish, angelfish, trout, bass, tuna, catfish, piranha, blue tang. See `preview/fish-varieties.png` | React Three Fiber (TSX) |
 | `lib/`, `scripts/` | Source art and build scripts | JS, Python |
@@ -70,6 +71,20 @@ import { Vehicle } from "./three/vehicles";
 Varieties: `sedan`, `hatchback`, `suv`, `sports`, `pickup`, `taxi`, `truck`, `citybus`, `schoolbus`, `doubledecker`, `bicycle`, `motorcycle`, `scooter`, `autorickshaw`, `train`, `tram`, `airliner`, `propplane`, `helicopter`, `jet`, `speedboat`, `cargoship`.
 
 The front points toward +x, wheels rest on y = 0, and sizes are roughly real meters, so scale them to fit. `speed` (meters per second) spins the wheels and `rotorSpeed` spins propellers and rotors. They don't move the vehicle: animate `position` yourself. `lights` turns the lamps on, and `colors` sets `paint`, `accent` and `trim`. If you see flickering on far-away or very small vehicles, add `logarithmicDepthBuffer: true` to the canvas `gl` settings, as the preview does.
+
+## 3D trees and leaves
+
+```tsx
+import { Leaf, Tree } from "./three/trees";
+
+<Tree variety="banyan" seed={2} t={time} wind={0.3} position={[6, 0, -10]} />
+<Tree variety="oak" dry={0.8} leafAmount={0.4} />   // dying tree
+<Leaf variety="peepal" dry={0.5} position={[0, 1, 0]} scale={0.4} />
+```
+
+Trees: `oak`, `maple`, `birch`, `pine`, `cypress`, `palm`, `cherry`, `willow`, `banyan`, `baobab`, `apple`, `dead`. Leaves: `oak`, `maple`, `birch`, `ginkgo`, `peepal`, `willow`, `palm`, `pine`.
+
+Trees are roughly real size in meters, based at y = 0. `seed` gives a different tree of the same kind, `t` and `wind` sway it, `dry` browns the leaves, and `leafAmount` (1 to 0) thins them. Each tree has thousands of leaves, so use few up close and the lighter `Forest` from `kit.tsx` for distant woodland. `Leaf` is about 1 unit long, and `dry` browns it from the edges inward.
 
 ## Narration
 
