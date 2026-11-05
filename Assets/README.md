@@ -28,6 +28,7 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `remotion/three/trees.tsx` | 12 detailed 3D trees and 8 close-up leaves. See `preview/tree-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/vehicles.tsx` | 22 detailed 3D vehicles: cars, truck, buses, bikes, auto rickshaw, train, tram, aircraft and boats. See `preview/vehicle-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/fish.tsx` | 10 detailed 3D fish: goldfish, koi, clownfish, angelfish, trout, bass, tuna, catfish, piranha, blue tang. See `preview/fish-varieties.png` | React Three Fiber (TSX) |
+| `remotion/three/gameprops.tsx` | 3D coin, trophy, game board, game piece, poker chips, round table, chair and open book | React Three Fiber (TSX) |
 | `lib/`, `scripts/` | Source art and build scripts | JS, Python |
 
 ## Using the assets
