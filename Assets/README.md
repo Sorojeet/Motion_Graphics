@@ -16,8 +16,9 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `templates/` | 8 transparent text layouts in 9:16 and 16:9 | SVG with editable text, PNG |
 | `guides/` | Safe-zone overlays for layout checks. Don't export these into a video | SVG, PNG |
 | `animated/` | Transparent clips: text, transitions, effects and character loops | WebM (VP9 with alpha) |
-| `sfx/` | 17 sound effects | WAV, 48 kHz, mono |
+| `sfx/` | 19 sound effects, including `shimmer` and `rumble` from `scripts/build_sfx_space.py` | WAV, 48 kHz, mono |
 | `public/fonts/` | Montserrat (headings) and Inter (body) | TTF |
+| `public/fonts/` (scripts) | Noto Sans Devanagari and Arabic Bold, used by the greeting bubbles in `spaceprops.tsx` | WOFF2 |
 | `narration/` | Narration scripts, with a demo in `public/narration/demo/` | Text, WAV, JSON, SRT |
 | `theme/` | Colors, fonts and safe zones | JSON, CSS |
 | `remotion/` | Editable source for all animations | React (TSX) |
@@ -29,6 +30,8 @@ Open `preview/contact-sheet.png` to see the whole library at a glance.
 | `remotion/three/vehicles.tsx` | 22 detailed 3D vehicles: cars, truck, buses, bikes, auto rickshaw, train, tram, aircraft and boats. See `preview/vehicle-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/fish.tsx` | 10 detailed 3D fish: goldfish, koi, clownfish, angelfish, trout, bass, tuna, catfish, piranha, blue tang. See `preview/fish-varieties.png` | React Three Fiber (TSX) |
 | `remotion/three/gameprops.tsx` | 3D coin, trophy, game board, game piece, poker chips, round table, chair and open book | React Three Fiber (TSX) |
+| `remotion/three/spaceprops.tsx` | Hourglass (with frozen time), desk globe, greeting bubbles in 8 scripts, Earth that dries out and dies, Sun that swells into a red giant, candle, time-lapse city that rises and crumbles, star field with galaxy. See `preview/space-props.png` | React Three Fiber (TSX) |
+| `remotion/components/counters.tsx` | `YearCounter` and `CompareBars` overlays | React (TSX) |
 | `lib/`, `scripts/` | Source art and build scripts | JS, Python |
 
 ## Using the assets
