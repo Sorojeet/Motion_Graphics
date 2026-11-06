@@ -54,6 +54,7 @@ window.renderAt=t=>{ const n=nOf(t), lo=Math.pow(2,n); let k=SH.findIndex(s=>t<s
    case 3: cam.position.set(lg(1.2,.2,u),lg(2.4,1.7,u),lg(25,20,u)); cam.lookAt(1.5,4,-6); break;
    case 4: cam.position.set(Math.sin(t*33)*sh,lg(1.7,1.2,u),lg(34,30,u)); cam.lookAt(0,lg(20,8,u),-60); break;
    default:{ const a=.2+u*.4; cam.position.set(Math.sin(a)*46,lg(26,13,u),Math.cos(a)*46-10); cam.lookAt(0,1,-30); } }
+  crowd.forEach(c=>{ c.m.visible=!(c.i>0&&k>=1&&k<=3&&Math.hypot(c.m.position.x-cam.position.x,c.m.position.z-cam.position.z)<7.5); });
   renderer.render(city,cam); }
  else { const r0=k===6?1:1, co=k===7?ss(.05,1,u):k>7?1:0, flatE=k===6?ss(.1,.8,u):1, heat=k===7?ss(.05,.65,u):k>7?1:0; const pos=eg.attributes.position.array, rad=lg(1,.6,co); for(let i=0;i<cnt;i++){ const j=i*3,l=100,f=rad*(1+vh[i]*(1-flatE)*.014); pos[j]=P0[j]*f; pos[j+1]=P0[j+1]*f; pos[j+2]=P0[j+2]*f; } eg.attributes.position.needsUpdate=true;
   const hc=C(0xff6a1f).lerp(C(0xfff4d8),ss(.35,1,heat)); for(let i=0;i<cnt;i+=3){ const c=base[i/3], q=flatE*.55, g2=c.clone().lerp(C(0x6c7486),q).lerp(C(0x3a2019),ss(0,.3,heat)).lerp(hc,ss(.2,.75,heat)); for(let v=0;v<3;v++) col.set([g2.r,g2.g,g2.b],(i+v)*3); } eg.attributes.color.needsUpdate=true; earth.rotation.y=t*.08; earth.rotation.x=.25; spH.intensity=.8+heat*5;
