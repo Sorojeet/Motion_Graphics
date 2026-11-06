@@ -1,6 +1,0 @@
-# One line per voice. Wrap a word in *asterisks* to highlight it in captions.
-# A blank line adds a longer pause.
-michael: Hi, I'm Michael. I'm one of the two *narrators* for this channel.
-bella: And I'm Bella. Either of us can read a line, or we can *take turns*.
-
-michael: Our words become captions automatically, timed to the voice.
