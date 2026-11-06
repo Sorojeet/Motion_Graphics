@@ -7,6 +7,6 @@ const srv=http.createServer((q,r)=>fs.readFile(path.join(root,decodeURIComponent
 await new Promise(ok=>srv.listen(0,ok));
 const b=await chromium.launch({args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--ignore-gpu-blocklist']});
 const p=await b.newPage({viewport:{width:1080,height:1920}}); await p.goto(`http://localhost:${srv.address().port}/${sim}.html`); await p.waitForFunction('window.ready===true',null,{timeout:120000}); await p.evaluate(()=>document.fonts.ready);
-await p.evaluate(([t,small,big,accent])=>{ window.renderAt(+t); for(const id of ['title','hud','bar','cap','fade']) document.getElementById(id).style.display='none';
+await p.evaluate(([t,small,big,accent])=>{ window.renderAt(+t); for(const id of ['title','hud','bar','cap','fade','flash','ring']){ const e=document.getElementById(id); if(e) e.style.display='none'; }
   const d=document.createElement('div'); d.style.cssText='position:absolute;left:60px;right:60px;top:190px;text-align:center;color:#fff;font-family:Jost;text-shadow:0 3px 10px #000b,0 0 34px #0009'; d.innerHTML=`<div style="font:600 italic 76px/1.1 Corm">${small}</div><div style="font-weight:400;font-size:150px;line-height:1.02;letter-spacing:.015em;margin-top:18px">${big}</div><div style="font-weight:400;font-size:66px;letter-spacing:.06em;color:#8fe3ff;margin-top:22px">${accent}</div>`; document.body.appendChild(d); },[t,small,big,accent]);
 await p.evaluate(()=>document.fonts.ready); await p.screenshot({type:'jpeg',quality:94,path:out}); await b.close(); srv.close();
