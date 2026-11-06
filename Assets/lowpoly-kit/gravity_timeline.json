@@ -1,0 +1,206 @@
+{
+ "duration": 76.983,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 6.914,
+   "from": 100,
+   "to": 100,
+   "caption": "Normal Earth",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 3.541,
+     "text": "What if gravity got ten percent weaker, every single minute?"
+    },
+    {
+     "t": 4.111,
+     "d": 2.283,
+     "text": "Could you survive until it hits zero?"
+    }
+   ]
+  },
+  {
+   "start": 6.914,
+   "end": 15.49,
+   "from": 100,
+   "to": 90,
+   "caption": "Slightly lighter",
+   "lines": [
+    {
+     "t": 6.914,
+     "d": 1.664,
+     "text": "Minute one. Ninety percent."
+    },
+    {
+     "t": 8.798,
+     "d": 2.944,
+     "text": "You feel a little lighter, and the stairs feel easier."
+    },
+    {
+     "t": 11.962,
+     "d": 3.008,
+     "text": "A seventy kilo person now weighs sixty three."
+    }
+   ]
+  },
+  {
+   "start": 15.49,
+   "end": 23.661,
+   "from": 90,
+   "to": 70,
+   "caption": "A bounce in every step",
+   "lines": [
+    {
+     "t": 15.49,
+     "d": 1.728,
+     "text": "Minute three. Seventy percent."
+    },
+    {
+     "t": 17.438,
+     "d": 1.749,
+     "text": "Everyone walks with a bounce."
+    },
+    {
+     "t": 19.407,
+     "d": 3.733,
+     "text": "Fountains shoot higher, and athletes smash every world record."
+    }
+   ]
+  },
+  {
+   "start": 23.661,
+   "end": 32.002,
+   "from": 70,
+   "to": 50,
+   "caption": "Half your weight",
+   "lines": [
+    {
+     "t": 23.661,
+     "d": 2.432,
+     "text": "Minute five. Half of normal gravity."
+    },
+    {
+     "t": 26.313,
+     "d": 2.731,
+     "text": "A single stride carries you across the park."
+    },
+    {
+     "t": 29.263,
+     "d": 2.219,
+     "text": "Even tripping happens in slow motion."
+    }
+   ]
+  },
+  {
+   "start": 32.002,
+   "end": 39.825,
+   "from": 50,
+   "to": 40,
+   "caption": "Close to Mars",
+   "lines": [
+    {
+     "t": 32.002,
+     "d": 4.181,
+     "text": "Minute six. Forty percent, almost the same as standing on Mars."
+    },
+    {
+     "t": 36.403,
+     "d": 2.901,
+     "text": "A good jump now lands you on the roof of a car."
+    }
+   ]
+  },
+  {
+   "start": 39.825,
+   "end": 48.358,
+   "from": 40,
+   "to": 20,
+   "caption": "Close to the Moon",
+   "lines": [
+    {
+     "t": 39.825,
+     "d": 2.603,
+     "text": "Minute eight. Twenty percent, close to the Moon."
+    },
+    {
+     "t": 42.647,
+     "d": 2.923,
+     "text": "Crates and cars drift up with every gust of wind."
+    },
+    {
+     "t": 45.79,
+     "d": 2.048,
+     "text": "And the trees start to tear free."
+    }
+   ]
+  },
+  {
+   "start": 48.358,
+   "end": 57.809,
+   "from": 20,
+   "to": 10,
+   "caption": "The air is leaving",
+   "lines": [
+    {
+     "t": 48.358,
+     "d": 1.643,
+     "text": "Minute nine. Ten percent."
+    },
+    {
+     "t": 50.221,
+     "d": 2.112,
+     "text": "Now the air is the real problem."
+    },
+    {
+     "t": 52.553,
+     "d": 4.736,
+     "text": "Gravity holds our atmosphere down, and without it, the sky starts to thin."
+    }
+   ]
+  },
+  {
+   "start": 57.809,
+   "end": 66.47,
+   "from": 10,
+   "to": 0,
+   "caption": "Zero gravity",
+   "lines": [
+    {
+     "t": 57.809,
+     "d": 1.429,
+     "text": "Minute ten. Zero."
+    },
+    {
+     "t": 59.458,
+     "d": 1.493,
+     "text": "Nothing holds anything."
+    },
+    {
+     "t": 61.171,
+     "d": 4.779,
+     "text": "The Earth keeps spinning, so people, cars and whole buildings drift into the dark."
+    }
+   ]
+  },
+  {
+   "start": 66.47,
+   "end": 74.783,
+   "from": 0,
+   "to": 0,
+   "caption": "Zero gravity",
+   "lines": [
+    {
+     "t": 66.47,
+     "d": 5.461,
+     "text": "Then the planet itself, held together only by its own gravity, begins to come apart."
+    },
+    {
+     "t": 72.151,
+     "d": 2.112,
+     "text": "So, which minute would you have made it to?"
+    }
+   ]
+  }
+ ]
+}

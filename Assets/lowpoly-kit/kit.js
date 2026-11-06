@@ -33,3 +33,6 @@ export function building({x,z,w,h,d,color,rand,windows,step=4.2}){ const g=new T
   return g; }
 export function bird(mat){ const g=new THREE.Group(); const wing=s=>{ const geo=new THREE.BufferGeometry(); geo.setAttribute('position',new THREE.Float32BufferAttribute([0,0,.35, 0,0,-.45, s*1.5,0,-.25],3)); geo.computeVertexNormals(); const m=new THREE.Mesh(geo,mat); g.add(m); return m; };
   const a=wing(1),b=wing(-1); g.userData.flap=v=>{a.rotation.z=v;b.rotation.z=-v;}; return g; }
+
+export function car(color){ const g=new THREE.Group(), m=flat(color), dark=flat(0x22262e), gl=flat(0x9fc6d8); g.add(box(1.9,.62,4.1,m,0,.68,0)); g.add(box(1.65,.56,2.1,gl,0,1.25,-.15)); g.add(box(1.7,.08,2.15,m,0,1.56,-.15));
+  [[-.95,1.3],[.95,1.3],[-.95,-1.3],[.95,-1.3]].forEach(([x,z])=>{ const w=shadow(new THREE.Mesh(new THREE.CylinderGeometry(.36,.36,.26,8).rotateZ(Math.PI/2),dark)); w.position.set(x,.36,z); g.add(w); }); return g; }
