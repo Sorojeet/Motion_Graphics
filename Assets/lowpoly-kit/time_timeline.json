@@ -1,0 +1,183 @@
+{
+ "duration": 74.706,
+ "snap": 3.48,
+ "resume": 65.947,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 5.621,
+   "caption": "Time flowing",
+   "stopped": "0 SEC",
+   "age": 25,
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 1.685,
+     "text": "What if you could stop time?"
+    },
+    {
+     "t": 2.235,
+     "d": 2.965,
+     "text": "Just snap your fingers, and the whole world freezes."
+    }
+   ]
+  },
+  {
+   "start": 5.621,
+   "end": 14.219,
+   "caption": "Minute one",
+   "stopped": "1 MIN",
+   "age": 25,
+   "lines": [
+    {
+     "t": 5.621,
+     "d": 4.288,
+     "text": "Minute one. Birds hang in the sky, and a car stops inches from your knee."
+    },
+    {
+     "t": 10.109,
+     "d": 3.691,
+     "text": "You stroll straight through rush hour traffic, and nobody honks."
+    }
+   ]
+  },
+  {
+   "start": 14.219,
+   "end": 24.247,
+   "caption": "Day one",
+   "stopped": "1 DAY",
+   "age": 25,
+   "lines": [
+    {
+     "t": 14.219,
+     "d": 3.371,
+     "text": "Day one. You walk onto the pitch at a packed stadium final."
+    },
+    {
+     "t": 17.79,
+     "d": 6.037,
+     "text": "You carry the ball into the net and walk away. Eighty thousand people are about to lose their minds."
+    }
+   ]
+  },
+  {
+   "start": 24.247,
+   "end": 30.371,
+   "caption": "Week two",
+   "stopped": "2 WEEKS",
+   "age": 25,
+   "lines": [
+    {
+     "t": 24.247,
+     "d": 2.709,
+     "text": "Week two. Every shop in the city is yours."
+    },
+    {
+     "t": 27.157,
+     "d": 2.795,
+     "text": "No bills. No traffic. No alarm clock."
+    }
+   ]
+  },
+  {
+   "start": 30.371,
+   "end": 38.778,
+   "caption": "Month six",
+   "stopped": "6 MONTHS",
+   "age": 25,
+   "lines": [
+    {
+     "t": 30.371,
+     "d": 4.309,
+     "text": "Month six. You stand beneath a giant wave, frozen above your head."
+    },
+    {
+     "t": 34.881,
+     "d": 3.477,
+     "text": "It is the best view on Earth, and you turn to tell someone."
+    }
+   ]
+  },
+  {
+   "start": 38.778,
+   "end": 44.966,
+   "caption": "Year one",
+   "stopped": "1 YEAR",
+   "age": 26,
+   "lines": [
+    {
+     "t": 38.778,
+     "d": 2.965,
+     "text": "Year one. Nobody has answered you in a long time."
+    },
+    {
+     "t": 41.943,
+     "d": 2.603,
+     "text": "Every joke lands on the same frozen smile."
+    }
+   ]
+  },
+  {
+   "start": 44.966,
+   "end": 54.674,
+   "caption": "Year ten",
+   "stopped": "10 YEARS",
+   "age": 35,
+   "lines": [
+    {
+     "t": 44.966,
+     "d": 5.568,
+     "text": "Year ten. The sun has not moved once. It is always three forty two in the afternoon."
+    },
+    {
+     "t": 50.734,
+     "d": 3.52,
+     "text": "You know every face in this city, and none of them know yours."
+    }
+   ]
+  },
+  {
+   "start": 54.674,
+   "end": 63.23,
+   "caption": "Year forty",
+   "stopped": "40 YEARS",
+   "age": 65,
+   "lines": [
+    {
+     "t": 54.674,
+     "d": 5.973,
+     "text": "Year forty. You find your family, exactly where you left them, laughing at something you can't remember."
+    },
+    {
+     "t": 60.847,
+     "d": 1.963,
+     "text": "You are older than your parents now."
+    }
+   ]
+  },
+  {
+   "start": 63.23,
+   "end": 72.306,
+   "caption": "Time flowing",
+   "stopped": "40 YEARS",
+   "age": 65,
+   "lines": [
+    {
+     "t": 63.23,
+     "d": 2.667,
+     "text": "You sit down beside them, and snap your fingers."
+    },
+    {
+     "t": 66.097,
+     "d": 3.947,
+     "text": "To them, not one second has passed. To you, it was a lifetime."
+    },
+    {
+     "t": 70.243,
+     "d": 1.643,
+     "text": "Would you still stop time?"
+    }
+   ]
+  }
+ ]
+}
