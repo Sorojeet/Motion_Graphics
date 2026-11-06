@@ -1,0 +1,182 @@
+{
+ "duration": 72.083,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 5.386,
+   "minute": 0,
+   "caption": "Normal Earth",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.667,
+     "text": "What if gravity doubled, every single minute?"
+    },
+    {
+     "t": 3.217,
+     "d": 1.749,
+     "text": "How long do you think you'd last?"
+    }
+   ]
+  },
+  {
+   "start": 5.386,
+   "end": 13.054,
+   "minute": 1,
+   "caption": "Every step is a struggle",
+   "lines": [
+    {
+     "t": 5.386,
+     "d": 1.344,
+     "text": "Minute one. Two G."
+    },
+    {
+     "t": 6.93,
+     "d": 3.328,
+     "text": "You weigh double, like carrying another person on your back."
+    },
+    {
+     "t": 10.458,
+     "d": 2.176,
+     "text": "Birds start falling out of the sky."
+    }
+   ]
+  },
+  {
+   "start": 13.054,
+   "end": 21.29,
+   "minute": 2,
+   "caption": "Blackout",
+   "lines": [
+    {
+     "t": 13.054,
+     "d": 1.579,
+     "text": "Minute two. Four G."
+    },
+    {
+     "t": 14.833,
+     "d": 6.037,
+     "text": "You can't stand anymore. Your heart can't push blood up to your brain, and most people black out right here."
+    }
+   ]
+  },
+  {
+   "start": 21.29,
+   "end": 27.521,
+   "minute": 3,
+   "caption": "Things start to break",
+   "lines": [
+    {
+     "t": 21.29,
+     "d": 1.664,
+     "text": "Minute three. Eight G."
+    },
+    {
+     "t": 23.154,
+     "d": 3.947,
+     "text": "Trees snap under their own weight, and cars sink onto their axles."
+    }
+   ]
+  },
+  {
+   "start": 27.521,
+   "end": 33.879,
+   "minute": 4,
+   "caption": "The city falls",
+   "lines": [
+    {
+     "t": 27.521,
+     "d": 1.707,
+     "text": "Minute four. Sixteen G."
+    },
+    {
+     "t": 29.427,
+     "d": 4.032,
+     "text": "Towers were never built for this. They come down, floor by floor."
+    }
+   ]
+  },
+  {
+   "start": 33.879,
+   "end": 42.166,
+   "minute": 5,
+   "caption": "Stronger than the Sun",
+   "lines": [
+    {
+     "t": 33.879,
+     "d": 1.792,
+     "text": "Minute five. Thirty two G."
+    },
+    {
+     "t": 35.871,
+     "d": 2.987,
+     "text": "That's stronger than the gravity on the surface of the Sun."
+    },
+    {
+     "t": 39.058,
+     "d": 2.688,
+     "text": "The whole city is now a thin layer of rubble."
+    }
+   ]
+  },
+  {
+   "start": 42.166,
+   "end": 49.719,
+   "minute": 10,
+   "caption": "Mountains flatten",
+   "lines": [
+    {
+     "t": 42.166,
+     "d": 2.027,
+     "text": "Minute ten. One thousand G."
+    },
+    {
+     "t": 44.393,
+     "d": 4.907,
+     "text": "Rock itself can't hold its shape. The tallest mountains slump to the height of a house."
+    }
+   ]
+  },
+  {
+   "start": 49.719,
+   "end": 60.003,
+   "minute": 17,
+   "caption": "A dying star",
+   "lines": [
+    {
+     "t": 49.719,
+     "d": 5.184,
+     "text": "Minute seventeen. One hundred thousand G, like the surface of a white dwarf."
+    },
+    {
+     "t": 55.103,
+     "d": 4.48,
+     "text": "Earth crushes itself into a glowing ball, and the Moon starts falling in."
+    }
+   ]
+  },
+  {
+   "start": 60.003,
+   "end": 69.783,
+   "minute": 29,
+   "caption": "Black hole",
+   "lines": [
+    {
+     "t": 60.003,
+     "d": 2.88,
+     "text": "Before minute thirty, Earth collapses completely."
+    },
+    {
+     "t": 63.083,
+     "d": 3.072,
+     "text": "Everything you have ever known, inside a black hole."
+    },
+    {
+     "t": 66.355,
+     "d": 3.008,
+     "text": "So be honest. Would you have made it past minute two?"
+    }
+   ]
+  }
+ ]
+}
