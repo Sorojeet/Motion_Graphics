@@ -1,0 +1,160 @@
+{
+ "duration": 71.963,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 7.586,
+   "caption": "Before the switch",
+   "num": "0",
+   "unit": "DAYS",
+   "fact": "NO MEAT \u00b7 NO FISH \u00b7 EGGS &amp; DAIRY STAY",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 3.264,
+     "text": "What if everyone on Earth went vegetarian, overnight?"
+    },
+    {
+     "t": 3.794,
+     "d": 3.392,
+     "text": "No meat, no fish. Just plants, eggs and dairy."
+    }
+   ]
+  },
+  {
+   "start": 7.586,
+   "end": 14.459,
+   "caption": "Meat counters close",
+   "num": "1",
+   "unit": "DAY",
+   "fact": "BUTCHERS &amp; BURGER BARS: CLOSED",
+   "lines": [
+    {
+     "t": 7.586,
+     "d": 3.712,
+     "text": "Day one. Butchers and burger bars open with nothing to sell."
+    },
+    {
+     "t": 11.478,
+     "d": 2.581,
+     "text": "Vegetable stalls are sold out by lunch."
+    }
+   ]
+  },
+  {
+   "start": 14.459,
+   "end": 23.274,
+   "caption": "Herds no longer needed",
+   "num": "1",
+   "unit": "WEEK",
+   "fact": "80+ BILLION ANIMALS RAISED FOR MEAT A YEAR",
+   "lines": [
+    {
+     "t": 14.459,
+     "d": 4.864,
+     "text": "Week one. Every year, more than eighty billion land animals are raised for meat."
+    },
+    {
+     "t": 19.503,
+     "d": 3.371,
+     "text": "Now, none of them are needed, so farmers stop breeding them."
+    }
+   ]
+  },
+  {
+   "start": 23.274,
+   "end": 33.347,
+   "caption": "Jobs disappear",
+   "num": "3",
+   "unit": "MONTHS",
+   "fact": "1+ BILLION PEOPLE DEPEND ON LIVESTOCK",
+   "lines": [
+    {
+     "t": 23.274,
+     "d": 4.224,
+     "text": "Month three. More than a billion people depend on livestock for a living."
+    },
+    {
+     "t": 27.678,
+     "d": 5.269,
+     "text": "Many could lose their income, especially herders on dry land where crops barely grow."
+    }
+   ]
+  },
+  {
+   "start": 33.347,
+   "end": 45.469,
+   "caption": "Pastures empty",
+   "num": "1",
+   "unit": "YEAR",
+   "fact": "LIVESTOCK: 80% OF FARMLAND \u00b7 17% OF CALORIES",
+   "lines": [
+    {
+     "t": 33.347,
+     "d": 7.893,
+     "text": "Year one. Livestock uses about eighty percent of the world's farmland, but gives us only seventeen percent of our calories."
+    },
+    {
+     "t": 41.421,
+     "d": 3.648,
+     "text": "Dairy cows and hens stay, but vast pastures fall quiet."
+    }
+   ]
+  },
+  {
+   "start": 45.469,
+   "end": 52.269,
+   "caption": "Nature moves back in",
+   "num": "10",
+   "unit": "YEARS",
+   "fact": "GRAZING LAND TURNING WILD",
+   "lines": [
+    {
+     "t": 45.469,
+     "d": 6.4,
+     "text": "Year ten. Empty grazing land slowly turns back into forest and meadow, and wildlife returns."
+    }
+   ]
+  },
+  {
+   "start": 52.269,
+   "end": 63.323,
+   "caption": "A lighter footprint",
+   "num": "2050",
+   "unit": "",
+   "fact": "FOOD EMISSIONS \u221263% (2050 ESTIMATE)",
+   "lines": [
+    {
+     "t": 52.269,
+     "d": 6.549,
+     "text": "By twenty fifty, researchers estimate a vegetarian world would cut food emissions by almost two thirds,"
+    },
+    {
+     "t": 58.998,
+     "d": 3.925,
+     "text": "and prevent around seven million deaths a year through healthier eating."
+    }
+   ]
+  },
+  {
+   "start": 63.323,
+   "end": 69.663,
+   "caption": "Would you switch?",
+   "num": "2050",
+   "unit": "",
+   "fact": "7.3 MILLION DEATHS AVOIDED A YEAR (EST.)",
+   "lines": [
+    {
+     "t": 63.323,
+     "d": 3.947,
+     "text": "A greener planet, but a hard switch for the people who farm animals."
+    },
+    {
+     "t": 67.45,
+     "d": 1.813,
+     "text": "So, would you give up meat to see it?"
+    }
+   ]
+  }
+ ]
+}
