@@ -1,0 +1,147 @@
+{
+ "duration": 67.311,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 8.04,
+   "when": "TODAY",
+   "caption": "Gold is rare",
+   "fact": "ALL GOLD EVER MINED: ~224,000 TONNES",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.091,
+     "text": "What if gold was as common as iron?"
+    },
+    {
+     "t": 2.641,
+     "d": 4.949,
+     "text": "Today, all the gold ever mined would fit in a cube about twenty two metres wide."
+    }
+   ]
+  },
+  {
+   "start": 8.04,
+   "end": 16.711,
+   "when": "DAY 1",
+   "caption": "The price collapses",
+   "fact": "GOLD TODAY: ABOUT $127 A GRAM",
+   "lines": [
+    {
+     "t": 8.04,
+     "d": 3.051,
+     "text": "Day one. Gold turns up in every hill and backyard."
+    },
+    {
+     "t": 11.291,
+     "d": 4.971,
+     "text": "Its price collapses, and wedding rings are suddenly worth about as much as nails."
+    }
+   ]
+  },
+  {
+   "start": 16.711,
+   "end": 27.537,
+   "when": "WEEK 1",
+   "caption": "Savings vanish",
+   "fact": "CENTRAL BANKS HOLD ~39,000 TONNES",
+   "lines": [
+    {
+     "t": 16.711,
+     "d": 4.373,
+     "text": "Week one. Families who saved in gold lose those savings overnight."
+    },
+    {
+     "t": 21.285,
+     "d": 5.803,
+     "text": "Central banks, holding around thirty nine thousand tonnes, watch it become ordinary metal."
+    }
+   ]
+  },
+  {
+   "start": 27.537,
+   "end": 35.419,
+   "when": "MONTH 3",
+   "caption": "Gold gets useful",
+   "fact": "NEVER RUSTS \u00b7 ONLY SILVER &amp; COPPER CONDUCT BETTER",
+   "lines": [
+    {
+     "t": 27.537,
+     "d": 3.115,
+     "text": "Month three. Then people notice what gold is good at."
+    },
+    {
+     "t": 30.852,
+     "d": 4.117,
+     "text": "It never rusts, and only silver and copper carry electricity better."
+    }
+   ]
+  },
+  {
+   "start": 35.419,
+   "end": 40.605,
+   "when": "YEAR 1",
+   "caption": "Gold moves into homes",
+   "fact": "WIRES \u00b7 PIPES \u00b7 GUTTERS",
+   "lines": [
+    {
+     "t": 35.419,
+     "d": 4.736,
+     "text": "Year one. Wiring, pipes and gutters are made of gold, and none of it corrodes."
+    }
+   ]
+  },
+  {
+   "start": 40.605,
+   "end": 51.367,
+   "when": "YEAR 3",
+   "caption": "Heavy and soft",
+   "fact": "GOLD IS ~2.5\u00d7 DENSER THAN IRON",
+   "lines": [
+    {
+     "t": 40.605,
+     "d": 3.989,
+     "text": "But gold is soft, and about two and a half times heavier than iron."
+    },
+    {
+     "t": 44.795,
+     "d": 6.123,
+     "text": "A gold bike bends, and a gold car would be painfully heavy, so steel still does the heavy lifting."
+    }
+   ]
+  },
+  {
+   "start": 51.367,
+   "end": 57.833,
+   "when": "YEAR 10",
+   "caption": "A golden neighbourhood",
+   "fact": "GOLD REFLECTS INFRARED HEAT",
+   "lines": [
+    {
+     "t": 51.367,
+     "d": 6.016,
+     "text": "Year ten. Golden roofs bounce back the sun's heat, the same trick astronauts' visors use."
+    }
+   ]
+  },
+  {
+   "start": 57.833,
+   "end": 65.011,
+   "when": "YEAR 10",
+   "caption": "Would you still want it?",
+   "fact": "",
+   "lines": [
+    {
+     "t": 57.833,
+     "d": 4.565,
+     "text": "Gold stops being treasure, and becomes one of the most useful metals we have."
+    },
+    {
+     "t": 62.599,
+     "d": 1.963,
+     "text": "So, would you still want a gold ring?"
+    }
+   ]
+  }
+ ]
+}
