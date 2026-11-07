@@ -1,0 +1,144 @@
+{
+ "duration": 64.945,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 6.269,
+   "hour": 0,
+   "caption": "Normal day",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.453,
+     "text": "What if Earth's spin doubled every hour?"
+    },
+    {
+     "t": 3.003,
+     "d": 2.816,
+     "text": "You're standing on a rooftop, right on the equator."
+    }
+   ]
+  },
+  {
+   "start": 6.269,
+   "end": 18.738,
+   "hour": 1,
+   "caption": "Twelve-hour days",
+   "lines": [
+    {
+     "t": 6.269,
+     "d": 7.595,
+     "text": "Hour one. A day lasts twelve hours, and the ground beneath you races along at over three thousand kilometres an hour."
+    },
+    {
+     "t": 14.064,
+     "d": 4.224,
+     "text": "The oceans pile up at the equator, and the sea floods the streets below."
+    }
+   ]
+  },
+  {
+   "start": 18.738,
+   "end": 25.375,
+   "hour": 2,
+   "caption": "Storms spin up",
+   "lines": [
+    {
+     "t": 18.738,
+     "d": 6.187,
+     "text": "Hour two. Six-hour days. The sun sprints across the sky, and storms spin faster and harder."
+    }
+   ]
+  },
+  {
+   "start": 25.375,
+   "end": 33.406,
+   "hour": 3,
+   "caption": "You feel lighter",
+   "lines": [
+    {
+     "t": 25.375,
+     "d": 3.733,
+     "text": "Hour three. Sunrise to sunset takes just ninety minutes."
+    },
+    {
+     "t": 29.308,
+     "d": 3.648,
+     "text": "The spin is fighting gravity now. You weigh about a fifth less."
+    }
+   ]
+  },
+  {
+   "start": 33.406,
+   "end": 40.712,
+   "hour": 4,
+   "caption": "Barely holding on",
+   "lines": [
+    {
+     "t": 33.406,
+     "d": 2.731,
+     "text": "Hour four. A whole day lasts ninety minutes."
+    },
+    {
+     "t": 36.337,
+     "d": 3.925,
+     "text": "Gravity barely holds you down. You weigh about an eighth of normal."
+    }
+   ]
+  },
+  {
+   "start": 40.712,
+   "end": 50.621,
+   "hour": 4.093,
+   "caption": "Weightless",
+   "lines": [
+    {
+     "t": 40.712,
+     "d": 3.797,
+     "text": "Six minutes later, Earth spins once every eighty four minutes."
+    },
+    {
+     "t": 44.709,
+     "d": 5.461,
+     "text": "At the equator, the spin finally beats gravity. Water starts falling up, and so do you."
+    }
+   ]
+  },
+  {
+   "start": 50.621,
+   "end": 57.82,
+   "hour": 5,
+   "caption": "Earth comes apart",
+   "lines": [
+    {
+     "t": 50.621,
+     "d": 2.432,
+     "text": "Hour five. Forty five minute days."
+    },
+    {
+     "t": 53.253,
+     "d": 4.117,
+     "text": "The planet flattens, and its equator starts shedding rock into space."
+    }
+   ]
+  },
+  {
+   "start": 57.82,
+   "end": 62.545,
+   "hour": 5,
+   "caption": "Earth comes apart",
+   "lines": [
+    {
+     "t": 57.82,
+     "d": 1.813,
+     "text": "From up here, you watch it go."
+    },
+    {
+     "t": 59.833,
+     "d": 2.261,
+     "text": "So, how many hours would you have lasted?"
+    }
+   ]
+  }
+ ]
+}
