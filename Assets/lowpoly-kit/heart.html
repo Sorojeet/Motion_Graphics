@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Hummingbird Heart</title>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js"}}</script>
+<style>
+@font-face{font-family:Corm;font-style:italic;font-weight:600;src:url(/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-italic.woff2)}
+@font-face{font-family:Jost;font-weight:300;src:url(/node_modules/@fontsource/jost/files/jost-latin-300-normal.woff2)}
+@font-face{font-family:Jost;font-weight:400;src:url(/node_modules/@fontsource/jost/files/jost-latin-400-normal.woff2)}
+html,body{margin:0;background:#000;width:1080px;height:1920px;overflow:hidden}
+canvas{position:absolute;inset:0}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 45%,#3a0800 118%);opacity:0}
+#title{position:absolute;left:70px;right:70px;top:215px;text-align:center;color:#fff;font:600 76px/1.16 Corm;text-shadow:0 2px 6px #0007,0 4px 26px #0009}
+#title em{color:#ff8a8a;font-style:italic}
+#hud{position:absolute;left:58px;top:850px;color:#fff;font-family:Jost;text-shadow:0 2px 12px #000a;width:640px}
+.lab{font-weight:400;font-size:27px;letter-spacing:.2em}
+#temp{font-weight:300;font-size:116px;line-height:1.08;margin-top:4px;font-variant-numeric:tabular-nums}#temp sup{font-size:50px;vertical-align:58px;margin-left:8px}
+#stage{font-weight:400;font-size:29px;letter-spacing:.17em;margin-top:8px;text-transform:uppercase}
+.sm{font-size:23px;letter-spacing:.13em;opacity:.8;margin-top:9px}
+#bar{position:absolute;right:48px;top:440px;width:10px;height:640px;background:#ffffff38;border-radius:6px;overflow:hidden}#fill{position:absolute;bottom:0;width:100%;background:#fff}
+#cap{position:absolute;left:70px;right:150px;top:1395px;color:#fff;font:400 54px/1.2 Jost;text-align:center;text-shadow:0 0 3px #000,0 3px 8px #000c,0 0 22px #0008}
+#fla{position:absolute;inset:0;background:#fff;opacity:0}
+#fade{position:absolute;inset:0;background:#000;opacity:0}
+</style></head><body>
+<canvas id="c" width="1080" height="1920"></canvas><div id="vig"></div>
+<div id="title">What if your heart beat like a <em>hummingbird's</em>?</div>
+<div id="hud"><div class="lab">YOUR HEART RATE</div><div id="temp"><span id="n">22</span><sup>BPM</sup></div><div id="stage"></div><div class="sm" id="r"></div><div class="sm" id="el"></div><div class="sm" id="wt"></div></div>
+<canvas id="ecg" width="600" height="110" style="position:absolute;left:52px;top:1235px"></canvas><div id="cap"></div><div id="fla"></div><div id="fade"></div>
+<script type="module" src="/heart.js"></script></body></html>

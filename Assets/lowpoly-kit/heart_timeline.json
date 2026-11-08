@@ -1,0 +1,172 @@
+{
+ "duration": 63.84,
+ "bpm": [
+  [
+   0,
+   70
+  ],
+  [
+   7.891,
+   70
+  ],
+  [
+   9.291,
+   1200
+  ],
+  [
+   39.022,
+   1200
+  ],
+  [
+   43.022,
+   40
+  ],
+  [
+   51.867,
+   40
+  ],
+  [
+   53.267,
+   1200
+  ],
+  [
+   63.84,
+   1200
+  ]
+ ],
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 7.891,
+   "when": "8:00 AM",
+   "caption": "A normal heart",
+   "fact": "HUMAN RESTING HEART: 60\u2013100 BPM",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.347,
+     "text": "What if your heart beat like a hummingbird's?"
+    },
+    {
+     "t": 2.897,
+     "d": 4.544,
+     "text": "Right now, it beats about seventy times a minute, a normal, steady rhythm."
+    }
+   ]
+  },
+  {
+   "start": 7.891,
+   "end": 15.922,
+   "when": "8:01 AM",
+   "caption": "Hummingbird mode",
+   "fact": "HUMMINGBIRDS: UP TO ~1,200 BPM",
+   "lines": [
+    {
+     "t": 7.891,
+     "d": 4.373,
+     "text": "Suddenly, it jumps to twelve hundred. That's twenty beats every second."
+    },
+    {
+     "t": 12.464,
+     "d": 3.008,
+     "text": "Blood rushes through you like water from a fire hose."
+    }
+   ]
+  },
+  {
+   "start": 15.922,
+   "end": 30.012,
+   "when": "12:00 PM",
+   "caption": "Burning fuel",
+   "fact": "HUMAN-SIZED HUMMINGBIRD: ~155,000 CALORIES A DAY",
+   "lines": [
+    {
+     "t": 15.922,
+     "d": 9.771,
+     "text": "Your body burns energy so fast that experts estimate a human-sized hummingbird would need about a hundred and fifty five thousand calories a day."
+    },
+    {
+     "t": 25.893,
+     "d": 3.669,
+     "text": "That's more than forty times what a typical person burns."
+    }
+   ]
+  },
+  {
+   "start": 30.012,
+   "end": 38.022,
+   "when": "4:00 PM",
+   "caption": "Always eating",
+   "fact": "EAT EVERY 10\u201315 MINUTES",
+   "lines": [
+    {
+     "t": 30.012,
+     "d": 3.072,
+     "text": "That's around a hundred and thirty kilos of burgers."
+    },
+    {
+     "t": 33.284,
+     "d": 4.288,
+     "text": "You'd have to eat every ten to fifteen minutes, from sunrise to sunset."
+    }
+   ]
+  },
+  {
+   "start": 38.022,
+   "end": 47.867,
+   "when": "11:00 PM",
+   "caption": "Torpor",
+   "fact": "TORPOR: HEART DOWN TO ~40 BPM",
+   "lines": [
+    {
+     "t": 38.022,
+     "d": 4.139,
+     "text": "At night, your body drops into torpor, a deep, cold shutdown."
+    },
+    {
+     "t": 42.361,
+     "d": 5.056,
+     "text": "Your heart slows to about forty beats a minute, and your body cools right down."
+    }
+   ]
+  },
+  {
+   "start": 47.867,
+   "end": 56.239,
+   "when": "6:00 AM",
+   "caption": "Back to life",
+   "fact": "TORPOR CUTS ENERGY USE BY UP TO 95%",
+   "lines": [
+    {
+     "t": 47.867,
+     "d": 3.2,
+     "text": "It saves up to ninety five percent of your energy."
+    },
+    {
+     "t": 51.267,
+     "d": 4.523,
+     "text": "Then, at sunrise, you buzz back to life almost instantly, starving."
+    }
+   ]
+  },
+  {
+   "start": 56.239,
+   "end": 61.54,
+   "when": "6:05 AM",
+   "caption": "Life in the fast lane",
+   "fact": "",
+   "lines": [
+    {
+     "t": 56.239,
+     "d": 2.069,
+     "text": "Living this fast comes at a price."
+    },
+    {
+     "t": 58.509,
+     "d": 2.581,
+     "text": "So, would you trade your heart for a hummingbird's?"
+    }
+   ]
+  }
+ ]
+}
