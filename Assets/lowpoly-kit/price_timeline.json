@@ -1,0 +1,142 @@
+{
+ "duration": 62.247,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 6.952,
+   "when": "TODAY",
+   "caption": "Everything, one price",
+   "fact": "GUM = PHONE = CAR",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.56,
+     "text": "What if everything cost exactly the same?"
+    },
+    {
+     "t": 3.11,
+     "d": 3.392,
+     "text": "A pack of gum, a phone and a car. All one price."
+    }
+   ]
+  },
+  {
+   "start": 6.952,
+   "end": 14.407,
+   "when": "HOUR 1",
+   "caption": "A bargain on everything big",
+   "fact": "ELECTRONICS: SELLING FAST",
+   "lines": [
+    {
+     "t": 6.952,
+     "d": 4.587,
+     "text": "Hour one. You walk into the mall, and anything big is suddenly a bargain."
+    },
+    {
+     "t": 11.739,
+     "d": 2.219,
+     "text": "Phones and TVs sell out in minutes."
+    }
+   ]
+  },
+  {
+   "start": 14.407,
+   "end": 23.548,
+   "when": "DAY 1",
+   "caption": "Small things cost a fortune",
+   "fact": "A BOTTLE OF WATER = A TV",
+   "lines": [
+    {
+     "t": 14.407,
+     "d": 4.096,
+     "text": "Day one. But a bottle of water now costs as much as a TV."
+    },
+    {
+     "t": 18.703,
+     "d": 4.395,
+     "text": "A pack of gum is a luxury, and nobody buys small things anymore."
+    }
+   ]
+  },
+  {
+   "start": 23.548,
+   "end": 30.961,
+   "when": "DAY 2",
+   "caption": "Shops get clever",
+   "fact": "ONE PRICE = ONE CRATE OF SNACKS",
+   "lines": [
+    {
+     "t": 23.548,
+     "d": 4.779,
+     "text": "Day two. Shops get clever. One price now buys a whole crate of snacks,"
+    },
+    {
+     "t": 28.527,
+     "d": 1.984,
+     "text": "or a single phone charger."
+    }
+   ]
+  },
+  {
+   "start": 30.961,
+   "end": 38.813,
+   "when": "WEEK 1",
+   "caption": "Factories stop",
+   "fact": "EVERY CAR SOLD AT A LOSS",
+   "lines": [
+    {
+     "t": 30.961,
+     "d": 7.403,
+     "text": "Week one. Car makers lose money on every car they sell, so the factories stop, and the showroom stays empty."
+    }
+   ]
+  },
+  {
+   "start": 38.813,
+   "end": 45.407,
+   "when": "MONTH 1",
+   "caption": "Empty shelves, long queues",
+   "fact": "SHORTAGES \u00b7 QUEUES \u00b7 SWAPPING",
+   "lines": [
+    {
+     "t": 38.813,
+     "d": 6.144,
+     "text": "Month one. Shelves are bare, queues stretch through the mall, and people start swapping things instead."
+    }
+   ]
+  },
+  {
+   "start": 45.407,
+   "end": 54.177,
+   "when": "MONTH 6",
+   "caption": "A price control",
+   "fact": "MOST ECONOMISTS: PRICE CAPS CAUSE SHORTAGES",
+   "lines": [
+    {
+     "t": 45.407,
+     "d": 8.32,
+     "text": "Economists call this a price control, and most agree caps like this cause shortages, just like the queues in the Soviet Union."
+    }
+   ]
+  },
+  {
+   "start": 54.177,
+   "end": 59.947,
+   "when": "MONTH 6",
+   "caption": "What would you buy?",
+   "fact": "",
+   "lines": [
+    {
+     "t": 54.177,
+     "d": 3.392,
+     "text": "Prices tell everyone what's rare and what's worth making."
+    },
+    {
+     "t": 57.769,
+     "d": 1.728,
+     "text": "So, what would you buy first?"
+    }
+   ]
+  }
+ ]
+}
