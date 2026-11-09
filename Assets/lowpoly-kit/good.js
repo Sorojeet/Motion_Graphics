@@ -23,7 +23,7 @@ add(civic(12,7,10,0xe8d0e8,0x6b4a7a,'BANK','#6b4a7a'),25,0,-12.5);
 const sch=school(); add(sch,-30,0,12.5,Math.PI); const wing=new THREE.Group(); wing.add(civic(8,6,10,0xf2d48a,0xb8603a,'NEW WING','#3f78c4')); add(wing,-44.5,0,12.5,Math.PI); const cr=crane(20); add(cr,-52,0,22,0);
 for(const [x,c] of [[-36,0xd64f4f],[-33,0x3f78c4]]){ const sl=new THREE.Group(); const st=new THREE.Mesh(new THREE.BoxGeometry(.9,.1,4),flat(c)); st.rotation.x=.55; st.position.set(0,1.2,0); sl.add(st); sl.add(Object.assign(new THREE.Mesh(new THREE.BoxGeometry(.9,2.4,.9),flat(0xefc14d)))); sl.children[1].position.set(0,1.2,-2); add(sl,x,0,23); }
 const hall=townHall(); add(hall,-6,0,13,Math.PI); const cl=clinic(); add(cl,16,0,13,Math.PI); const clw=add(civic(7,7,11,0xf4f4f0,0xd64f4f,'NEW WARD','#3f78c4'),27,0,13,Math.PI);
-for(const x of [-12,-6,0]) add(bench(),x,0,6.2,Math.PI);
+for(const x of [-13,1]) add(bench(),x,0,6.2,Math.PI);
 for(let x=-62;x<=40;x+=12){ if(x+3<-30||x+3>5) add(roundTree(R,leaf,bark,1.15),x+3,0,-7.9,R()*6); if(x+9<-50||x+9>8) add(roundTree(R,leaf,bark,1.15),x+9,0,7.9,R()*6); if(x!==-26&&x!==-2) add(lamp(flat(0x23262c),flat(0xf3dd9c)),x,0,-4.4); if(x+6<-46||x+6>8) add(lamp(flat(0x23262c),flat(0xf3dd9c)),x+6,0,4.4); }
 for(let i=0;i<22;i++){ const h=house([0xf2e6c8,0xb8d4e8,0xf0c8b0,0xd8e8c0,0xe8d0e8][i%5],[0x9a4f3a,0x4b5a78,0x6b4a3a,0x5a6b4a][i%4]); h.scale.setScalar(1.2); add(h,-90+(i%11)*16,0,i<11?-40-R()*6:40+R()*6,i<11?0:Math.PI); }
 [[-200,-300,90],[150,-320,100],[300,-100,80],[-320,60,90],[260,200,90]].forEach(([x,z,r])=>{ const m=new THREE.Mesh(rock(r,2,R,.07),flat(0x5d9a50)); m.position.set(x,-r*.62,z); sc.add(m); });
@@ -51,8 +51,8 @@ function fpCam(k,u,t){ switch(k){
   case 3: { const q=ss(.45,.85,u); fp(lg(-8,3,u),5,lg(-6,10,q),2.8,-11,t,true); break; }
   case 4: fp(lg(-41,-43,u),lg(.5,1.2,u),-47,lg(5,9,u),14,t,true); break;
   case 5: fp(lg(63.5,64.5,u),lg(-14,-21,u),lg(68,71,u),1.3,-34,t,true); break;
-  case 6: fp(lg(3,1.5,u),5.2,lg(-2,-5,u),1.6,lg(-1,6.5,ss(.35,.7,u)),t,false); break;
-  default: fp(-6,6.1,lg(-6,8,ss(.3,1,u)),lg(1.6,2.4,u),lg(-6,-3,u),t,false,1.15); } }
+  case 6: fp(-6.3,lg(-.2,.3,u),lg(20,-6,ss(.35,.7,u)),lg(1.4,1.9,ss(.35,.7,u)),lg(0,7,ss(.35,.7,u)),t,false); break;
+  default: fp(1,6.1,lg(1,15,ss(.3,1,u)),lg(1.6,2.4,u),lg(-6,-3,u),t,false,1.15); } }
 window.renderAt=t=>{ let k=SH.findIndex(s=>t<s[1]); if(k<0)k=7; const u=(t-SH[k][0])/(SH[k][1]-SH[k][0]), eve=k===7;
  sky.top.value.set(eve?0x5a5aa6:0x7f91d8); sky.low.value.set(eve?0xf6a56c:0xf2c4ad); sc.fog.color.copy(sky.low.value); lt.d.color.set(eve?0xffa860:0xfff0d0); lt.d.intensity=eve?1.25:1.5; lt.h.intensity=eve?1.9:2.5; sun.position.set(eve?-90:-60,eve?16:70,-220); sun.material.color.set(eve?0xffb070:0xfff2a0); sun.scale.setScalar(eve?95:72);
  const yrs=k>=4; police.userData.lamp.material.color.set(k>=3?0x5a6070:0x4a8aff); closed.visible=k>=3; banner.visible=k===3||k===4; lsign.visible=k<5; police.userData.sign.visible=true;
@@ -63,7 +63,7 @@ window.renderAt=t=>{ let k=SH.findIndex(s=>t<s[1]); if(k<0)k=7; const u=(t-SH[k]
  me.visible=!window.FP&&(k===0||k===1||k===7); me.rotation.set(0,0,0); me.children[0].position.y=1.25;
  if(k===0){ const q=Math.min(1,t/7.5); me.position.set(-42+q*0,.05,lg(-8.6,-6,q)); if(q>.4){ me.position.set(lg(-42,-34,(q-.4)/.6),.05,-6); me.rotation.y=Math.PI/2; } me.userData.pose(t*6.5,.5); }
  else if(k===1){ me.position.set(-27.4,.05,-5.8); me.rotation.y=Math.PI+(u>.55?.9:0); me.userData.pose(0,.03); }
- else if(k===7){ me.position.set(-6,-.28,6.3); me.rotation.y=0; me.userData.sit(); }
+ else if(k===7){ me.position.set(1,-.28,6.3); me.rotation.y=0; me.userData.sit(); }
  walkers.forEach(w=>{ const show=k!==2&&k!==5; w.m.visible=show; const x=wrap(w.x0+w.dir*t*w.sp*(k===6?.5:1),-70,50); w.m.position.set(x,.05,w.z); w.m.rotation.y=w.dir>0?Math.PI/2:-Math.PI/2; w.m.userData.pose(t*6.5+w.ph,.5); if(Math.hypot(x-cam.position.x,w.z-cam.position.z)<3.5) w.m.visible=false; });
  cops.forEach((c,i)=>{ c.visible=k===3; const q=Math.max(0,u*1.6-i*.25); c.position.set(-6+(i-1)*1.6+q*.6,.05,lg(-7.4,-2.6,q)+(i-1)*.3); c.rotation.y=0; c.userData.pose(t*6+i,.35); });
  freed.forEach((m,i)=>{ m.visible=k===2; const q=Math.max(0,(t-S(2)-2.2-i*.5)/4); m.position.set(70-2+i*1+Math.sin(i)*.5,.05,lg(-20,-11.2,q)); m.rotation.y=0; m.userData.pose(q<1?t*6+i:0,q<1?.45:.03); });
