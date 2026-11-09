@@ -1,0 +1,164 @@
+{
+ "duration": 66.239,
+ "teleports": [
+  4.55,
+  11.296,
+  44.771,
+  55.57,
+  60.143
+ ],
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 6.696,
+   "when": "TODAY",
+   "caption": "Anywhere in a blink",
+   "fact": "",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 3.584,
+     "text": "What if anyone could teleport, anywhere on Earth, in a blink?"
+    },
+    {
+     "t": 4.134,
+     "d": 2.112,
+     "text": "Just picture a place, and you're there."
+    }
+   ]
+  },
+  {
+   "start": 6.696,
+   "end": 12.423,
+   "when": "DAY 1",
+   "caption": "No more commute",
+   "fact": "COMMUTE TIME: 0 MINUTES",
+   "lines": [
+    {
+     "t": 6.696,
+     "d": 2.283,
+     "text": "Day one. Your commute drops to zero."
+    },
+    {
+     "t": 9.179,
+     "d": 2.795,
+     "text": "The morning traffic jam simply melts away."
+    }
+   ]
+  },
+  {
+   "start": 12.423,
+   "end": 23.697,
+   "when": "WEEK 1",
+   "caption": "Airports go quiet",
+   "fact": "~5 BILLION AIR PASSENGERS A YEAR (2025)",
+   "lines": [
+    {
+     "t": 12.423,
+     "d": 7.232,
+     "text": "Week one. Airlines carry around five billion passengers a year. Suddenly, almost nobody needs a plane."
+    },
+    {
+     "t": 19.855,
+     "d": 3.392,
+     "text": "Airlines, taxis and car makers scramble to survive."
+    }
+   ]
+  },
+  {
+   "start": 23.697,
+   "end": 33.094,
+   "when": "MONTH 1",
+   "caption": "Empty roads",
+   "fact": "ROAD CRASHES: ~1.19 MILLION DEATHS A YEAR",
+   "lines": [
+    {
+     "t": 23.697,
+     "d": 4.693,
+     "text": "Month one. Road crashes kill about one point two million people a year."
+    },
+    {
+     "t": 28.591,
+     "d": 4.053,
+     "text": "With far fewer cars on the road, that number could drop sharply."
+    }
+   ]
+  },
+  {
+   "start": 33.094,
+   "end": 43.771,
+   "when": "MONTH 6",
+   "caption": "Cleaner air",
+   "fact": "TRANSPORT: ~24% OF ENERGY CO\u2082",
+   "lines": [
+    {
+     "t": 33.094,
+     "d": 6.763,
+     "text": "Transport makes about a quarter of the world's carbon emissions from energy, and much of it comes from carrying people."
+    },
+    {
+     "t": 40.057,
+     "d": 3.264,
+     "text": "As those trips vanish, city air starts to clear."
+    }
+   ]
+  },
+  {
+   "start": 43.771,
+   "end": 52.57,
+   "when": "YEAR 1",
+   "caption": "Live anywhere",
+   "fact": "",
+   "lines": [
+    {
+     "t": 43.771,
+     "d": 5.099,
+     "text": "Year one. You can live by a quiet beach and still pop into the office every morning."
+    },
+    {
+     "t": 49.069,
+     "d": 3.051,
+     "text": "Remote places suddenly become prime real estate."
+    }
+   ]
+  },
+  {
+   "start": 52.57,
+   "end": 59.343,
+   "when": "YEAR 5",
+   "caption": "New problems",
+   "fact": "NO-TELEPORT ZONES",
+   "lines": [
+    {
+     "t": 52.57,
+     "d": 1.621,
+     "text": "But there are new problems."
+    },
+    {
+     "t": 54.391,
+     "d": 4.501,
+     "text": "Borders, banks and bedrooms all need protection from surprise visitors."
+    }
+   ]
+  },
+  {
+   "start": 59.343,
+   "end": 63.939,
+   "when": "YEAR 5",
+   "caption": "Where to?",
+   "fact": "",
+   "lines": [
+    {
+     "t": 59.343,
+     "d": 1.813,
+     "text": "The world suddenly feels tiny."
+    },
+    {
+     "t": 61.356,
+     "d": 2.133,
+     "text": "So, where would you teleport first?"
+    }
+   ]
+  }
+ ]
+}
