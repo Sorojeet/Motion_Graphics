@@ -1,0 +1,157 @@
+{
+ "duration": 67.306,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 8.659,
+   "when": "TODAY",
+   "caption": "An ordinary town",
+   "fact": "",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.965,
+     "text": "What if everyone on Earth became good, overnight?"
+    },
+    {
+     "t": 3.515,
+     "d": 4.693,
+     "text": "No lying, no stealing, no violence. Everyone just does the right thing."
+    }
+   ]
+  },
+  {
+   "start": 8.659,
+   "end": 14.706,
+   "when": "DAY 1",
+   "caption": "Nothing gets locked",
+   "fact": "LOCKS \u00b7 ALARMS \u00b7 CCTV: NOT NEEDED",
+   "lines": [
+    {
+     "t": 8.659,
+     "d": 3.669,
+     "text": "Day one. Doors stay unlocked, bikes stay where you leave them,"
+    },
+    {
+     "t": 12.528,
+     "d": 1.728,
+     "text": "and shops run on trust."
+    }
+   ]
+  },
+  {
+   "start": 14.706,
+   "end": 23.335,
+   "when": "WEEK 1",
+   "caption": "The gates open",
+   "fact": "~11.5 MILLION PEOPLE IN PRISON WORLDWIDE",
+   "lines": [
+    {
+     "t": 14.706,
+     "d": 4.459,
+     "text": "Week one. About eleven and a half million people are in prison worldwide."
+    },
+    {
+     "t": 19.365,
+     "d": 3.52,
+     "text": "Courts begin reviewing cases, and many start coming home."
+    }
+   ]
+  },
+  {
+   "start": 23.335,
+   "end": 32.497,
+   "when": "MONTH 1",
+   "caption": "Jobs disappear",
+   "fact": "POLICE \u00b7 GUARDS \u00b7 LOCKSMITHS \u00b7 SECURITY",
+   "lines": [
+    {
+     "t": 23.335,
+     "d": 2.517,
+     "text": "Month one. Police stations go quiet."
+    },
+    {
+     "t": 26.052,
+     "d": 5.995,
+     "text": "Guards, locksmiths and security firms suddenly have far less work, and many need new jobs."
+    }
+   ]
+  },
+  {
+   "start": 32.497,
+   "end": 43.131,
+   "when": "YEAR 1",
+   "caption": "Money moves",
+   "fact": "WORLD MILITARY SPENDING: $2.7 TRILLION (2024)",
+   "lines": [
+    {
+     "t": 32.497,
+     "d": 5.589,
+     "text": "Year one. The world spends about two point seven trillion dollars a year on militaries."
+    },
+    {
+     "t": 38.286,
+     "d": 4.395,
+     "text": "As armies shrink, that money can go to schools and hospitals instead."
+    }
+   ]
+  },
+  {
+   "start": 43.131,
+   "end": 50.074,
+   "when": "YEAR 5",
+   "caption": "Rebuilding",
+   "fact": "VIOLENCE COSTS ~$20 TRILLION A YEAR",
+   "lines": [
+    {
+     "t": 43.131,
+     "d": 3.648,
+     "text": "Violence costs the world almost twenty trillion dollars a year."
+    },
+    {
+     "t": 46.979,
+     "d": 2.645,
+     "text": "Without it, the old prison becomes a park."
+    }
+   ]
+  },
+  {
+   "start": 50.074,
+   "end": 58.575,
+   "when": "YEAR 10",
+   "caption": "Still not perfect",
+   "fact": "GOOD \u2260 ALWAYS AGREEING",
+   "lines": [
+    {
+     "t": 50.074,
+     "d": 1.771,
+     "text": "But good people still disagree."
+    },
+    {
+     "t": 52.045,
+     "d": 6.08,
+     "text": "There are still traffic jams, accidents and heated debates, just no one trying to hurt anyone."
+    }
+   ]
+  },
+  {
+   "start": 58.575,
+   "end": 65.006,
+   "when": "YEAR 10",
+   "caption": "Your move",
+   "fact": "",
+   "lines": [
+    {
+     "t": 58.575,
+     "d": 3.563,
+     "text": "A kinder world wouldn't be perfect, but it would be very different."
+    },
+    {
+     "t": 62.337,
+     "d": 2.219,
+     "text": "So, what would you stop locking first?"
+    }
+   ]
+  }
+ ]
+}
