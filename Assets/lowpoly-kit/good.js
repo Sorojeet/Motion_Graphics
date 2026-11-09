@@ -43,6 +43,16 @@ const debaters=[0,1].map(i=>add(P(outfit[i?6:2],i)));
 const SH=[[0,S(1)],[S(1),S(2)],[S(2),S(3)],[S(3),S(4)],[S(4),S(5)],[S(5),S(6)],[S(6),S(7)],[S(7),DUR]]; window.SHOTS=SH; window.DURATION=DUR;
 const wrap=(v,a,b)=>a+((v-a)%(b-a)+(b-a))%(b-a);
 const hideAll=list=>list.forEach(m=>m.visible=false);
+const fp=(x,z,tx,ty,tz,t,walk,y=1.65)=>{ const b=walk?Math.abs(Math.sin(t*4.4))*.04:Math.sin(t*1.2)*.01; cam.position.set(x,y+b,z); cam.lookAt(tx+(walk?Math.sin(t*4.4)*.05:0),ty+b*.6,tz); };
+function fpCam(k,u,t){ switch(k){
+  case 0: { const q=ss(0,.45,u), r=ss(.42,.62,u); const x=lg(-42,-36,ss(.5,1,u)), z=lg(-9.6,-6.2,q); fp(x,z,lg(-42,-20,r),lg(1.4,1.8,r),lg(10,-6.5,r),t,true); break; }
+  case 1: fp(lg(-29,-28,u),lg(1.8,1,u),lg(-21.5,-28,ss(.5,.8,u)),lg(.9,1.6,ss(.5,.8,u)),lg(-6.6,-8,ss(.5,.8,u)),t,u<.3); break;
+  case 2: fp(70.2,lg(-6.5,-7.6,u),70,2.6,-16,t,u<.25); break;
+  case 3: { const q=ss(.45,.85,u); fp(lg(-8,3,u),5,lg(-6,10,q),2.8,-11,t,true); break; }
+  case 4: fp(lg(-41,-43,u),lg(.5,1.2,u),-47,lg(5,9,u),14,t,true); break;
+  case 5: fp(lg(63.5,64.5,u),lg(-14,-21,u),lg(68,71,u),1.3,-34,t,true); break;
+  case 6: fp(lg(3,1.5,u),5.2,lg(-2,-5,u),1.6,lg(-1,6.5,ss(.35,.7,u)),t,false); break;
+  default: fp(-6,6.1,lg(-6,8,ss(.3,1,u)),lg(1.6,2.4,u),lg(-6,-3,u),t,false,1.15); } }
 window.renderAt=t=>{ let k=SH.findIndex(s=>t<s[1]); if(k<0)k=7; const u=(t-SH[k][0])/(SH[k][1]-SH[k][0]), eve=k===7;
  sky.top.value.set(eve?0x5a5aa6:0x7f91d8); sky.low.value.set(eve?0xf6a56c:0xf2c4ad); sc.fog.color.copy(sky.low.value); lt.d.color.set(eve?0xffa860:0xfff0d0); lt.d.intensity=eve?1.25:1.5; lt.h.intensity=eve?1.9:2.5; sun.position.set(eve?-90:-60,eve?16:70,-220); sun.material.color.set(eve?0xffb070:0xfff2a0); sun.scale.setScalar(eve?95:72);
  const yrs=k>=4; police.userData.lamp.material.color.set(k>=3?0x5a6070:0x4a8aff); closed.visible=k>=3; banner.visible=k===3||k===4; lsign.visible=k<5; police.userData.sign.visible=true;
@@ -50,17 +60,17 @@ window.renderAt=t=>{ let k=SH.findIndex(s=>t<s[1]); if(k<0)k=7; const u=(t-SH[k]
  const park=k>=5; pr.visible=true; pr.userData.walls.visible=!park; pr.userData.block.visible=!park; pr.userData.gl.visible=pr.userData.gr.visible=!park; const op=k===2?ss(S(2)+.6,S(2)+3,t):k>2?1:0; pr.userData.gl.position.x=-2-op*3.8; pr.userData.gr.position.x=2+op*3.8;
  parkTrees.forEach(tr=>{ tr.visible=park; tr.scale.setScalar(park?tr.userData.g:.001); }); parkBench.forEach(b=>b.visible=park); pond.visible=park; yard.material.color.set(park?0x7cc85a:0xc9c1b5);
  jam.forEach(c=>c.visible=k===6); parked.forEach(c=>c.visible=k!==6);
- me.visible=k===0||k===1||k===7; me.rotation.set(0,0,0); me.children[0].position.y=1.25;
+ me.visible=!window.FP&&(k===0||k===1||k===7); me.rotation.set(0,0,0); me.children[0].position.y=1.25;
  if(k===0){ const q=Math.min(1,t/7.5); me.position.set(-42+q*0,.05,lg(-8.6,-6,q)); if(q>.4){ me.position.set(lg(-42,-34,(q-.4)/.6),.05,-6); me.rotation.y=Math.PI/2; } me.userData.pose(t*6.5,.5); }
  else if(k===1){ me.position.set(-27.4,.05,-5.8); me.rotation.y=Math.PI+(u>.55?.9:0); me.userData.pose(0,.03); }
  else if(k===7){ me.position.set(-6,-.28,6.3); me.rotation.y=0; me.userData.sit(); }
  walkers.forEach(w=>{ const show=k!==2&&k!==5; w.m.visible=show; const x=wrap(w.x0+w.dir*t*w.sp*(k===6?.5:1),-70,50); w.m.position.set(x,.05,w.z); w.m.rotation.y=w.dir>0?Math.PI/2:-Math.PI/2; w.m.userData.pose(t*6.5+w.ph,.5); if(Math.hypot(x-cam.position.x,w.z-cam.position.z)<3.5) w.m.visible=false; });
  cops.forEach((c,i)=>{ c.visible=k===3; const q=Math.max(0,u*1.6-i*.25); c.position.set(-6+(i-1)*1.6+q*.6,.05,lg(-7.4,-2.6,q)+(i-1)*.3); c.rotation.y=0; c.userData.pose(t*6+i,.35); });
  freed.forEach((m,i)=>{ m.visible=k===2; const q=Math.max(0,(t-S(2)-2.2-i*.5)/4); m.position.set(70-2+i*1+Math.sin(i)*.5,.05,lg(-20,-11.2,q)); m.rotation.y=0; m.userData.pose(q<1?t*6+i:0,q<1?.45:.03); });
- fams.forEach((m,i)=>{ m.visible=k===2; m.position.set(70-2+i*1+Math.sin(i)*.5,.05,-10.4); m.rotation.y=Math.PI; m.userData.pose(0,.03); });
+ fams.forEach((m,i)=>{ m.visible=k===2; m.position.set(window.FP?70+(i<3?-3.6-i*.9:3+(i-3)*.9):70-2+i*1+Math.sin(i)*.5,.05,window.FP?-10.6+(i%2)*.4:-10.4); m.rotation.y=Math.PI; m.userData.pose(0,.03); });
  kids.forEach((m,i)=>{ m.visible=k===5; const a=t*.6+i*1.6; m.position.set(70+Math.cos(a)*(7+i),.05,-31+Math.sin(a)*(5+i*.5)); m.rotation.y=-a; m.userData.pose(t*9+i,.6); });
  debaters.forEach((m,i)=>{ m.visible=k===6; m.position.set(-6+(i?.8:-.8),.55,6.9); m.rotation.y=i?-Math.PI/2:Math.PI/2; m.userData.pose(Math.sin(t*7+i*2)*1.2,.6); });
- switch(k){
+ if(window.FP){ fpCam(k,u,t); } else switch(k){
   case 0: cam.position.set(lg(-72,-48,u),lg(30,10,u),lg(42,22,u)); cam.lookAt(lg(-26,-36,u),2,-4); break;
   case 1: cam.position.set(lg(-24,-25,u),2.4,lg(6.4,5.6,u)); cam.lookAt(-26.5,1.3,-7); break;
   case 2: cam.position.set(lg(76,74.8,u),2.2,lg(-1.2,-2.4,u)); cam.lookAt(69.5,2.6,-15.5); break;
