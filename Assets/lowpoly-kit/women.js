@@ -61,7 +61,7 @@ window.renderAt=t=>{ let k=SH.findIndex(s=>t<s[1]); if(k<0)k=7; const u=(t-SH[k]
    if(sid===0){ cam.position.set(lg(5,5.4,u),lg(2.3,1.9,u),lg(18,15,u)); cam.lookAt(7.2,1.2,-8); }
    else if(sid===4){ cam.position.set(lg(3,2,u),lg(2,2.6,u),lg(18,14,u)); cam.lookAt(-2,2.4,-20); }
    else if(sid===6){ cam.position.set(lg(1.5,.5,u),1.7,lg(16,10,u)); cam.lookAt(-1,3.4,-30); }
-   else { cam.position.set(lg(10,30,u),lg(12,46,u),lg(26,60,u)); cam.lookAt(0,4,-40); } }
+   else { cam.position.set(lg(1,0,u),lg(10,60,u),lg(30,50,u)); cam.lookAt(0,2,-50); } }
  else if(sid===1){ scene=ward; nurses.forEach((o,i)=>{ const pos=[[-3.7,-2.4],[.6,1.9],[3.6,-2.6],[-.7,-3.2]][i]; o.n.position.set(pos[0],.05,pos[1]); o.n.rotation.y=i*1.3; o.n.userData.pose(0,.03); const a=1-ss(S(1)+.4,S(1)+1.4,t); fadeGroup(o.n,a); o.fx.position.copy(o.n.position); o.fx.userData.update(Math.exp(-(((t-S(1)-.8)/.45)**2))*.8,t); });
    doctor.position.set(lg(3.4,-2,u),.05,-1.25); doctor.rotation.y=-Math.PI/2; doctor.userData.pose(t*6.5,.5); patients.forEach((p,i)=>{ if(p.userData.line) p.userData.line.position.y=1.55+Math.sin(t*6+i)*.02; });
    cam.position.set(lg(5.4,4.6,u),lg(2.6,2.3,u),lg(6.2,5.4,u)); cam.lookAt(-1,.9,-1.2); }
