@@ -1,0 +1,151 @@
+{
+ "duration": 70.489,
+ "vanish": 3.918,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 8.77,
+   "num": "0",
+   "unit": "SECONDS",
+   "caption": "Half of humanity",
+   "fact": "~4.1 BILLION WOMEN AND GIRLS",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 3.968,
+     "text": "What if every woman and girl on Earth vanished, in a single instant?"
+    },
+    {
+     "t": 4.538,
+     "d": 3.712,
+     "text": "More than four billion people. Half of humanity, gone."
+    }
+   ]
+  },
+  {
+   "start": 8.77,
+   "end": 19.238,
+   "num": "1",
+   "unit": "MINUTE",
+   "caption": "Hospitals in crisis",
+   "fact": "85% OF THE WORLD'S NURSES ARE WOMEN",
+   "lines": [
+    {
+     "t": 8.77,
+     "d": 5.077,
+     "text": "Minute one. In hospitals, more than eight out of ten nurses disappear mid-shift."
+    },
+    {
+     "t": 14.067,
+     "d": 4.651,
+     "text": "Patients are left waiting, and the doctors who remain can't cover every bed."
+    }
+   ]
+  },
+  {
+   "start": 19.238,
+   "end": 28.447,
+   "num": "1",
+   "unit": "HOUR",
+   "caption": "Empty classrooms",
+   "fact": "PRIMARY TEACHERS: 67% WOMEN \u00b7 PRE-SCHOOL: 94%",
+   "lines": [
+    {
+     "t": 19.238,
+     "d": 6.528,
+     "text": "Hour one. Two thirds of primary school teachers are gone, and in pre-school, almost all of them."
+    },
+    {
+     "t": 25.986,
+     "d": 1.941,
+     "text": "Half the desks sit empty too."
+    }
+   ]
+  },
+  {
+   "start": 28.447,
+   "end": 39.043,
+   "num": "1",
+   "unit": "DAY",
+   "caption": "The unseen work",
+   "fact": "WOMEN DO ~76% OF UNPAID CARE WORK",
+   "lines": [
+    {
+     "t": 28.447,
+     "d": 2.581,
+     "text": "Day one. At home, the gap is even bigger."
+    },
+    {
+     "t": 31.249,
+     "d": 7.275,
+     "text": "Women do about three quarters of the world's unpaid care work: cooking, cleaning, and caring for children and elders."
+    }
+   ]
+  },
+  {
+   "start": 39.043,
+   "end": 48.225,
+   "num": "1",
+   "unit": "WEEK",
+   "caption": "A quiet world",
+   "fact": "",
+   "lines": [
+    {
+     "t": 39.043,
+     "d": 8.661,
+     "text": "Week one. Offices, farms and governments are suddenly half empty. Cities slow to a crawl, and millions of families grieve."
+    }
+   ]
+  },
+  {
+   "start": 48.225,
+   "end": 55.635,
+   "num": "1",
+   "unit": "YEAR",
+   "caption": "No new babies",
+   "fact": "BIRTHS: 0",
+   "lines": [
+    {
+     "t": 48.225,
+     "d": 6.891,
+     "text": "Year one. The biggest change is silent. No more babies are born, and the maternity ward stays empty."
+    }
+   ]
+  },
+  {
+   "start": 55.635,
+   "end": 61.979,
+   "num": "100",
+   "unit": "YEARS",
+   "caption": "The last generation",
+   "fact": "",
+   "lines": [
+    {
+     "t": 55.635,
+     "d": 5.824,
+     "text": "Within about a century, the last people grow old, and nature slowly takes back the cities."
+    }
+   ]
+  },
+  {
+   "start": 61.979,
+   "end": 67.989,
+   "num": "100",
+   "unit": "YEARS",
+   "caption": "Who holds the world together?",
+   "fact": "",
+   "lines": [
+    {
+     "t": 61.979,
+     "d": 3.52,
+     "text": "It would show just how much of the world women hold together."
+    },
+    {
+     "t": 65.719,
+     "d": 1.749,
+     "text": "So, who would you miss the most?"
+    }
+   ]
+  }
+ ]
+}
