@@ -1,0 +1,155 @@
+{
+ "duration": 69.661,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 6.895,
+   "num": "NOW",
+   "unit": "",
+   "caption": "You stop ageing",
+   "fact": "",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 1.6,
+     "text": "What if you could never die?"
+    },
+    {
+     "t": 2.15,
+     "d": 4.245,
+     "text": "No ageing, no illness. You stay exactly as you are, forever."
+    }
+   ]
+  },
+  {
+   "start": 6.895,
+   "end": 14.763,
+   "num": "80",
+   "unit": "YEARS",
+   "caption": "Everyone you knew",
+   "fact": "AVERAGE LIFESPAN: 73.3 YEARS (2024)",
+   "lines": [
+    {
+     "t": 6.895,
+     "d": 4.501,
+     "text": "Eighty years later. The average person lives about seventy three years,"
+    },
+    {
+     "t": 11.597,
+     "d": 2.667,
+     "text": "so almost everyone you grew up with is gone."
+    }
+   ]
+  },
+  {
+   "start": 14.763,
+   "end": 23.549,
+   "num": "500",
+   "unit": "YEARS",
+   "caption": "A stranger in your town",
+   "fact": "",
+   "lines": [
+    {
+     "t": 14.763,
+     "d": 5.739,
+     "text": "Five hundred years. Language has changed so much you can barely follow a conversation."
+    },
+    {
+     "t": 20.702,
+     "d": 2.347,
+     "text": "Your quiet town is now a giant city."
+    }
+   ]
+  },
+  {
+   "start": 23.549,
+   "end": 33.465,
+   "num": "10,000",
+   "unit": "YEARS",
+   "caption": "The last witness",
+   "fact": "WRITTEN HISTORY: ~5,000 YEARS",
+   "lines": [
+    {
+     "t": 23.549,
+     "d": 4.267,
+     "text": "Ten thousand years. That's twice as long as all of written history."
+    },
+    {
+     "t": 28.015,
+     "d": 4.949,
+     "text": "Today's cities are buried ruins, and you may be the only one who remembers them."
+    }
+   ]
+  },
+  {
+   "start": 33.465,
+   "end": 42.271,
+   "num": "1",
+   "unit": "MILLION YEARS",
+   "caption": "A wild world",
+   "fact": "",
+   "lines": [
+    {
+     "t": 33.465,
+     "d": 5.931,
+     "text": "One million years. Humans might have changed beyond recognition, or left for other worlds."
+    },
+    {
+     "t": 39.595,
+     "d": 2.176,
+     "text": "The river has carved a whole new valley."
+    }
+   ]
+  },
+  {
+   "start": 42.271,
+   "end": 51.859,
+   "num": "250",
+   "unit": "MILLION YEARS",
+   "caption": "A new supercontinent",
+   "fact": "PANGEA ULTIMA: ~250 MILLION YEARS",
+   "lines": [
+    {
+     "t": 42.271,
+     "d": 9.088,
+     "text": "Two hundred and fifty million years. The continents crash together into a new supercontinent, and volcanoes erupt across a scorching land."
+    }
+   ]
+  },
+  {
+   "start": 51.859,
+   "end": 57.821,
+   "num": "1",
+   "unit": "BILLION YEARS",
+   "caption": "The oceans fade",
+   "fact": "SUN: ~1% BRIGHTER EVERY 100 MILLION YEARS",
+   "lines": [
+    {
+     "t": 51.859,
+     "d": 5.461,
+     "text": "One billion years. The Sun has grown so bright that the oceans start to evaporate."
+    }
+   ]
+  },
+  {
+   "start": 57.821,
+   "end": 67.161,
+   "num": "5",
+   "unit": "BILLION YEARS",
+   "caption": "Still here",
+   "fact": "THE SUN BECOMES A RED GIANT",
+   "lines": [
+    {
+     "t": 57.821,
+     "d": 6.549,
+     "text": "Five billion years. The Sun swells into a red giant, filling the sky. And you are still here."
+    },
+    {
+     "t": 64.57,
+     "d": 2.091,
+     "text": "So, would you still want to live forever?"
+    }
+   ]
+  }
+ ]
+}
