@@ -1,0 +1,145 @@
+{
+ "duration": 65.094,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 9.69,
+   "num": "0",
+   "unit": "SECONDS",
+   "caption": "Everyone is gone",
+   "fact": "",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.987,
+     "text": "What if every person on Earth vanished, right now?"
+    },
+    {
+     "t": 3.537,
+     "d": 5.653,
+     "text": "Eight billion people, gone in a blink. Cars roll to a stop. The city falls silent."
+    }
+   ]
+  },
+  {
+   "start": 9.69,
+   "end": 18.134,
+   "num": "2",
+   "unit": "DAYS",
+   "caption": "The lights go out",
+   "fact": "SUBWAYS FLOOD IN ABOUT 36 HOURS",
+   "lines": [
+    {
+     "t": 9.69,
+     "d": 4.48,
+     "text": "Two days later. With nobody running the power stations, the lights go out."
+    },
+    {
+     "t": 14.37,
+     "d": 3.264,
+     "text": "And without pumps, the subway tunnels fill with water."
+    }
+   ]
+  },
+  {
+   "start": 18.134,
+   "end": 24.821,
+   "num": "1",
+   "unit": "YEAR",
+   "caption": "Nature moves in",
+   "fact": "ROADS CRACK WITHIN MONTHS",
+   "lines": [
+    {
+     "t": 18.134,
+     "d": 6.187,
+     "text": "One year. Weeds push up through cracks in the road, and wild animals wander the empty streets."
+    }
+   ]
+  },
+  {
+   "start": 24.821,
+   "end": 32.147,
+   "num": "20",
+   "unit": "YEARS",
+   "caption": "Streets cave in",
+   "fact": "STREETS CRATER WITHIN DECADES",
+   "lines": [
+    {
+     "t": 24.821,
+     "d": 6.827,
+     "text": "Twenty years. Streets buckle and cave in, cars rust away, and young trees grow right through the tarmac."
+    }
+   ]
+  },
+  {
+   "start": 32.147,
+   "end": 39.183,
+   "num": "300",
+   "unit": "YEARS",
+   "caption": "Steel gives way",
+   "fact": "BRIDGES FAIL WITHIN A FEW HUNDRED YEARS",
+   "lines": [
+    {
+     "t": 32.147,
+     "d": 3.221,
+     "text": "Three hundred years. Rust has eaten through the steel."
+    },
+    {
+     "t": 35.569,
+     "d": 3.115,
+     "text": "Bridges fall, and the towers begin to come down."
+    }
+   ]
+  },
+  {
+   "start": 39.183,
+   "end": 48.523,
+   "num": "500",
+   "unit": "YEARS",
+   "caption": "A forest city",
+   "fact": "CITY TO FOREST: ABOUT 500 YEARS",
+   "lines": [
+    {
+     "t": 39.183,
+     "d": 4.203,
+     "text": "Five hundred years. Where the avenue used to be, there is a forest."
+    },
+    {
+     "t": 43.586,
+     "d": 4.437,
+     "text": "Vines cover the last walls, and deer graze where traffic once roared."
+    }
+   ]
+  },
+  {
+   "start": 48.523,
+   "end": 62.594,
+   "num": "100,000",
+   "unit": "YEARS",
+   "caption": "What remains",
+   "fact": "PLASTIC LASTS THOUSANDS OF YEARS",
+   "lines": [
+    {
+     "t": 48.523,
+     "d": 4.864,
+     "text": "One hundred thousand years. Even the carbon we added to the air has faded."
+    },
+    {
+     "t": 53.587,
+     "d": 4.523,
+     "text": "A few stones and some buried plastic are all that say we were ever here."
+    },
+    {
+     "t": 58.31,
+     "d": 1.579,
+     "text": "The Earth simply moves on."
+    },
+    {
+     "t": 60.089,
+     "d": 2.005,
+     "text": "So, what would you want to leave behind?"
+    }
+   ]
+  }
+ ]
+}
