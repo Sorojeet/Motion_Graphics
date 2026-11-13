@@ -1,0 +1,160 @@
+{
+ "duration": 70.159,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 9.754,
+   "num": "195",
+   "unit": "COUNTRIES",
+   "caption": "Divided world",
+   "fact": "8.2 BILLION PEOPLE",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 4.885,
+     "text": "What if every border on Earth disappeared, and the whole world became one country?"
+    },
+    {
+     "t": 5.435,
+     "d": 3.819,
+     "text": "One flag. One passport. Over eight billion citizens."
+    }
+   ]
+  },
+  {
+   "start": 9.754,
+   "end": 17.899,
+   "num": "0",
+   "unit": "BORDERS",
+   "caption": "The gates open",
+   "fact": "NO VISAS \u00b7 NO CUSTOMS",
+   "lines": [
+    {
+     "t": 9.754,
+     "d": 1.963,
+     "text": "Overnight, the gates swing open."
+    },
+    {
+     "t": 11.917,
+     "d": 5.483,
+     "text": "No visas, no customs queues. You could live, work or study anywhere on the planet."
+    }
+   ]
+  },
+  {
+   "start": 17.899,
+   "end": 25.746,
+   "num": "1",
+   "unit": "CURRENCY",
+   "caption": "One money",
+   "fact": "ABOUT 180 CURRENCIES TODAY",
+   "lines": [
+    {
+     "t": 17.899,
+     "d": 3.072,
+     "text": "About one hundred and eighty currencies become one."
+    },
+    {
+     "t": 21.171,
+     "d": 4.075,
+     "text": "No more exchange rates, and no more fees when you shop abroad."
+    }
+   ]
+  },
+  {
+   "start": 25.746,
+   "end": 38.051,
+   "num": "$2.9",
+   "unit": "TRILLION",
+   "caption": "No rival armies",
+   "fact": "WORLD MILITARY SPENDING, 2025",
+   "lines": [
+    {
+     "t": 25.746,
+     "d": 5.248,
+     "text": "In twenty twenty five, the world spent almost three trillion dollars on its militaries."
+    },
+    {
+     "t": 31.194,
+     "d": 6.357,
+     "text": "With no rival nations, much of that could go to schools, hospitals and clean energy instead."
+    }
+   ]
+  },
+  {
+   "start": 38.051,
+   "end": 45.621,
+   "num": "1",
+   "unit": "GOVERNMENT",
+   "caption": "Who is in charge?",
+   "fact": "ONE GOVERNMENT FOR EVERYONE",
+   "lines": [
+    {
+     "t": 38.051,
+     "d": 1.259,
+     "text": "But who runs it?"
+    },
+    {
+     "t": 39.51,
+     "d": 5.611,
+     "text": "One government for eight billion people. Where is the capital, and whose votes count the most?"
+    }
+   ]
+  },
+  {
+   "start": 45.621,
+   "end": 53.182,
+   "num": "7,000+",
+   "unit": "LANGUAGES",
+   "caption": "Many voices",
+   "fact": "LIVING LANGUAGES TODAY",
+   "lines": [
+    {
+     "t": 45.621,
+     "d": 7.061,
+     "text": "More than seven thousand languages, plus very different laws, customs and beliefs, all under one rulebook."
+    }
+   ]
+  },
+  {
+   "start": 53.182,
+   "end": 59.855,
+   "num": "8.2B",
+   "unit": "FREE TO MOVE",
+   "caption": "A great migration",
+   "fact": "OPEN BORDERS, OPEN DOORS",
+   "lines": [
+    {
+     "t": 53.182,
+     "d": 2.645,
+     "text": "Millions might move to richer cities at once."
+    },
+    {
+     "t": 56.027,
+     "d": 3.328,
+     "text": "Housing and jobs there could come under huge pressure."
+    }
+   ]
+  },
+  {
+   "start": 59.855,
+   "end": 67.659,
+   "num": "1",
+   "unit": "FLAG",
+   "caption": "One world",
+   "fact": "NOWHERE ELSE TO GO",
+   "lines": [
+    {
+     "t": 59.855,
+     "d": 5.227,
+     "text": "And if that one government ever went wrong, there would be no other country to escape to."
+    },
+    {
+     "t": 65.282,
+     "d": 1.877,
+     "text": "So, would you vote for one world?"
+    }
+   ]
+  }
+ ]
+}
