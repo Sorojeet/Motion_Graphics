@@ -1,0 +1,214 @@
+{
+ "duration": 86.717,
+ "scenes": [
+  "The hook",
+  "The discovery",
+  "The realisation",
+  "The dark secret",
+  "The final twist",
+  "The ending"
+ ],
+ "lines": [
+  {
+   "t": 0.9,
+   "d": 3.968,
+   "text": "What if you woke up tomorrow and realised that today had happened before?",
+   "scene": 0
+  },
+  {
+   "t": 4.988,
+   "d": 1.813,
+   "text": "And tomorrow... would never come.",
+   "scene": 0
+  },
+  {
+   "t": 7.371,
+   "d": 4.821,
+   "text": "A young man wakes up, gets ready for work, drinks his coffee and leaves his apartment.",
+   "scene": 1
+  },
+  {
+   "t": 12.313,
+   "d": 1.579,
+   "text": "Everything seems normal.",
+   "scene": 1
+  },
+  {
+   "t": 14.011,
+   "d": 3.968,
+   "text": "Until he notices the same accident happening at the same intersection.",
+   "scene": 1
+  },
+  {
+   "t": 18.099,
+   "d": 3.968,
+   "text": "The same car. The same pedestrian. The same broken traffic light.",
+   "scene": 1
+  },
+  {
+   "t": 22.787,
+   "d": 2.709,
+   "text": "He begins to feel that something is terribly wrong.",
+   "scene": 1
+  },
+  {
+   "t": 25.767,
+   "d": 1.941,
+   "text": "The next morning, he wakes up again.",
+   "scene": 2
+  },
+  {
+   "t": 27.828,
+   "d": 1.301,
+   "text": "The exact same date.",
+   "scene": 2
+  },
+  {
+   "t": 29.249,
+   "d": 4.203,
+   "text": "The same phone notification. The same breakfast. The same accident.",
+   "scene": 2
+  },
+  {
+   "t": 33.572,
+   "d": 2.261,
+   "text": "He tries everything to change the day.",
+   "scene": 2
+  },
+  {
+   "t": 35.953,
+   "d": 3.861,
+   "text": "He stays home, takes a different route and even refuses to sleep.",
+   "scene": 2
+  },
+  {
+   "t": 39.935,
+   "d": 2.603,
+   "text": "But no matter what he does, midnight arrives...",
+   "scene": 2
+  },
+  {
+   "t": 42.907,
+   "d": 1.323,
+   "text": "And the day resets.",
+   "scene": 2
+  },
+  {
+   "t": 44.95,
+   "d": 5.077,
+   "text": "After what feels like hundreds of identical days, he discovers something terrifying.",
+   "scene": 3
+  },
+  {
+   "t": 50.147,
+   "d": 3.861,
+   "text": "Every time the clock reaches midnight, the entire world resets.",
+   "scene": 3
+  },
+  {
+   "t": 54.129,
+   "d": 1.237,
+   "text": "Except one thing.",
+   "scene": 3
+  },
+  {
+   "t": 55.486,
+   "d": 2.24,
+   "text": "A small photograph on his bedroom wall.",
+   "scene": 3
+  },
+  {
+   "t": 58.046,
+   "d": 3.115,
+   "text": "With every reset, another person disappears from it.",
+   "scene": 3
+  },
+  {
+   "t": 61.431,
+   "d": 3.221,
+   "text": "On the final photograph, only one person remains.",
+   "scene": 4
+  },
+  {
+   "t": 64.972,
+   "d": 0.832,
+   "text": "Himself.",
+   "scene": 4
+  },
+  {
+   "t": 66.224,
+   "d": 1.536,
+   "text": "He finally understands.",
+   "scene": 4
+  },
+  {
+   "t": 67.88,
+   "d": 2.667,
+   "text": "This isn't a time loop designed to trap him.",
+   "scene": 4
+  },
+  {
+   "t": 70.667,
+   "d": 1.237,
+   "text": "It's a countdown.",
+   "scene": 4
+  },
+  {
+   "t": 72.274,
+   "d": 2.005,
+   "text": "And when the last person disappears...",
+   "scene": 4
+  },
+  {
+   "t": 74.399,
+   "d": 1.856,
+   "text": "There will be nothing left to reset.",
+   "scene": 4
+  },
+  {
+   "t": 77.025,
+   "d": 1.536,
+   "text": "But the strangest part?",
+   "scene": 5
+  },
+  {
+   "t": 78.781,
+   "d": 1.515,
+   "text": "The clock strikes midnight.",
+   "scene": 5
+  },
+  {
+   "t": 81.016,
+   "d": 1.472,
+   "text": "And for the first time...",
+   "scene": 5
+  },
+  {
+   "t": 82.958,
+   "d": 1.259,
+   "text": "It keeps moving.",
+   "scene": 5
+  }
+ ],
+ "events": {
+  "crash": 21.867,
+  "reset1": 25.517,
+  "midnight1": 42.638000000000005,
+  "reset2": 42.757,
+  "secret": 44.95,
+  "world": 50.147,
+  "photo": 55.486,
+  "gone": [
+   58.346,
+   59.174749999999996,
+   60.003499999999995,
+   60.832249999999995,
+   63.202549999999995
+  ],
+  "himself": 64.972,
+  "fade": 74.399,
+  "midnight2": 79.331,
+  "keeps": 83.108,
+  "black": 85.617
+ }
+}
