@@ -8,7 +8,10 @@ const hemi=new THREE.HemisphereLight(0xb8c4ff,0x2a2028,1); sc.add(hemi); const s
 const bx=(p,w,h,d,c,x,y,z)=>{ const m=shadow(new THREE.Mesh(new THREE.BoxGeometry(w,h,d),typeof c==='number'?flat(c):c)); m.position.set(x,y,z); p.add(m); return m; };
 const glowM=c=>new THREE.MeshBasicMaterial({color:c});
 const SHIRT=0x3f78c4; const hero=person({shirt:SHIRT,pants:0x2a2f3a,hair:0x2a1a10}); sc.add(hero);
-const A=i=>hero.children[i]; // 3 L leg, 4 R leg, 5 L arm, 6 R arm
+const face=(p,{brow=0x1a1210,smile=false}={})=>{ const h=p.children[1], dk=flat(0x1a1210), f=(w,hh,x,y,m=dk)=>{ const b=new THREE.Mesh(new THREE.BoxGeometry(w,hh,.02),m); b.position.set(x,y,.18); h.add(b); return b; };
+ for(const s of [-1,1]){ f(.065,.055,s*.085,.035); const w=f(.022,.02,s*.085+.012,.045,flat(0xffffff)); w.position.z=.192; f(.09,.025,s*.085,.095,flat(brow)); }
+ if(smile){ f(.11,.028,0,-.085,flat(0x5a2420)); for(const s of [-1,1]){ const e=f(.045,.028,s*.07,-.068,flat(0x5a2420)); e.rotation.z=s*.55; } } else f(.09,.025,0,-.085,flat(0x6a3a30)); };
+face(hero); const A=i=>hero.children[i]; // 3 L leg, 4 R leg, 5 L arm, 6 R arm
 const phone=new THREE.Group(); bx(phone,.17,.32,.03,0x1a1c22,0,0,0); const scr=new THREE.Mesh(new THREE.PlaneGeometry(.14,.27),glowM(0x0c0e14)); scr.position.z=.017; phone.add(scr); const phL=new THREE.PointLight(0x8fb8ff,0,4); phL.position.z=.3; phone.add(phL);
 // ======================= SET A: apartment
 const setA=new THREE.Group(); sc.add(setA);
@@ -52,7 +55,7 @@ const fireL=new THREE.PointLight(0xff7a2a,0,60); fireL.position.copy(WP).add(V(0
 const fb=[...Array(7)].map((_,i)=>{ const m=new THREE.Mesh(new THREE.IcosahedronGeometry(1,1),new THREE.MeshBasicMaterial({color:[0xfff2a0,0xffc040,0xff7a20,0xff5a10][i%4],transparent:true,depthWrite:false,fog:false})); m.userData.o=V((R()-.5)*2,(R()-.5)*1.4,R()*1.4); setD.add(m); return m; });
 const NS=70, smoke=new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1,1),new THREE.MeshLambertMaterial({color:0x2a2a2e,transparent:true,opacity:.8,depthWrite:false}),NS); smoke.frustumCulled=false; setD.add(smoke); const sd=[...Array(NS)].map(()=>[R(),R(),R(),R()]);
 const deb=[...Array(40)].map(()=>{ const m=bx(setD,.2+R()*.5,.15+R()*.3,.2+R()*.4,[0xb8a690,0x6b4a33,0x3a3f49,0x8a7a68][Math.floor(R()*4)],0,0,0); m.userData.v=V((R()-.5)*14,4+R()*9,3+R()*10); m.userData.r=V(R()*8,R()*8,R()*8); return m; });
-const old=person({shirt:0x355f9a,pants:0x2a2f3a,hair:0xc8c8c4,skin:0xc89a7a}); old.userData.beard.visible=true; setD.add(old); bx(old,.62,.75,.36,0x2a2c34,0,1.22,-.03).material.transparent=false; // dark coat over the same blue shirt
+const old=person({shirt:0x355f9a,pants:0x2a2f3a,hair:0xc8c8c4,skin:0xc89a7a}); old.userData.beard.visible=true; old.userData.beard.position.y=1.62; old.userData.beard.scale.set(1.05,.9,1); face(old,{brow:0xd8d8d4,smile:true}); setD.add(old); bx(old,.62,.75,.36,0x2a2c34,0,1.22,-.03).material.transparent=false; // dark coat over the same blue shirt
 // ======================= timeline
 const SH=[[0,EV.wake],[EV.wake,EV.n1+1.6],[EV.n1+1.6,EV.knock],[EV.knock,EV.knock+1.3],[EV.knock+1.3,EV.peep],[EV.peep,EV.n3],[EV.n3,EV.run],[EV.run,EV.run+2.8],[EV.run+2.8,EV.ground],[EV.ground,EV.boom+.35],[EV.boom+.35,EV.kneel],[EV.kneel,EV.n4],[EV.n4,EV.turn],[EV.turn,EV.reveal],[EV.reveal,EV.black],[EV.black,DUR]];
 window.SHOTS=SH.map(s=>[...s]); window.SHOTS[0][0]=0; window.DURATION=DUR;
@@ -66,7 +69,7 @@ window.renderAt=t=>{ const k=Math.max(0,SH.findIndex(s=>t<s[1])===-1?SH.length-1
  // ambience per set
  if(set==='A'){ sc.fog.near=100; sc.fog.far=300; hemi.color.set(0x8a9ad8); hemi.groundColor.set(0x2a2028); hemi.intensity=1.25; sunL.intensity=0; }
  if(set==='B'){ sc.fog.near=6; sc.fog.far=40; sc.fog.color.set(0x1a1410); hemi.color.set(0xffe0b0); hemi.intensity=.35; sunL.intensity=0; hLamps.forEach(([m,l],i)=>{ const f=(Math.sin(t*37+i*3)>.55&&i===2)?.15:1; l.intensity=8*f; m.material.color.set(f<1?0x3a3020:0xfff0c8); }); }
- if(set==='C'){ sc.fog.near=4; sc.fog.far=30; sc.fog.color.set(0x14161c); hemi.color.set(0xdfe8ff); hemi.intensity=.4; sunL.intensity=0; redL.intensity=2+1.5*Math.sin(t*9); hemi.intensity=.9; }
+ if(set==='C'){ sc.fog.near=4; sc.fog.far=30; sc.fog.color.set(0x14161c); hemi.color.set(0xdfe8ff); hemi.intensity=.4; sunL.intensity=0; redL.intensity=2+1.5*Math.sin(t*9); hemi.intensity=.9; sky.top.value.set(0x0c0d12); sky.low.value.set(0x0c0d12); }
  if(set==='D'){ sc.fog.near=40; sc.fog.far=220; sc.fog.color.set(0x5a4a5a); sky.top.value.set(0x1c2450); sky.low.value.set(0xd08868); hemi.color.set(0x9aa8e8); hemi.groundColor.set(0x3a2a28); hemi.intensity=.75; sunL.intensity=.7; sunL.color.set(0xffb890); sunL.position.set(-40,25,40); sunL.target.position.set(0,0,0); }
  const lit=TL.notes.some(n=>t>=n.t&&t<n.t+2.6); scr.material.color.set(lit?0xbfd8ff:0x0c0e14); phL.intensity=lit?2.2:0;
  // ---- shots
@@ -78,7 +81,7 @@ window.renderAt=t=>{ const k=Math.max(0,SH.findIndex(s=>t<s[1])===-1?SH.length-1
  case 4: hero.position.set(-3.45,0,1.15); hero.rotation.y=-Math.PI/2; hero.children[0].rotation.x=0; hero.children[1].position.x=0; hero.rotation.z=0; hero.children[1].rotation.x=.1; A(5).rotation.x=-.9; A(5).rotation.z=-.3; P([-1.2,1.75,2.9],[-1.8,1.75,2.4],[-3.9,1.6,1.1],[-3.9,1.6,1.1],su); break;
  case 5: hero.visible=false; cam.fov=112; cam.position.set(0,1.6,.3); cam.lookAt(lg(-.5,.4,su),1.35,12); break;
  case 6: { const g=ss(.25,.45,u); hero.position.set(-3.4,0,lg(1.15,1.75,g)); hero.rotation.y=lg(-Math.PI/2,-Math.PI/2+.5,g); A(6).rotation.x=-.9*ss(.3,.45,u)*(1-ss(.55,.7,u)); keys.visible=u<.5; holdPhone(5,.9); doorP.rotation.y=-1.3*ss(.72,.95,u); P([.6,1.7,3.3],[-.2,1.65,3],[-3.6,1.4,1.3],[-3.8,1.4,1.2],su); shake(t,.02,1.4); break; }
- case 7: case 8: { const tot=EV.ground-EV.run, s=(t-EV.run)/tot*CL.at(-1); const [p,d]=along(s); hero.position.copy(p); hero.rotation.y=Math.atan2(d.x,d.z); hero.userData.pose(t*13,.85); if(k===7){ cam.fov=60; const [f]=along(s+4.2); cam.position.copy(f).add(V(0,2.3,0)); cam.lookAt(p.clone().add(V(0,1.0,0))); shake(t,.04,1.6); } else { cam.position.set(Math.max(-3.6,Math.min(3.6,p.x-d.x*1.8)),p.y+2.6,0); cam.lookAt(p.clone().add(V(0,.9,0)).add(d.clone().multiplyScalar(.8))); shake(t,.05,1.8); } break; }
+ case 7: case 8: { const tot=EV.ground-EV.run, s=(t-EV.run)/tot*CL.at(-1); const [p,d]=along(s); hero.position.copy(p); hero.rotation.y=Math.atan2(d.x,d.z); hero.userData.pose(t*13,.85); if(k===7){ cam.fov=50; cam.position.set(p.x*.6-1.2,p.y+4.4,8.2); cam.lookAt(p.x*.8,p.y+.4,p.z); shake(t,.03,1.4); } else { cam.fov=50; cam.position.set(p.x*.7+1,p.y+3.4,9.5); cam.lookAt(p.x*.85,p.y+.6,p.z); shake(t,.03,1.6); } break; }
  case 9: { const r=ss(0,1,(t-EV.ground)/1.25); hero.position.set(lg(0,.6,r),0,lg(-3.6,4.6,r)); hero.userData.pose(t*13,.85*(1-ss(.9,1,r))); P([5.5,1.4,17],[5.2,1.5,16],[-1,5,-4],[-1.5,6,-4],su); if(t>EV.boom) shake(t,.35*Math.exp(-(t-EV.boom)*3),2.5); break; }
  case 10: { const f=ss(0,.25,(t-EV.boom-.35)); hero.position.set(.6,0,lg(4.6,6.5,ss(0,.6,u))); hero.rotation.x=.25*f*(1-ss(.6,1,u)); if(u>.55) kneel(); else hero.userData.pose(t*10,.5); P([-6,2.4,19],[-5.4,2.8,17.5],[WP.x,WP.y-1,WP.z],[WP.x,WP.y,WP.z],su); shake(t,.25*Math.exp(-(t-EV.boom)*1.5),2); break; }
  case 11: kneel(); hero.position.set(.6,-.55,6.5); A(5).rotation.x=A(6).rotation.x=-.35; hero.children[1].rotation.x=.25; P([1.7,1.15,11.6],[1.45,1.25,10.4],[.6,1.6,6.5],[.4,2.4,5.5],su); break;
