@@ -1,0 +1,99 @@
+{
+ "duration": 54.244,
+ "events": {
+  "vo1": 0.5,
+  "wake": 5.557,
+  "dial": 6.157,
+  "pick": 8.457,
+  "m1": 8.807,
+  "mom": 10.395,
+  "laugh": 12.317,
+  "photos": 13.847,
+  "street": 17.247,
+  "office": 20.547,
+  "atm": 23.247,
+  "scream": 25.947,
+  "hosp": 27.877,
+  "explain": 29.377,
+  "file": 31.477,
+  "d1": 32.777,
+  "m2": 34.463,
+  "d2": 36.008,
+  "silence": 38.269,
+  "turnfile": 38.869,
+  "ring": 41.469,
+  "answer": 43.569,
+  "girl": 44.169,
+  "black": 46.247,
+  "vo2": 47.347,
+  "vo3": 51.303
+ },
+ "lines": [
+  {
+   "t": 0.5,
+   "d": 4.757,
+   "text": "What if you woke up tomorrow... and nobody in the entire world remembered you?",
+   "who": "vo"
+  },
+  {
+   "t": 8.807,
+   "d": 1.237,
+   "text": "\u201cMom, it's me!\u201d",
+   "who": "man"
+  },
+  {
+   "t": 10.395,
+   "d": 1.323,
+   "text": "\u201cSorry... who is this?\u201d",
+   "who": "mom"
+  },
+  {
+   "t": 12.317,
+   "d": 1.28,
+   "text": "(nervous laugh)",
+   "who": "man"
+  },
+  {
+   "t": 25.947,
+   "d": 1.429,
+   "text": "\u201cWHAT IS HAPPENING TO ME?\u201d",
+   "who": "man"
+  },
+  {
+   "t": 32.777,
+   "d": 1.387,
+   "text": "\u201cImpossible...\u201d",
+   "who": "doc"
+  },
+  {
+   "t": 34.463,
+   "d": 1.195,
+   "text": "\u201cWhat? What happened?\u201d",
+   "who": "man"
+  },
+  {
+   "t": 36.008,
+   "d": 2.261,
+   "text": "\u201cYou died three years ago.\u201d",
+   "who": "doc"
+  },
+  {
+   "t": 44.169,
+   "d": 1.877,
+   "text": "\u201cDaddy... why are you still here?\u201d",
+   "who": "girl"
+  },
+  {
+   "t": 47.347,
+   "d": 3.456,
+   "text": "If the world forgot you... would you still know who you are?",
+   "who": "vo"
+  },
+  {
+   "t": 51.303,
+   "d": 1.941,
+   "text": "Follow for more WHAT IF stories.",
+   "who": "vo"
+  }
+ ]
+}

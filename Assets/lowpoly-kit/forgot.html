@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Forgotten</title>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js"}}</script>
+<style>
+@font-face{font-family:Corm;font-style:italic;font-weight:600;src:url(/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-italic.woff2)}
+@font-face{font-family:Jost;font-weight:300;src:url(/node_modules/@fontsource/jost/files/jost-latin-300-normal.woff2)}
+@font-face{font-family:Jost;font-weight:400;src:url(/node_modules/@fontsource/jost/files/jost-latin-400-normal.woff2)}
+html,body{margin:0;background:#000;width:1080px;height:1920px;overflow:hidden}
+canvas{position:absolute;inset:0}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 45%,#3a0800 118%);opacity:0}
+#title{position:absolute;left:70px;right:70px;top:215px;text-align:center;color:#fff;font:600 76px/1.16 Corm;text-shadow:0 2px 6px #0007,0 4px 26px #0009}
+#title em{color:#c8a8ff;font-style:italic}
+#hud{position:absolute;left:58px;top:850px;color:#fff;font-family:Jost;text-shadow:0 2px 12px #000a;width:640px}
+.lab{font-weight:400;font-size:27px;letter-spacing:.2em}
+#temp{font-weight:300;font-size:116px;line-height:1.08;margin-top:4px;font-variant-numeric:tabular-nums}#temp sup{font-size:50px;vertical-align:58px;margin-left:8px}
+#stage{font-weight:400;font-size:29px;letter-spacing:.17em;margin-top:8px;text-transform:uppercase}
+.sm{font-size:23px;letter-spacing:.13em;opacity:.8;margin-top:9px}
+#bar{position:absolute;right:48px;top:440px;width:10px;height:640px;background:#ffffff38;border-radius:6px;overflow:hidden}#fill{position:absolute;bottom:0;width:100%;background:#fff}
+#cap{position:absolute;left:70px;right:150px;top:1395px;color:#fff;font:400 54px/1.2 Jost;text-align:center;text-shadow:0 0 3px #000,0 3px 8px #000c,0 0 22px #0008}
+#fla{position:absolute;inset:0;background:#fff;opacity:0}
+#fade{position:absolute;inset:0;background:#000;opacity:0}
+#hud,#hud *{text-shadow:0 2px 10px rgba(0,0,0,.7)}
+#call{position:absolute;left:150px;right:150px;top:170px;padding:44px 40px 40px;border-radius:56px;background:rgba(22,24,32,.9);box-shadow:0 16px 50px #000a;color:#fff;font-family:Jost;text-align:center;opacity:0}
+#call .av{width:150px;height:150px;border-radius:50%;margin:0 auto 22px;background:linear-gradient(135deg,#c8a8ff,#6a5ac8);display:flex;align-items:center;justify-content:center;font:500 76px Jost}
+#call .nm{font:500 64px Jost;letter-spacing:2px}
+#call .st{font:400 34px Jost;color:#bfc4d0;margin-top:8px;letter-spacing:3px}
+#call .bt{display:none;justify-content:space-around;margin-top:36px}
+#call .bt span{width:120px;height:120px;border-radius:50%;display:block}
+#call.inc .bt{display:flex}
+#gl{position:absolute;inset:0;opacity:0;background:repeating-linear-gradient(0deg,rgba(255,0,90,.22) 0 6px,transparent 6px 22px,rgba(0,220,255,.18) 22px 26px,transparent 26px 48px);mix-blend-mode:screen}
+#blk{position:absolute;inset:0;background:#000;opacity:0}
+#end{position:absolute;left:0;right:0;top:820px;text-align:center;color:#fff;font:500 46px Jost;letter-spacing:6px;opacity:0}
+#end em{display:block;font:italic 600 96px Corm;letter-spacing:0;color:#c8a8ff;margin-top:12px}
+</style></head><body>
+<canvas id="c" width="1080" height="1920"></canvas><div id="vig"></div>
+<div id="title">What if everyone <em>forgot</em> you existed?</div>
+<div id="hud"><div class="lab">PEOPLE WHO REMEMBER YOU</div><div id="temp"><span id="n">22</span><sup id="u"></sup></div><div id="stage"></div><div class="sm" id="r"></div><div class="sm" id="el"></div><div class="sm" id="wt"></div></div>
+<div id="gl"></div><div id="call"><div class="av" id="cav">M</div><div class="nm" id="cnm">Mom</div><div class="st" id="cst">calling…</div><div class="bt"><span style="background:#e0453a"></span><span style="background:#34c759"></span></div></div><div id="blk"></div><div id="end">FOLLOW FOR MORE<em>What If</em>STORIES</div><div id="cap"></div><div id="fla"></div><div id="fade"></div>
+<script type="module" src="/forgot.js"></script></body></html>
