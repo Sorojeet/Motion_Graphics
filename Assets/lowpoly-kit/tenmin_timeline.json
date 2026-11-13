@@ -1,0 +1,72 @@
+{
+ "duration": 56.168,
+ "events": {
+  "vo1": 0.5,
+  "wake": 4.783,
+  "n1": 6.083,
+  "n2": 10.283,
+  "knock": 13.283,
+  "peep": 15.183,
+  "n3": 18.583,
+  "run": 20.983,
+  "ground": 27.383,
+  "boom": 28.283,
+  "kneel": 30.083,
+  "n4": 33.883,
+  "n5": 37.083,
+  "turn": 39.483,
+  "reveal": 43.083,
+  "whisper": 44.183,
+  "black": 48.16,
+  "vo2": 49.56,
+  "vo3": 53.488
+ },
+ "lines": [
+  {
+   "t": 0.5,
+   "d": 3.883,
+   "text": "What if you could see exactly what would happen, 10 minutes from now?",
+   "who": "vo"
+  },
+  {
+   "t": 44.183,
+   "d": 3.178,
+   "text": "\u201cI've been trying to save you for 10 years.\u201d",
+   "who": "old"
+  },
+  {
+   "t": 49.56,
+   "d": 3.477,
+   "text": "What if your future self is already trying to warn you?",
+   "who": "vo"
+  },
+  {
+   "t": 53.488,
+   "d": 1.28,
+   "text": "Would you listen?",
+   "who": "vo"
+  }
+ ],
+ "notes": [
+  {
+   "t": 6.083,
+   "text": "10 minutes until your life changes forever."
+  },
+  {
+   "t": 10.283,
+   "text": "DON'T OPEN THE DOOR."
+  },
+  {
+   "t": 18.583,
+   "text": "You have 30 seconds. RUN."
+  },
+  {
+   "t": 33.883,
+   "text": "Congratulations. You survived."
+  },
+  {
+   "t": 37.083,
+   "text": "NOW LOOK BEHIND YOU."
+  }
+ ]
+}
