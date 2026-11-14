@@ -1,0 +1,170 @@
+{
+ "duration": 92.477,
+ "scenes": [
+  "The hook",
+  "The chaos",
+  "The new world",
+  "The terrifying discovery",
+  "The final twist",
+  "The ending"
+ ],
+ "lines": [
+  {
+   "t": 0.9,
+   "d": 5.141,
+   "text": "What if tomorrow morning, every human on Earth suddenly gained the ability to read minds?",
+   "scene": 0
+  },
+  {
+   "t": 6.161,
+   "d": 2.667,
+   "text": "No secrets. No lies. No hidden thoughts.",
+   "scene": 0
+  },
+  {
+   "t": 8.948,
+   "d": 3.541,
+   "text": "Every thought inside your head could be heard by everyone around you.",
+   "scene": 0
+  },
+  {
+   "t": 13.059,
+   "d": 2.987,
+   "text": "At first, humanity experiences complete chaos.",
+   "scene": 1
+  },
+  {
+   "t": 16.166,
+   "d": 9.792,
+   "text": "Relationships collapse as hidden feelings are exposed. Friendships end. Political leaders lose public trust. Criminals can no longer hide their intentions.",
+   "scene": 1
+  },
+  {
+   "t": 26.078,
+   "d": 2.837,
+   "text": "Even the smallest conversations become terrifying.",
+   "scene": 1
+  },
+  {
+   "t": 29.035,
+   "d": 3.691,
+   "text": "Because people can finally hear what others truly think about them.",
+   "scene": 1
+  },
+  {
+   "t": 33.296,
+   "d": 4.501,
+   "text": "Within weeks, governments introduce strict laws against thinking about certain things.",
+   "scene": 2
+  },
+  {
+   "t": 37.917,
+   "d": 3.456,
+   "text": "Schools begin teaching children how to control their thoughts.",
+   "scene": 2
+  },
+  {
+   "t": 41.493,
+   "d": 1.984,
+   "text": "People stop meeting face-to-face.",
+   "scene": 2
+  },
+  {
+   "t": 43.597,
+   "d": 3.264,
+   "text": "Silence becomes the most valuable luxury in the world.",
+   "scene": 2
+  },
+  {
+   "t": 46.981,
+   "d": 2.475,
+   "text": "But nobody can control what their brain thinks.",
+   "scene": 2
+  },
+  {
+   "t": 50.076,
+   "d": 2.581,
+   "text": "Then scientists discover something impossible.",
+   "scene": 3
+  },
+  {
+   "t": 52.777,
+   "d": 4.373,
+   "text": "Millions of people across different countries are hearing the exact same thought.",
+   "scene": 3
+  },
+  {
+   "t": 57.271,
+   "d": 2.24,
+   "text": "A thought that doesn't belong to any human.",
+   "scene": 3
+  },
+  {
+   "t": 59.931,
+   "d": 2.987,
+   "text": "It appears inside every mind simultaneously.",
+   "scene": 3
+  },
+  {
+   "t": 63.037,
+   "d": 1.365,
+   "text": "And it is getting louder.",
+   "scene": 3
+  },
+  {
+   "t": 65.273,
+   "d": 3.349,
+   "text": "Scientists trace the mysterious thought to a source beyond Earth.",
+   "scene": 4
+  },
+  {
+   "t": 68.742,
+   "d": 5.184,
+   "text": "For thousands of years, humanity believed it was developing the ability to read minds.",
+   "scene": 4
+  },
+  {
+   "t": 74.046,
+   "d": 2.261,
+   "text": "But the truth is far more terrifying.",
+   "scene": 4
+  },
+  {
+   "t": 76.727,
+   "d": 2.347,
+   "text": "Humans aren't reading each other's thoughts.",
+   "scene": 4
+  },
+  {
+   "t": 79.194,
+   "d": 3.371,
+   "text": "Something else is using every human brain as a receiver.",
+   "scene": 4
+  },
+  {
+   "t": 83.335,
+   "d": 3.627,
+   "text": "And suddenly, billions of minds receive one final message.",
+   "scene": 5
+  },
+  {
+   "t": 87.781,
+   "d": 2.846,
+   "text": "We have finally found you.",
+   "scene": 5
+  }
+ ],
+ "events": {
+  "pop": 3.728,
+  "chaos": 13.059,
+  "newworld": 33.296,
+  "discover": 50.076,
+  "same": 60.231,
+  "louder": 63.037,
+  "trace": 65.273,
+  "switch": 79.594,
+  "final": 83.335,
+  "message": 87.781,
+  "black": 90.877
+ }
+}
