@@ -1,0 +1,265 @@
+{
+ "duration": 79.577,
+ "shots": [
+  [
+   0.8,
+   9.357,
+   "hall"
+  ],
+  [
+   9.357,
+   20.761,
+   "envelope"
+  ],
+  [
+   20.761,
+   23.387,
+   "ignore"
+  ],
+  [
+   23.387,
+   29.472,
+   "open"
+  ],
+  [
+   29.472,
+   42.357,
+   "photo"
+  ],
+  [
+   42.357,
+   49.972,
+   "back"
+  ],
+  [
+   49.972,
+   57.816,
+   "froze"
+  ],
+  [
+   57.816,
+   63.795,
+   "kitchen"
+  ],
+  [
+   63.795,
+   70.074,
+   "lock"
+  ],
+  [
+   70.074,
+   79.577,
+   "teaser"
+  ]
+ ],
+ "segments": [
+  {
+   "name": "hall",
+   "start": 0.8,
+   "end": 9.357,
+   "lines": [
+    {
+     "t": 0.8,
+     "d": 7.957,
+     "v": "n",
+     "text": "Every night, at exactly twelve oh three A.M., someone placed a letter outside a nineteen-year-old boy's bedroom."
+    }
+   ]
+  },
+  {
+   "name": "envelope",
+   "start": 9.357,
+   "end": 20.761,
+   "lines": [
+    {
+     "t": 9.357,
+     "d": 2.283,
+     "v": "n",
+     "text": "There was no name on the envelope."
+    },
+    {
+     "t": 12.09,
+     "d": 1.088,
+     "v": "n",
+     "text": "No stamp."
+    },
+    {
+     "t": 13.578,
+     "d": 1.067,
+     "v": "n",
+     "text": "No address."
+    },
+    {
+     "t": 15.145,
+     "d": 2.389,
+     "v": "n",
+     "text": "Just one sentence, written on the front."
+    },
+    {
+     "t": 18.034,
+     "d": 2.027,
+     "v": "w",
+     "text": "Read this before tomorrow."
+    }
+   ]
+  },
+  {
+   "name": "ignore",
+   "start": 20.761,
+   "end": 23.387,
+   "lines": [
+    {
+     "t": 20.761,
+     "d": 2.027,
+     "v": "n",
+     "text": "At first, he ignored the letters."
+    }
+   ]
+  },
+  {
+   "name": "open",
+   "start": 23.387,
+   "end": 29.472,
+   "lines": [
+    {
+     "t": 23.387,
+     "d": 3.435,
+     "v": "n",
+     "text": "Until one night, curiosity got the better of him."
+    },
+    {
+     "t": 27.272,
+     "d": 1.6,
+     "v": "n",
+     "text": "He opened the envelope."
+    }
+   ]
+  },
+  {
+   "name": "photo",
+   "start": 29.472,
+   "end": 42.357,
+   "lines": [
+    {
+     "t": 29.472,
+     "d": 4.651,
+     "v": "n",
+     "text": "Inside was a photograph of his father, who had died twelve years earlier."
+    },
+    {
+     "t": 34.623,
+     "d": 1.621,
+     "v": "n",
+     "text": "But something was strange."
+    },
+    {
+     "t": 36.744,
+     "d": 5.013,
+     "v": "n",
+     "text": "His father was standing outside their house, holding a newspaper dated tomorrow."
+    }
+   ]
+  },
+  {
+   "name": "back",
+   "start": 42.357,
+   "end": 49.972,
+   "lines": [
+    {
+     "t": 42.357,
+     "d": 3.371,
+     "v": "n",
+     "text": "On the back of the photograph was a handwritten warning."
+    },
+    {
+     "t": 46.228,
+     "d": 2.944,
+     "v": "w",
+     "text": "Do not let your mother open the basement door."
+    }
+   ]
+  },
+  {
+   "name": "froze",
+   "start": 49.972,
+   "end": 57.816,
+   "lines": [
+    {
+     "t": 49.972,
+     "d": 1.259,
+     "v": "n",
+     "text": "The boy froze."
+    },
+    {
+     "t": 51.731,
+     "d": 2.667,
+     "v": "n",
+     "text": "Because his family had never had a basement."
+    },
+    {
+     "t": 54.897,
+     "d": 2.219,
+     "v": "n",
+     "text": "At least, that's what he had been told."
+    }
+   ]
+  },
+  {
+   "name": "kitchen",
+   "start": 57.816,
+   "end": 63.795,
+   "lines": [
+    {
+     "t": 57.816,
+     "d": 3.093,
+     "v": "n",
+     "text": "The following morning, he asked his mother about it."
+    },
+    {
+     "t": 61.409,
+     "d": 1.685,
+     "v": "n",
+     "text": "Her face turned pale."
+    }
+   ]
+  },
+  {
+   "name": "lock",
+   "start": 63.795,
+   "end": 70.074,
+   "lines": [
+    {
+     "t": 63.795,
+     "d": 2.155,
+     "v": "n",
+     "text": "And for the first time in twelve years,"
+    },
+    {
+     "t": 66.299,
+     "d": 2.475,
+     "v": "n",
+     "text": "she locked the front door before answering."
+    }
+   ]
+  },
+  {
+   "name": "teaser",
+   "start": 70.074,
+   "end": 79.577,
+   "lines": [
+    {
+     "t": 70.074,
+     "d": 3.733,
+     "v": "n",
+     "text": "That night, the boy discovered a door, hidden beneath the carpet."
+    },
+    {
+     "t": 74.257,
+     "d": 3.52,
+     "v": "n",
+     "text": "And behind it was something that should never have existed."
+    }
+   ]
+  }
+ ]
+}

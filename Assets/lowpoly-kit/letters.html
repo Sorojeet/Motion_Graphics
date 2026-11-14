@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8"><title>The Boy Who Received Letters From a Dead Person</title>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<style>
+html,body{margin:0;background:#000;width:1080px;height:1920px;overflow:hidden}
+canvas{position:absolute;inset:0}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 46%,transparent 38%,#02040cdd 112%);pointer-events:none}
+#grain{position:absolute;inset:0;width:1080px;height:1920px;opacity:.09;mix-blend-mode:overlay;image-rendering:pixelated}
+#bars{position:absolute;inset:0;box-shadow:inset 0 0 0 0 #000}
+#fade{position:absolute;inset:0;background:#000;opacity:0}
+</style></head><body>
+<canvas id="c" width="1080" height="1920"></canvas><div id="vig"></div><canvas id="grain" width="360" height="640"></canvas><div id="fade"></div>
+<script type="module" src="/letters.js"></script></body></html>

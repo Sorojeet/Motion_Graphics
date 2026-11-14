@@ -4,7 +4,7 @@ import { spawn } from 'node:child_process'; import { createRequire } from 'node:
 const require = createRequire('/home/claude/');
 const { chromium } = (()=>{ try { return require('playwright'); } catch { return require(require('child_process').execSync('npm root -g').toString().trim()+'/playwright'); } })();
 const root = path.dirname(new URL(import.meta.url).pathname);
-const types = {'.html':'text/html','.js':'text/javascript','.woff2':'font/woff2'};
+const types = {'.html':'text/html','.js':'text/javascript','.json':'application/json','.woff2':'font/woff2'};
 const srv = http.createServer((q,r)=>{ const f=path.join(root,decodeURIComponent(q.url.split('?')[0]));
   fs.readFile(f,(e,d)=>{ if(e){r.writeHead(404);r.end();return;} r.writeHead(200,{'content-type':types[path.extname(f)]||'application/octet-stream'}); r.end(d);});});
 await new Promise(ok=>srv.listen(0,ok)); const port=srv.address().port;
