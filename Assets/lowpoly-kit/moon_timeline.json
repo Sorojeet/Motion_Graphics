@@ -1,0 +1,202 @@
+{
+ "duration": 91.849,
+ "scenes": [
+  "The hook",
+  "The chaos",
+  "The mystery",
+  "The revelation",
+  "The final twist",
+  "The ending"
+ ],
+ "lines": [
+  {
+   "t": 0.9,
+   "d": 3.883,
+   "text": "What if you looked at the night sky tomorrow... and the Moon was simply gone?",
+   "scene": 0
+  },
+  {
+   "t": 4.903,
+   "d": 2.901,
+   "text": "No explosion. No warning. No explanation.",
+   "scene": 0
+  },
+  {
+   "t": 7.924,
+   "d": 1.472,
+   "text": "Just an empty sky.",
+   "scene": 0
+  },
+  {
+   "t": 10.066,
+   "d": 3.221,
+   "text": "At first, people think it's a rare astronomical event.",
+   "scene": 1
+  },
+  {
+   "t": 13.407,
+   "d": 3.499,
+   "text": "But within hours, scientists discover something terrifying.",
+   "scene": 1
+  },
+  {
+   "t": 17.026,
+   "d": 2.859,
+   "text": "Ocean tides begin behaving unpredictably.",
+   "scene": 1
+  },
+  {
+   "t": 20.005,
+   "d": 6.272,
+   "text": "Coastal cities face unusual flooding patterns, and the entire world watches the sky in confusion.",
+   "scene": 1
+  },
+  {
+   "t": 26.397,
+   "d": 4.864,
+   "text": "For the first time in human history, Earth has lost its closest celestial companion.",
+   "scene": 1
+  },
+  {
+   "t": 31.831,
+   "d": 1.835,
+   "text": "Governments declare emergencies.",
+   "scene": 2
+  },
+  {
+   "t": 33.785,
+   "d": 1.664,
+   "text": "Astronomers scan the sky.",
+   "scene": 2
+  },
+  {
+   "t": 35.569,
+   "d": 2.411,
+   "text": "Satellites search every corner of space.",
+   "scene": 2
+  },
+  {
+   "t": 38.1,
+   "d": 2.005,
+   "text": "But the Moon is nowhere to be found.",
+   "scene": 2
+  },
+  {
+   "t": 40.225,
+   "d": 5.035,
+   "text": "Then, exactly at midnight, every telescope on Earth detects the same strange signal.",
+   "scene": 2
+  },
+  {
+   "t": 45.38,
+   "d": 2.304,
+   "text": "It's coming from beyond the orbit of Mars.",
+   "scene": 2
+  },
+  {
+   "t": 48.254,
+   "d": 1.792,
+   "text": "Scientists decode the signal.",
+   "scene": 3
+  },
+  {
+   "t": 50.166,
+   "d": 1.728,
+   "text": "It's not a distress message.",
+   "scene": 3
+  },
+  {
+   "t": 52.014,
+   "d": 1.131,
+   "text": "It's a warning.",
+   "scene": 3
+  },
+  {
+   "t": 53.615,
+   "d": 4.053,
+   "text": "The message reveals that the Moon was never just a natural satellite.",
+   "scene": 3
+  },
+  {
+   "t": 57.788,
+   "d": 3.627,
+   "text": "Something had been hiding beneath its surface for billions of years.",
+   "scene": 3
+  },
+  {
+   "t": 61.535,
+   "d": 0.939,
+   "text": "And now...",
+   "scene": 3
+  },
+  {
+   "t": 63.193,
+   "d": 0.939,
+   "text": "It's awake.",
+   "scene": 3
+  },
+  {
+   "t": 64.902,
+   "d": 1.664,
+   "text": "Suddenly, the Moon reappears.",
+   "scene": 4
+  },
+  {
+   "t": 66.686,
+   "d": 1.408,
+   "text": "But something is different.",
+   "scene": 4
+  },
+  {
+   "t": 68.214,
+   "d": 3.157,
+   "text": "Its surface is glowing with thousands of strange lights.",
+   "scene": 4
+  },
+  {
+   "t": 71.491,
+   "d": 3.221,
+   "text": "Then, every light on Earth switches off simultaneously.",
+   "scene": 4
+  },
+  {
+   "t": 75.233,
+   "d": 3.328,
+   "text": "And from the darkness, something begins transmitting a signal.",
+   "scene": 4
+  },
+  {
+   "t": 78.681,
+   "d": 1.28,
+   "text": "Not from the Moon...",
+   "scene": 4
+  },
+  {
+   "t": 80.431,
+   "d": 1.429,
+   "text": "But from inside Earth.",
+   "scene": 4
+  },
+  {
+   "t": 82.73,
+   "d": 2.027,
+   "text": "Maybe the Moon wasn't watching Earth.",
+   "scene": 5
+  },
+  {
+   "t": 84.877,
+   "d": 3.072,
+   "text": "Maybe it was protecting us from something buried beneath it.",
+   "scene": 5
+  }
+ ],
+ "events": {
+  "signal": 42.994,
+  "awake": 63.343,
+  "reappear": 65.651,
+  "blackout": 73.263,
+  "inside": 80.431,
+  "black": 88.449,
+  "rumble_end": 90.349
+ }
+}
