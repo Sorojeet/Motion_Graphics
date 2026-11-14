@@ -1,0 +1,166 @@
+{
+ "duration": 100.348,
+ "scenes": [
+  "The hook",
+  "The golden age",
+  "Something goes wrong",
+  "The terrifying discovery",
+  "The final twist",
+  "The ending"
+ ],
+ "lines": [
+  {
+   "t": 0.9,
+   "d": 2.325,
+   "text": "What if humans suddenly stopped needing sleep?",
+   "scene": 0
+  },
+  {
+   "t": 3.345,
+   "d": 4.8,
+   "text": "No more tiredness. No more dreams. No more waking up after eight hours.",
+   "scene": 0
+  },
+  {
+   "t": 8.265,
+   "d": 3.2,
+   "text": "Imagine having 24 hours every single day.",
+   "scene": 0
+  },
+  {
+   "t": 12.035,
+   "d": 1.835,
+   "text": "At first, humanity celebrates.",
+   "scene": 1
+  },
+  {
+   "t": 13.99,
+   "d": 10.773,
+   "text": "Factories operate around the clock. Scientists make decades of discoveries in just a few months. Businesses never close, and productivity reaches unimaginable levels.",
+   "scene": 1
+  },
+  {
+   "t": 24.883,
+   "d": 3.819,
+   "text": "For the first time, humans have more time than they know what to do with.",
+   "scene": 1
+  },
+  {
+   "t": 29.272,
+   "d": 3.264,
+   "text": "But after a few months, something strange begins happening.",
+   "scene": 2
+  },
+  {
+   "t": 32.656,
+   "d": 2.475,
+   "text": "People start losing their ability to dream.",
+   "scene": 2
+  },
+  {
+   "t": 35.251,
+   "d": 6.059,
+   "text": "Creativity slowly declines. Memories become unreliable. Emotions become unstable.",
+   "scene": 2
+  },
+  {
+   "t": 41.429,
+   "d": 5.099,
+   "text": "Despite having more time, people begin feeling increasingly disconnected from reality.",
+   "scene": 2
+  },
+  {
+   "t": 47.098,
+   "d": 3.925,
+   "text": "Scientists discover that sleep was never just about resting the body.",
+   "scene": 3
+  },
+  {
+   "t": 51.143,
+   "d": 5.035,
+   "text": "It was essential for repairing the brain, processing memories and maintaining mental health.",
+   "scene": 3
+  },
+  {
+   "t": 56.298,
+   "d": 2.987,
+   "text": "Without it, the human mind begins to deteriorate.",
+   "scene": 3
+  },
+  {
+   "t": 59.705,
+   "d": 2.24,
+   "text": "And then something even stranger happens.",
+   "scene": 3
+  },
+  {
+   "t": 62.465,
+   "d": 5.077,
+   "text": "People across the world start experiencing the exact same nightmare while fully awake.",
+   "scene": 3
+  },
+  {
+   "t": 68.212,
+   "d": 4.395,
+   "text": "Every person sees the same mysterious black figure standing in the distance.",
+   "scene": 4
+  },
+  {
+   "t": 72.727,
+   "d": 4.608,
+   "text": "Scientists investigate the phenomenon and discover an impossible pattern.",
+   "scene": 4
+  },
+  {
+   "t": 77.455,
+   "d": 4.459,
+   "text": "The figure appears in every recording, every photograph and every reflection.",
+   "scene": 4
+  },
+  {
+   "t": 82.033,
+   "d": 2.112,
+   "text": "But it gets closer every single day.",
+   "scene": 4
+  },
+  {
+   "t": 85.015,
+   "d": 2.944,
+   "text": "And then humanity discovers the horrifying truth.",
+   "scene": 5
+  },
+  {
+   "t": 88.379,
+   "d": 1.728,
+   "text": "The figure isn't coming closer.",
+   "scene": 5
+  },
+  {
+   "t": 90.527,
+   "d": 2.581,
+   "text": "It's been standing in the same place all along.",
+   "scene": 5
+  },
+  {
+   "t": 93.629,
+   "d": 3.819,
+   "text": "It's our brains that are slowly forgetting how to recognise reality.",
+   "scene": 5
+  }
+ ],
+ "events": {
+  "wrong": 29.272,
+  "decay": 56.498,
+  "nightmare": 65.004,
+  "figure": 68.212,
+  "closer": [
+   82.033,
+   82.686,
+   83.339,
+   83.992
+  ],
+  "truth": 85.015,
+  "eye": 93.629,
+  "black": 98.748
+ }
+}
