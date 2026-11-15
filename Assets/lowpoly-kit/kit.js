@@ -23,6 +23,16 @@ export function person({shirt,pants,skin=0xd9a27a,hair=0x5a3320}){ const g=new T
   const limb=(x,y,w,h,mat)=>{ const p=new THREE.Group(); p.position.set(x,y,0); p.add(box(w,h,w,mat,0,-h/2,0)); g.add(p); return p; };
   const L=limb(-.15,.9,.22,.9,pm),R=limb(.15,.9,.22,.9,pm),A=limb(-.38,1.58,.17,.7,sm),B=limb(.38,1.58,.17,.7,sm);
   const hairM=g.children[2].material; const beard=box(.3,.2,.08,hairM,0,1.68,.2); beard.visible=false; g.add(beard); g.userData.hairM=hairM; g.userData.beard=beard; g.userData.sit=()=>{ L.rotation.x=R.rotation.x=-1.45; A.rotation.x=B.rotation.x=-.45; g.children[0].position.y=1.25; };
+  // face: eyes (whites, pupils, lids), brows, mouth. g.userData.face({blink,open,wide,brow,lookX,lookY,smile})
+  const F=new THREE.Group(); F.position.set(0,1.82,.171); g.add(F); const fb=(w,h,d,m,x,y,z)=>{ const b=box(w,h,d,m,x,y,z); b.castShadow=false; return b; };
+  const white=flat(0xf2eee6), iris=flat(0x1c1614), lipM=flat(0x6a302a), E=[-1,1].map(s=>{ const e=new THREE.Group(); e.position.set(s*.085,.03,0); F.add(e);
+    e.add(fb(.085,.06,.012,white,0,0,0)); const p=fb(.038,.046,.008,iris,0,0,.009); e.add(p); const lp=new THREE.Group(); lp.position.y=.034; e.add(lp); const lid=fb(.092,.07,.016,km,0,-.035,.004); lp.add(lid);
+    const br=fb(.095,.022,.014,hairM,s*.0,.07,.004); e.add(br); return {e,p,lp,lid,br,s}; });
+  const mouth=fb(.11,.024,.012,lipM,0,-.085,0); F.add(mouth); g.userData.faceGroup=F;
+  g.userData.face=({blink=0,open=0,wide=0,brow=0,lookX=0,lookY=0,smile=0}={})=>{ for(const q of E){ q.e.scale.y=1+wide*.35; q.p.position.set(lookX*.022,lookY*.012,.009); q.lp.scale.y=Math.max(.001,blink); q.lid.visible=blink>.02;
+      q.br.position.y=.07+wide*.02+brow*.008; q.br.rotation.z=-q.s*brow*.35; }
+    mouth.scale.set(1-open*.3+smile*.25,1+open*3.2,1); mouth.position.y=-.085-open*.03; mouth.rotation.z=0; };
+  g.userData.face();
   g.userData.pose=(ph,amp)=>{ const s=Math.sin(ph)*amp; L.rotation.x=s; R.rotation.x=-s; A.rotation.x=-s*.8; B.rotation.x=s*.8; g.children[0].position.y=1.25+Math.abs(Math.cos(ph))*amp*.05; };
   return g; }
 export function lamp(pole,head){ const g=new THREE.Group(); g.add(box(.26,8,.26,pole,0,4,0)); g.add(box(.85,.42,.85,head,0,8.15,0)); g.add(box(.55,.1,.55,pole,0,8.42,0)); return g; }

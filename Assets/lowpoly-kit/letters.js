@@ -175,6 +175,7 @@ const grain=t=>{ const r=rng(Math.floor(t*30)+7); for(let i=0;i<gid.data.length;
 const SEG=TL.segments, SN=Object.fromEntries(SEG.map(s=>[s.name,s])), LT=(n,i)=>SN[n].lines[i].t, LE=(n,i)=>SN[n].lines[i].t+SN[n].lines[i].d;
 window.SHOTS=SEG.map((s,i)=>[i?s.start:0,i<SEG.length-1?SEG[i+1].start:DUR]);
 const E=(a,b,t)=>ss(a,b,t), V=new THREE.Vector3(), look=(x,y,z,tx,ty,tz)=>{ cam.position.set(x,y,z); cam.lookAt(tx,ty,tz); };
+const bl=(t,o)=>{ const p=(t+o)%3.7; return p<.14?Math.sin(p/.14*Math.PI):0; };
 const flick=t=>1-.35*Math.max(0,Math.sin(t*37)*Math.sin(t*11.3)-.55)*2.2;
 window.renderAt=t=>{ const k=Math.max(0,window.SHOTS.findLastIndex(s=>t>=s[0])), name=SEG[k].name, [a,b]=window.SHOTS[k], u=(t-a)/Math.max(b-a,1e-6);
   let scene=house, black=0; cam.fov=50; renderer.toneMappingExposure=1.05; bloom.strength=.55;
@@ -200,12 +201,12 @@ window.renderAt=t=>{ const k=Math.max(0,window.SHOTS.findLastIndex(s=>t>=s[0])),
 function drawBedroom(name,t,u){ const lampOn=name==='ignore'?0:name==='open'?E(SN.open.start,SN.open.start+.4,t):1; const fl=(name==='back'?flick(t*.6):1)*(name==='froze'?flick(t):1);
   lampL.intensity=lampOn*7*fl;  if(!(name==='ignore'||(name==='open'&&t<LT('open',1)-.1)||name==='froze')) lampL.intensity*=.3; bed.userData.shade.material.emissiveIntensity=lampOn*1.4*fl; pm.uniforms.lamp.value=.9*fl+.1;
   boy.visible=false; ins.visible=false; heldEnv.visible=false; pile.forEach((e,i)=>e.visible=name==='ignore'?i<1+Math.floor(u*7.5):i<6);
-  for(const c of boy.children) c.rotation.set(0,0,0); boy.rotation.set(0,0,0);
+  for(const c of boy.children) c.rotation.set(0,0,0); boy.rotation.set(0,0,0); boy.userData.face({blink:bl(t,0)});
   if(name==='ignore'){ // nights pass; the unopened letters pile up; he lies turned away
-    boy.visible=true; boy.position.set(1.1,.76,-.75); boy.rotation.set(-Math.PI/2,0,0); boy.rotation.z=.25; blanket.position.set(1.1,.82,-1.0); blanket.scale.set(1,1,1);
+    boy.visible=true; boy.position.set(1.1,.76,-.75); boy.rotation.set(-Math.PI/2,0,0); boy.rotation.z=.25; blanket.position.set(1.1,.82,-1.0); blanket.scale.set(1,1,1); boy.userData.face({blink:bl(t,.5),lookX:-.8,brow:.3});
     look(lg(1.5,1.4,u),lg(2.45,2.35,u),lg(.3,.0,u),.55,.7,-2.15); }
   else if(name==='open'&&t<LT('open',1)-.1){ // he sits up, lamp on, the envelope in his hands
-    boy.visible=true; boy.position.set(1.1,-.07,-1.95); boy.userData.sit(); boy.children[5].rotation.set(-1.15,0,.32); boy.children[6].rotation.set(-1.15,0,-.32); heldEnv.visible=true; blanket.position.set(1.1,.72,-1.3); blanket.scale.set(1,1,.62);
+    boy.visible=true; boy.position.set(1.1,-.07,-1.95); boy.userData.sit(); boy.children[5].rotation.set(-1.15,0,.32); boy.children[6].rotation.set(-1.15,0,-.32); heldEnv.visible=true; blanket.position.set(1.1,.72,-1.3); blanket.scale.set(1,1,.62); boy.userData.face({blink:bl(t,.9),lookY:-1,brow:.4});
     const w=(t-SN.open.start)/(LT('open',1)-SN.open.start); look(lg(.35,.5,w),lg(1.45,1.4,w),lg(1.1,.6,w),1.0,1.22,-1.9); }
   else { ins.visible=true; const flipT=name==='back'?E(SN.back.start,SN.back.start+.7,t):0;
     if(name==='open'){ // insert: the flap opens and the photograph slides out
@@ -218,16 +219,16 @@ function drawBedroom(name,t,u){ const lampOn=name==='ignore'?0:name==='open'?E(S
       else { d=.9; fy=0; } // froze: hold
       V.set(-fx,fy,0).applyMatrix4(ins.matrixWorld); const c=new THREE.Vector3(-fx,fy+.02,-d).applyMatrix4(ins.matrixWorld); look(c.x,c.y,c.z,V.x,V.y,V.z); cam.fov=40; }
     if(name==='froze'){ // he freezes: wide, lamp stuttering, photo in hand
-      ins.visible=false; boy.visible=true; boy.position.set(1.1,-.07,-1.95); boy.userData.sit(); boy.children[5].rotation.set(-1.15,0,.32); boy.children[6].rotation.set(-1.15,0,-.32); heldEnv.visible=true; blanket.position.set(1.1,.72,-1.3); blanket.scale.set(1,1,.62);
+      ins.visible=false; boy.visible=true; boy.position.set(1.1,-.07,-1.95); boy.userData.sit(); boy.children[5].rotation.set(-1.15,0,.32); boy.children[6].rotation.set(-1.15,0,-.32); heldEnv.visible=true; blanket.position.set(1.1,.72,-1.3); blanket.scale.set(1,1,.62); boy.userData.face({wide:.9,open:.3,brow:1,lookY:-.6});
       const w=(t-SN.froze.start)/1.6; look(lg(-1.6,-1.5,w),1.6,lg(1.6,1.4,w),1.0,1.1,-1.8); cam.fov=50; } } }
 
-function drawKitchen(name,t,u){ momSkin.color.set(0xd9a27a); mom.userData.pose(0,0); for(const c of mom.children) if(c.isGroup) c.rotation.set(0,0,0); turn.rotation.x=0;
+function drawKitchen(name,t,u){ momSkin.color.set(0xd9a27a); mom.userData.face({blink:bl(t,1.3)}); kBoy.userData.face({blink:bl(t,2.1),brow:.3}); mom.userData.pose(0,0); for(const c of mom.children) if(c.isGroup) c.rotation.set(0,0,0); turn.rotation.x=0;
   kBoy.position.set(-2.35,0,1.3); kBoy.rotation.y=Math.PI*.9; kBoy.userData.pose(0,0); renderer.toneMappingExposure=.95; bloom.strength=.3;
   if(name==='kitchen'){ const turnU=E(LT('kitchen',0)+1.9,LT('kitchen',0)+3.0,t), pale=E(LT('kitchen',1),LE('kitchen',1)+.3,t);
-    mom.position.set(-1.0,0,-1.75); mom.rotation.y=Math.PI+turnU*2.8; momSkin.color.set(0xd9a27a).lerp(C(0xeee8e6),pale);
+    mom.position.set(-1.0,0,-1.75); mom.rotation.y=Math.PI+turnU*2.8; momSkin.color.set(0xd9a27a).lerp(C(0xeee8e6),pale); mom.userData.face({blink:pale>.05?0:bl(t,1.3),wide:pale*.9,open:pale*.35,brow:pale});
     const p=E(LT('kitchen',1)-.3,SN.kitchen.end,t); look(lg(-1.55,-1.45,u)+p*.25,lg(1.7,1.62,u),lg(3.0,2.5,u)-p*1.7,-1.0,lg(1.3,1.5,p),-1.75); }
   else { // she crosses to the front door and locks it
-    const w=E(SN.lock.start,LT('lock',1)+.1,t), x=lg(-.3,2.4,w), z=lg(-1.4,-.15,w); mom.position.set(x,0,z); mom.rotation.y=w<.98?Math.atan2(2.7,1.25):Math.PI/2; mom.userData.pose(t*7,w>0&&w<.98?.45:0); momSkin.color.set(0xeee8e6);
+    const w=E(SN.lock.start,LT('lock',1)+.1,t), x=lg(-.3,2.4,w), z=lg(-1.4,-.15,w); mom.position.set(x,0,z); mom.rotation.y=w<.98?Math.atan2(2.7,1.25):Math.PI/2; mom.userData.pose(t*7,w>0&&w<.98?.45:0); momSkin.color.set(0xeee8e6); mom.userData.face({wide:.5,brow:.9,blink:bl(t,.4)});
     const lk=E(LT('lock',1)+.75,LT('lock',1)+1.0,t); turn.rotation.x=lk*Math.PI/2;
     if(t<LT('lock',1)){ look(-1.9,1.6,2.6,lg(-.3,2.4,w),1.3,lg(-1,.2,w)); }
     else { mom.children[5].rotation.set(-1.3,0,.25); look(lg(2.0,2.2,(t-LT('lock',1))/2),1.4,lg(1.5,1.2,(t-LT('lock',1))/2),2.95,1.15,.22); cam.fov=40; } } }
