@@ -333,13 +333,13 @@ window.renderAt=t=>{ const k=Math.max(0,window.SHOTS.findLastIndex(s=>t>=s[0])),
     else { aimFlash(BW,1.85,-1.0,.8); flash.intensity=4; const w=E(LT('walls',2)-.2,b,t); photoCam(WP0,lg(.9,.55,w)); cam.fov=40; } }
   else if(name==='photos'){ // newborn, then ten years old
     bBoy.position.set(1.15,0,.15); bBoy.rotation.y=Math.PI*.5; const first=t<LT('photos',1)-.15, g=first?WN:WT, w=first?E(a,LT('photos',1),t):E(LT('photos',1)-.15,b,t);
-    g.getWorldPosition(V); aimFlash(V.x,V.y,V.z,.8); flash.intensity=3.5; photoCam(g,lg(.7,.45,w)); cam.fov=40; }
+    g.getWorldPosition(V); aimFlash(V.x,V.y,V.z,0); flash.intensity=2.2; photoCam(g,lg(.7,.45,w)); cam.fov=40; }
   else if(name==='final'){ // the boy, in this basement, three days ago
     bBoy.position.set(1.4,0,.95); bBoy.rotation.y=Math.PI*.5; WB.getWorldPosition(V); const tr=E(LT('final',0)+1,b,t)*.03; aimFlash(V.x,V.y+Math.sin(t*23)*tr,V.z+Math.sin(t*17)*tr,.8); flash.intensity=4;
     if(t<LT('final',0)+1.6){ const w=E(a,LT('final',0)+1.6,t); look(lg(-.2,.1,w),1.6,lg(1.9,1.7,w),2.2,1.4,1.1); } else photoCam(WB,lg(.75,.3,E(LT('final',0)+1.6,b,t))); cam.fov=40; }
   else if(name==='never'){ // his face, lit from below by the phone
     bBoy.position.set(1.4,0,.95); bBoy.rotation.y=Math.PI*.5; bBoy.children[6].rotation.set(-.6,0,-.1); bBoy.userData.face({wide:.6+u*.3,brow:1,open:.15,lookX:.2}); aimFlash(BW,1.0,1.0,2.5); flash.intensity=6;
-    rim.position.set(2.0,1.3,1.0); rim.intensity=1.5; bBoy.updateMatrixWorld(); const hd=new THREE.Vector3(0,1.82,0).applyMatrix4(bBoy.matrixWorld); look(hd.x+lg(1.5,1.05,u),hd.y-.1,hd.z+lg(.4,.2,u),hd.x,hd.y-.05,hd.z); cam.fov=40; }
+    rim.position.set(2.0,1.3,1.0); rim.intensity=1.5; bBoy.updateMatrixWorld(); const hd=new THREE.Vector3(0,1.82,0).applyMatrix4(bBoy.matrixWorld); look(hd.x+lg(.95,.8,u),hd.y-.12,hd.z+lg(.75,.5,u),hd.x,hd.y-.1,hd.z); cam.fov=46; }
   else if(name==='table'||name==='hospital'||(name==='steps'&&t<LT('steps',0)+.25)){ // the envelope, the photograph
     bBoy.position.set(.6,0,1.15); bBoy.rotation.y=Math.PI; envB.visible=false; hPhoto.visible=false;
     if(name==='table'&&t<LT('table',1)-.2){ env2.getWorldPosition(V); aimFlash(V.x,V.y,V.z,1.2); const w=E(a,LT('table',1),t); look(V.x+lg(.2,.05,w),V.y+lg(.9,.5,w),V.z+lg(.9,.35,w),V.x,V.y,V.z); cam.fov=42; }
