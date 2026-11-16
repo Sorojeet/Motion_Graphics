@@ -1,0 +1,355 @@
+{
+ "duration": 78.235,
+ "shots": [
+  [
+   0.8,
+   5.81,
+   "dayhall"
+  ],
+  [
+   5.81,
+   11.73,
+   "nighthall"
+  ],
+  [
+   11.73,
+   18.334,
+   "pull"
+  ],
+  [
+   18.334,
+   21.522,
+   "descend"
+  ],
+  [
+   21.522,
+   27.707,
+   "walls"
+  ],
+  [
+   27.707,
+   32.261,
+   "photos"
+  ],
+  [
+   32.261,
+   39.056,
+   "final"
+  ],
+  [
+   39.056,
+   42.936,
+   "never"
+  ],
+  [
+   42.936,
+   48.529,
+   "table"
+  ],
+  [
+   48.529,
+   56.259,
+   "hospital"
+  ],
+  [
+   56.259,
+   59.036,
+   "steps"
+  ],
+  [
+   59.036,
+   61.541,
+   "turn"
+  ],
+  [
+   61.541,
+   69.07,
+   "watch"
+  ],
+  [
+   69.07,
+   78.235,
+   "end"
+  ]
+ ],
+ "segments": [
+  {
+   "name": "dayhall",
+   "start": 0.8,
+   "end": 5.81,
+   "lines": [
+    {
+     "t": 0.8,
+     "d": 2.411,
+     "v": "n",
+     "text": "His mother knew something about the basement."
+    },
+    {
+     "t": 3.561,
+     "d": 1.749,
+     "v": "n",
+     "text": "But all day, she avoided him."
+    }
+   ]
+  },
+  {
+   "name": "nighthall",
+   "start": 5.81,
+   "end": 11.73,
+   "lines": [
+    {
+     "t": 5.81,
+     "d": 3.136,
+     "v": "n",
+     "text": "That night, a corner of the hallway carpet was lifted."
+    },
+    {
+     "t": 9.296,
+     "d": 1.984,
+     "v": "n",
+     "text": "Beneath it, a metal handle."
+    }
+   ]
+  },
+  {
+   "name": "pull",
+   "start": 11.73,
+   "end": 18.334,
+   "lines": [
+    {
+     "t": 11.73,
+     "d": 1.045,
+     "v": "n",
+     "text": "He pulled it."
+    },
+    {
+     "t": 13.075,
+     "d": 2.901,
+     "v": "n",
+     "text": "A hidden staircase, descending into darkness."
+    },
+    {
+     "t": 16.327,
+     "d": 1.557,
+     "v": "n",
+     "text": "Cold air rushed out."
+    }
+   ]
+  },
+  {
+   "name": "descend",
+   "start": 18.334,
+   "end": 21.522,
+   "lines": [
+    {
+     "t": 18.334,
+     "d": 2.688,
+     "v": "n",
+     "text": "He switched on his flashlight, and stepped down."
+    }
+   ]
+  },
+  {
+   "name": "walls",
+   "start": 21.522,
+   "end": 27.707,
+   "lines": [
+    {
+     "t": 21.522,
+     "d": 2.176,
+     "v": "n",
+     "text": "Old photographs covered the walls."
+    },
+    {
+     "t": 23.998,
+     "d": 1.813,
+     "v": "n",
+     "text": "Every one showed the same man."
+    },
+    {
+     "t": 26.161,
+     "d": 1.045,
+     "v": "n",
+     "text": "His father."
+    }
+   ]
+  },
+  {
+   "name": "photos",
+   "start": 27.707,
+   "end": 32.261,
+   "lines": [
+    {
+     "t": 27.707,
+     "d": 1.877,
+     "v": "n",
+     "text": "Holding him as a newborn."
+    },
+    {
+     "t": 29.934,
+     "d": 1.877,
+     "v": "n",
+     "text": "Standing beside him at ten."
+    }
+   ]
+  },
+  {
+   "name": "final",
+   "start": 32.261,
+   "end": 39.056,
+   "lines": [
+    {
+     "t": 32.261,
+     "d": 4.501,
+     "v": "n",
+     "text": "But the last photograph showed the boy himself, in this exact basement."
+    },
+    {
+     "t": 37.113,
+     "d": 1.493,
+     "v": "n",
+     "text": "Taken three days ago."
+    }
+   ]
+  },
+  {
+   "name": "never",
+   "start": 39.056,
+   "end": 42.936,
+   "lines": [
+    {
+     "t": 39.056,
+     "d": 1.728,
+     "v": "n",
+     "text": "He had never been here before."
+    },
+    {
+     "t": 41.184,
+     "d": 1.152,
+     "v": "n",
+     "text": "Or had he?"
+    }
+   ]
+  },
+  {
+   "name": "table",
+   "start": 42.936,
+   "end": 48.529,
+   "lines": [
+    {
+     "t": 42.936,
+     "d": 3.136,
+     "v": "n",
+     "text": "On the table lay an envelope, with his name on it."
+    },
+    {
+     "t": 46.372,
+     "d": 1.707,
+     "v": "n",
+     "text": "Inside, one photograph."
+    }
+   ]
+  },
+  {
+   "name": "hospital",
+   "start": 48.529,
+   "end": 56.259,
+   "lines": [
+    {
+     "t": 48.529,
+     "d": 2.197,
+     "v": "n",
+     "text": "His mother, beside a hospital bed."
+    },
+    {
+     "t": 51.076,
+     "d": 1.664,
+     "v": "n",
+     "text": "And lying on that bed..."
+    },
+    {
+     "t": 53.14,
+     "d": 0.939,
+     "v": "n",
+     "text": "was him."
+    },
+    {
+     "t": 54.479,
+     "d": 1.28,
+     "v": "n",
+     "text": "Dated tomorrow."
+    }
+   ]
+  },
+  {
+   "name": "steps",
+   "start": 56.259,
+   "end": 59.036,
+   "lines": [
+    {
+     "t": 56.259,
+     "d": 1.877,
+     "v": "n",
+     "text": "Then, footsteps on the stairs."
+    }
+   ]
+  },
+  {
+   "name": "turn",
+   "start": 59.036,
+   "end": 61.541,
+   "lines": [
+    {
+     "t": 59.036,
+     "d": 2.005,
+     "v": "n",
+     "text": "A shadow stood at the entrance."
+    }
+   ]
+  },
+  {
+   "name": "watch",
+   "start": 61.541,
+   "end": 69.07,
+   "lines": [
+    {
+     "t": 61.541,
+     "d": 1.664,
+     "v": "n",
+     "text": "Something slipped from its hand."
+    },
+    {
+     "t": 63.505,
+     "d": 1.451,
+     "v": "n",
+     "text": "An old wristwatch."
+    },
+    {
+     "t": 65.356,
+     "d": 3.264,
+     "v": "n",
+     "text": "The same one his father wore in every photograph."
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 69.07,
+   "end": 78.235,
+   "lines": [
+    {
+     "t": 69.07,
+     "d": 2.432,
+     "v": "n",
+     "text": "But his father had been dead for twelve years."
+    },
+    {
+     "t": 71.902,
+     "d": 3.733,
+     "v": "n",
+     "text": "And now, someone wearing his watch was standing right behind him."
+    }
+   ]
+  }
+ ]
+}
