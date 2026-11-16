@@ -1,0 +1,170 @@
+{
+ "duration": 77.493,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 7.877,
+   "num": "0",
+   "unit": "DAYS",
+   "caption": "Alone",
+   "fact": "8.2 BILLION PEOPLE GONE",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 3.584,
+     "text": "What if you woke up and every other human on Earth had vanished?"
+    },
+    {
+     "t": 4.134,
+     "d": 3.243,
+     "text": "Just you, a quiet town by the sea, and the whole planet."
+    }
+   ]
+  },
+  {
+   "start": 7.877,
+   "end": 17.985,
+   "num": "3",
+   "unit": "DAYS",
+   "caption": "The lights go out",
+   "fact": "BACKUP FUEL RUNS OUT IN DAYS",
+   "lines": [
+    {
+     "t": 7.877,
+     "d": 5.909,
+     "text": "Within a few days, the power stations' backup generators run dry, and the grid goes dark."
+    },
+    {
+     "t": 13.986,
+     "d": 3.499,
+     "text": "Without electric pumps, the taps soon stop running too."
+    }
+   ]
+  },
+  {
+   "start": 17.985,
+   "end": 26.386,
+   "num": "2",
+   "unit": "WEEKS",
+   "caption": "The food clock",
+   "fact": "CANNED FOOD: 2\u20135 YEARS",
+   "lines": [
+    {
+     "t": 17.985,
+     "d": 1.899,
+     "text": "Fresh food rots within weeks."
+    },
+    {
+     "t": 20.083,
+     "d": 5.803,
+     "text": "But the supermarket is full of cans, and low-acid canned food can last two to five years."
+    }
+   ]
+  },
+  {
+   "start": 26.386,
+   "end": 35.321,
+   "num": "6",
+   "unit": "MONTHS",
+   "caption": "Stale fuel",
+   "fact": "PETROL GOES STALE IN 3\u20136 MONTHS",
+   "lines": [
+    {
+     "t": 26.386,
+     "d": 4.693,
+     "text": "After a few months, petrol starts to go stale, and the cars won't start."
+    },
+    {
+     "t": 31.279,
+     "d": 3.541,
+     "text": "So you switch to a bicycle, and a sailboat in the harbour."
+    }
+   ]
+  },
+  {
+   "start": 35.321,
+   "end": 44.789,
+   "num": "1",
+   "unit": "YEAR",
+   "caption": "Your own power",
+   "fact": "SOLAR PANELS LAST 25+ YEARS",
+   "lines": [
+    {
+     "t": 35.321,
+     "d": 4.992,
+     "text": "But rooftop solar panels still work, and they can keep making power for decades."
+    },
+    {
+     "t": 40.513,
+     "d": 3.776,
+     "text": "With a few batteries, you have light, a fridge and music again."
+    }
+   ]
+  },
+  {
+   "start": 44.789,
+   "end": 57.315,
+   "num": "2",
+   "unit": "YEARS",
+   "caption": "The real danger",
+   "fact": "LONELINESS \u2248 15 CIGARETTES A DAY",
+   "lines": [
+    {
+     "t": 44.789,
+     "d": 2.795,
+     "text": "The biggest threat isn't hunger. It's loneliness."
+    },
+    {
+     "t": 47.783,
+     "d": 4.971,
+     "text": "Long-term loneliness carries a health risk like smoking fifteen cigarettes a day."
+    },
+    {
+     "t": 52.954,
+     "d": 3.861,
+     "text": "So you keep routines, talk out loud, and adopt a stray dog."
+    }
+   ]
+  },
+  {
+   "start": 57.315,
+   "end": 63.49,
+   "num": "5",
+   "unit": "YEARS",
+   "caption": "Growing food",
+   "fact": "THE CANS RUN LOW",
+   "lines": [
+    {
+     "t": 57.315,
+     "d": 5.675,
+     "text": "When the cans run low, you plant seeds from the garden centre, and learn to farm and fish."
+    }
+   ]
+  },
+  {
+   "start": 63.49,
+   "end": 74.993,
+   "num": "10",
+   "unit": "YEARS",
+   "caption": "The light",
+   "fact": "",
+   "lines": [
+    {
+     "t": 63.49,
+     "d": 2.667,
+     "text": "Ten years on, the town is wild and green."
+    },
+    {
+     "t": 66.357,
+     "d": 6.165,
+     "text": "Every night, you climb the lighthouse and switch on its solar light, just in case someone else is out there."
+    },
+    {
+     "t": 72.722,
+     "d": 1.771,
+     "text": "So, would you keep the light on?"
+    }
+   ]
+  }
+ ]
+}
