@@ -1,0 +1,265 @@
+{
+ "duration": 75.915,
+ "shots": [
+  [
+   0.8,
+   14.64,
+   "return"
+  ],
+  [
+   14.64,
+   19.465,
+   "tick"
+  ],
+  [
+   19.465,
+   26.744,
+   "vanish"
+  ],
+  [
+   26.744,
+   40.626,
+   "box"
+  ],
+  [
+   40.626,
+   56.36,
+   "mirror"
+  ],
+  [
+   56.36,
+   66.265,
+   "truth"
+  ],
+  [
+   66.265,
+   75.915,
+   "beep"
+  ]
+ ],
+ "segments": [
+  {
+   "name": "return",
+   "start": 0.8,
+   "end": 14.64,
+   "lines": [
+    {
+     "t": 0.8,
+     "d": 1.301,
+     "v": "n",
+     "text": "The boy couldn't move."
+    },
+    {
+     "t": 2.451,
+     "d": 4.395,
+     "v": "n",
+     "text": "The man had his father's height, his father's clothes, his father's watch."
+    },
+    {
+     "t": 7.246,
+     "d": 1.579,
+     "v": "n",
+     "text": "Then he stepped into the light,"
+    },
+    {
+     "t": 9.075,
+     "d": 3.52,
+     "v": "n",
+     "text": "and the boy saw the face of a man buried twelve years ago."
+    },
+    {
+     "t": 12.995,
+     "d": 1.045,
+     "v": "n",
+     "text": "His father."
+    }
+   ]
+  },
+  {
+   "name": "tick",
+   "start": 14.64,
+   "end": 19.465,
+   "lines": [
+    {
+     "t": 14.64,
+     "d": 2.368,
+     "v": "n",
+     "text": "His shadow moved across the floor."
+    },
+    {
+     "t": 17.308,
+     "d": 1.707,
+     "v": "n",
+     "text": "His watch was still ticking."
+    }
+   ]
+  },
+  {
+   "name": "vanish",
+   "start": 19.465,
+   "end": 26.744,
+   "lines": [
+    {
+     "t": 19.465,
+     "d": 1.835,
+     "v": "n",
+     "text": "He pointed at the photographs."
+    },
+    {
+     "t": 21.599,
+     "d": 2.517,
+     "v": "n",
+     "text": "One by one, the people in them disappeared,"
+    },
+    {
+     "t": 24.367,
+     "d": 1.877,
+     "v": "n",
+     "text": "until only the boy remained."
+    }
+   ]
+  },
+  {
+   "name": "box",
+   "start": 26.744,
+   "end": 40.626,
+   "lines": [
+    {
+     "t": 26.744,
+     "d": 2.667,
+     "v": "n",
+     "text": "Then an old wooden box opened by itself."
+    },
+    {
+     "t": 29.711,
+     "d": 2.539,
+     "v": "n",
+     "text": "Hundreds of letters, all addressed to him,"
+    },
+    {
+     "t": 32.499,
+     "d": 2.304,
+     "v": "n",
+     "text": "sent from different versions of his future."
+    },
+    {
+     "t": 35.153,
+     "d": 2.197,
+     "v": "n",
+     "text": "Every one carried the same warning."
+    },
+    {
+     "t": 37.701,
+     "d": 2.325,
+     "v": "w",
+     "text": "Never let the basement door open."
+    }
+   ]
+  },
+  {
+   "name": "mirror",
+   "start": 40.626,
+   "end": 56.36,
+   "lines": [
+    {
+     "t": 40.626,
+     "d": 1.835,
+     "v": "n",
+     "text": "His father pointed to a mirror."
+    },
+    {
+     "t": 42.761,
+     "d": 1.792,
+     "v": "n",
+     "text": "It showed a hospital room."
+    },
+    {
+     "t": 44.853,
+     "d": 1.963,
+     "v": "n",
+     "text": "The boy, unconscious on a bed."
+    },
+    {
+     "t": 47.115,
+     "d": 1.472,
+     "v": "n",
+     "text": "His mother beside him."
+    },
+    {
+     "t": 48.937,
+     "d": 1.515,
+     "v": "n",
+     "text": "His heart had stopped."
+    },
+    {
+     "t": 50.852,
+     "d": 2.581,
+     "v": "n",
+     "text": "The clock read eleven fifty-eight P.M.,"
+    },
+    {
+     "t": 53.733,
+     "d": 2.027,
+     "v": "n",
+     "text": "and the date was twelve years ago."
+    }
+   ]
+  },
+  {
+   "name": "truth",
+   "start": 56.36,
+   "end": 66.265,
+   "lines": [
+    {
+     "t": 56.36,
+     "d": 1.92,
+     "v": "n",
+     "text": "Suddenly, everything made sense."
+    },
+    {
+     "t": 58.63,
+     "d": 2.091,
+     "v": "n",
+     "text": "He never survived the accident."
+    },
+    {
+     "t": 61.021,
+     "d": 2.368,
+     "v": "n",
+     "text": "His father died trying to save him."
+    },
+    {
+     "t": 63.739,
+     "d": 2.027,
+     "v": "n",
+     "text": "The letters were trying to bring him back."
+    }
+   ]
+  },
+  {
+   "name": "beep",
+   "start": 66.265,
+   "end": 75.915,
+   "lines": [
+    {
+     "t": 66.265,
+     "d": 2.795,
+     "v": "n",
+     "text": "Then the hospital machine began beeping again."
+    },
+    {
+     "t": 69.46,
+     "d": 1.813,
+     "v": "n",
+     "text": "And somewhere in the real world,"
+    },
+    {
+     "t": 71.523,
+     "d": 1.792,
+     "v": "n",
+     "text": "his fingers had just moved."
+    }
+   ]
+  }
+ ]
+}
