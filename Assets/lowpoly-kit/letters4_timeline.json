@@ -1,0 +1,265 @@
+{
+ "duration": 69.327,
+ "shots": [
+  [
+   0.8,
+   10.292,
+   "hosp"
+  ],
+  [
+   10.292,
+   16.185,
+   "storm"
+  ],
+  [
+   16.185,
+   21.87,
+   "rescue"
+  ],
+  [
+   21.87,
+   30.289,
+   "memories"
+  ],
+  [
+   30.289,
+   38.351,
+   "final"
+  ],
+  [
+   38.351,
+   48.107,
+   "collapse"
+  ],
+  [
+   48.107,
+   55.657,
+   "goodbye"
+  ],
+  [
+   55.657,
+   69.327,
+   "wake"
+  ]
+ ],
+ "segments": [
+  {
+   "name": "hosp",
+   "start": 0.8,
+   "end": 10.292,
+   "lines": [
+    {
+     "t": 0.8,
+     "d": 3.264,
+     "v": "n",
+     "text": "For twelve years, he had lain between life and death."
+    },
+    {
+     "t": 4.414,
+     "d": 2.069,
+     "v": "n",
+     "text": "His mother never stopped visiting."
+    },
+    {
+     "t": 6.883,
+     "d": 2.859,
+     "v": "n",
+     "text": "But tonight, his heart had started beating again."
+    }
+   ]
+  },
+  {
+   "name": "storm",
+   "start": 10.292,
+   "end": 16.185,
+   "lines": [
+    {
+     "t": 10.292,
+     "d": 2.581,
+     "v": "n",
+     "text": "The basement began showing what he had forgotten."
+    },
+    {
+     "t": 13.173,
+     "d": 1.323,
+     "v": "n",
+     "text": "A stormy night."
+    },
+    {
+     "t": 14.796,
+     "d": 0.939,
+     "v": "n",
+     "text": "The crash."
+    }
+   ]
+  },
+  {
+   "name": "rescue",
+   "start": 16.185,
+   "end": 21.87,
+   "lines": [
+    {
+     "t": 16.185,
+     "d": 2.987,
+     "v": "n",
+     "text": "His father pulled him out before the car caught fire,"
+    },
+    {
+     "t": 19.421,
+     "d": 1.899,
+     "v": "n",
+     "text": "but never made it out himself."
+    }
+   ]
+  },
+  {
+   "name": "memories",
+   "start": 21.87,
+   "end": 30.289,
+   "lines": [
+    {
+     "t": 21.87,
+     "d": 2.091,
+     "v": "n",
+     "text": "Every letter held a buried memory."
+    },
+    {
+     "t": 24.261,
+     "d": 1.429,
+     "v": "n",
+     "text": "His first birthday."
+    },
+    {
+     "t": 25.99,
+     "d": 1.579,
+     "v": "n",
+     "text": "His first day at school."
+    },
+    {
+     "t": 27.869,
+     "d": 1.92,
+     "v": "n",
+     "text": "His father's final embrace."
+    }
+   ]
+  },
+  {
+   "name": "final",
+   "start": 30.289,
+   "end": 38.351,
+   "lines": [
+    {
+     "t": 30.289,
+     "d": 3.285,
+     "v": "n",
+     "text": "The last one showed his mother, asleep beside his bed."
+    },
+    {
+     "t": 33.874,
+     "d": 1.045,
+     "v": "n",
+     "text": "On the back:"
+    },
+    {
+     "t": 35.169,
+     "d": 2.581,
+     "v": "w",
+     "text": "She has one night left to say goodbye."
+    }
+   ]
+  },
+  {
+   "name": "collapse",
+   "start": 38.351,
+   "end": 48.107,
+   "lines": [
+    {
+     "t": 38.351,
+     "d": 1.984,
+     "v": "n",
+     "text": "Then the basement began collapsing."
+    },
+    {
+     "t": 40.635,
+     "d": 2.389,
+     "v": "n",
+     "text": "His father pointed to a glowing doorway."
+    },
+    {
+     "t": 43.374,
+     "d": 2.347,
+     "v": "n",
+     "text": "He was never pulling his son into the past."
+    },
+    {
+     "t": 46.021,
+     "d": 1.536,
+     "v": "n",
+     "text": "He was sending him back."
+    }
+   ]
+  },
+  {
+   "name": "goodbye",
+   "start": 48.107,
+   "end": 55.657,
+   "lines": [
+    {
+     "t": 48.107,
+     "d": 1.707,
+     "v": "n",
+     "text": "The boy stepped into the light."
+    },
+    {
+     "t": 50.113,
+     "d": 2.496,
+     "v": "n",
+     "text": "Behind him, his father faded away."
+    },
+    {
+     "t": 52.909,
+     "d": 2.197,
+     "v": "n",
+     "text": "The silver watch fell to the floor."
+    }
+   ]
+  },
+  {
+   "name": "wake",
+   "start": 55.657,
+   "end": 69.327,
+   "lines": [
+    {
+     "t": 55.657,
+     "d": 3.157,
+     "v": "n",
+     "text": "In the hospital, the monitor showed a steady heartbeat."
+    },
+    {
+     "t": 59.114,
+     "d": 1.195,
+     "v": "n",
+     "text": "His mother woke."
+    },
+    {
+     "t": 60.609,
+     "d": 1.408,
+     "v": "n",
+     "text": "His eyes opened."
+    },
+    {
+     "t": 62.467,
+     "d": 2.539,
+     "v": "n",
+     "text": "And on the windowsill lay a new envelope,"
+    },
+    {
+     "t": 65.255,
+     "d": 1.472,
+     "v": "n",
+     "text": "addressed to his mother."
+    }
+   ]
+  }
+ ]
+}
