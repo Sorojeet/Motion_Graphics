@@ -1,0 +1,165 @@
+{
+ "duration": 77.25,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 6.49,
+   "num": "\u00d72",
+   "unit": "SIZE",
+   "caption": "Earth doubles",
+   "fact": "SAME DENSITY \u00b7 MASS \u00d78",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.325,
+     "text": "What if Earth suddenly doubled in size?"
+    },
+    {
+     "t": 2.875,
+     "d": 3.115,
+     "text": "Same rock, same density, but eight times the mass."
+    }
+   ]
+  },
+  {
+   "start": 6.49,
+   "end": 17.665,
+   "num": "2",
+   "unit": "g",
+   "caption": "Twice as heavy",
+   "fact": "SURFACE GRAVITY \u00d72",
+   "lines": [
+    {
+     "t": 6.49,
+     "d": 5.696,
+     "text": "Instantly, gravity doubles. A seventy kilo athlete now carries a hundred and forty."
+    },
+    {
+     "t": 12.386,
+     "d": 4.779,
+     "text": "Sprinters crumple off the blocks, and the high jumper can barely leave the ground."
+    }
+   ]
+  },
+  {
+   "start": 17.665,
+   "end": 25.149,
+   "num": "\u00d72",
+   "unit": "WEIGHT",
+   "caption": "Things fall",
+   "fact": "TREES TOPPLE",
+   "lines": [
+    {
+     "t": 17.665,
+     "d": 2.261,
+     "text": "Tall trees topple under their own weight."
+    },
+    {
+     "t": 20.126,
+     "d": 4.523,
+     "text": "And any animal bigger than a dog risks breaking a leg just by running."
+    }
+   ]
+  },
+  {
+   "start": 25.149,
+   "end": 36.857,
+   "num": "32\u00d7",
+   "unit": "SLOWER SPIN",
+   "caption": "A month-long day",
+   "fact": "ANGULAR MOMENTUM CONSERVED",
+   "lines": [
+    {
+     "t": 25.149,
+     "d": 5.461,
+     "text": "A bigger Earth also spins thirty two times slower, so one day lasts more than a month."
+    },
+    {
+     "t": 30.81,
+     "d": 5.547,
+     "text": "One side bakes for weeks while the other freezes, whipping up storms that flatten buildings."
+    }
+   ]
+  },
+  {
+   "start": 36.857,
+   "end": 45.279,
+   "num": "\u00d72",
+   "unit": "AIR PRESSURE",
+   "caption": "Thick air",
+   "fact": "STILL BREATHABLE",
+   "lines": [
+    {
+     "t": 36.857,
+     "d": 2.88,
+     "text": "The air is twice as dense, but still breathable."
+    },
+    {
+     "t": 39.937,
+     "d": 4.843,
+     "text": "Flying gets easier, but landing is brutal, so birds touch down on water."
+    }
+   ]
+  },
+  {
+   "start": 45.279,
+   "end": 56.881,
+   "num": "100s",
+   "unit": "NEW VOLCANOES",
+   "caption": "Fire below",
+   "fact": "MORE HEAT INSIDE",
+   "lines": [
+    {
+     "t": 45.279,
+     "d": 5.077,
+     "text": "A bigger planet traps more heat inside, and hundreds of new volcanoes erupt."
+    },
+    {
+     "t": 50.557,
+     "d": 5.824,
+     "text": "Their gases could trigger a runaway greenhouse, and the biggest extinction Earth has ever seen."
+    }
+   ]
+  },
+  {
+   "start": 56.881,
+   "end": 67.757,
+   "num": "1000s",
+   "unit": "GENERATIONS",
+   "caption": "Life adapts",
+   "fact": "LOW \u00b7 WIDE \u00b7 STRONG",
+   "lines": [
+    {
+     "t": 56.881,
+     "d": 1.451,
+     "text": "But life is stubborn."
+    },
+    {
+     "t": 58.531,
+     "d": 8.725,
+     "text": "Over thousands of generations, survivors grow low and wide. Sturdy plants, thick-legged animals, and shorter, stronger people."
+    }
+   ]
+  },
+  {
+   "start": 67.757,
+   "end": 74.75,
+   "num": "",
+   "unit": "",
+   "caption": "A new normal",
+   "fact": "",
+   "lines": [
+    {
+     "t": 67.757,
+     "d": 4.224,
+     "text": "The stadium fills again, with athletes who never knew the old world."
+    },
+    {
+     "t": 72.181,
+     "d": 2.069,
+     "text": "So, would you survive the first day?"
+    }
+   ]
+  }
+ ]
+}
