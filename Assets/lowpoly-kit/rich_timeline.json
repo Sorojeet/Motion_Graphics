@@ -1,0 +1,165 @@
+{
+ "duration": 77.997,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 8.517,
+   "num": "$1M",
+   "unit": "EACH",
+   "caption": "Everyone is rich",
+   "fact": "8 BILLION MILLIONAIRES",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 3.243,
+     "text": "What if everyone on Earth woke up with a million dollars?"
+    },
+    {
+     "t": 3.793,
+     "d": 4.224,
+     "text": "Same street, same houses, but every bank account just exploded."
+    }
+   ]
+  },
+  {
+   "start": 8.517,
+   "end": 18.027,
+   "num": "0",
+   "unit": "NEW LOAVES",
+   "caption": "Nothing new was made",
+   "fact": "MONEY \u2260 STUFF",
+   "lines": [
+    {
+     "t": 8.517,
+     "d": 5.013,
+     "text": "Here's the catch. Money isn't wealth. It's a ticket to claim things people make."
+    },
+    {
+     "t": 13.73,
+     "d": 3.797,
+     "text": "And overnight, nobody baked a single extra loaf of bread."
+    }
+   ]
+  },
+  {
+   "start": 18.027,
+   "end": 25.447,
+   "num": "100%",
+   "unit": "SOLD OUT",
+   "caption": "The spending spree",
+   "fact": "DEMAND SURGES",
+   "lines": [
+    {
+     "t": 18.027,
+     "d": 4.736,
+     "text": "So everyone goes shopping. New cars, new TVs, takeaway every night."
+    },
+    {
+     "t": 22.963,
+     "d": 1.984,
+     "text": "The shelves are empty by lunch."
+    }
+   ]
+  },
+  {
+   "start": 25.447,
+   "end": 34.425,
+   "num": "$50",
+   "unit": "A COFFEE",
+   "caption": "Prices explode",
+   "fact": "MORE MONEY \u00b7 SAME GOODS",
+   "lines": [
+    {
+     "t": 25.447,
+     "d": 4.416,
+     "text": "Too much money is chasing too few goods, so shops raise their prices."
+    },
+    {
+     "t": 30.063,
+     "d": 3.861,
+     "text": "A coffee costs five dollars, then fifty, then five hundred."
+    }
+   ]
+  },
+  {
+   "start": 34.425,
+   "end": 41.525,
+   "num": "0",
+   "unit": "WORKERS",
+   "caption": "Nobody shows up",
+   "fact": "WHY WORK?",
+   "lines": [
+    {
+     "t": 34.425,
+     "d": 4.629,
+     "text": "Then the barista quits. So does the bus driver, the farmer and the plumber."
+    },
+    {
+     "t": 39.254,
+     "d": 1.771,
+     "text": "Why work, when you're a millionaire?"
+    }
+   ]
+  },
+  {
+   "start": 41.525,
+   "end": 51.483,
+   "num": "79.6B%",
+   "unit": "IN ONE MONTH",
+   "caption": "Money melts",
+   "fact": "ZIMBABWE \u00b7 NOV 2008",
+   "lines": [
+    {
+     "t": 41.525,
+     "d": 3.669,
+     "text": "Fewer workers means even less stuff, and prices spiral."
+    },
+    {
+     "t": 45.394,
+     "d": 5.589,
+     "text": "When Zimbabwe printed money, prices rose seventy nine billion percent in a single month."
+    }
+   ]
+  },
+  {
+   "start": 51.483,
+   "end": 65.239,
+   "num": "0.1%",
+   "unit": "PRICE RISE",
+   "caption": "Cash can work",
+   "fact": "KENYA CASH STUDY \u00b7 2022",
+   "lines": [
+    {
+     "t": 51.483,
+     "d": 9.941,
+     "text": "But money given to some people can work. In Kenya, cash gifts to poor villages boosted spending, while prices rose only about a tenth of a percent."
+    },
+    {
+     "t": 61.625,
+     "d": 3.115,
+     "text": "Because local businesses grew to meet the new demand."
+    }
+   ]
+  },
+  {
+   "start": 65.239,
+   "end": 75.497,
+   "num": "REAL",
+   "unit": "WEALTH",
+   "caption": "What makes us rich",
+   "fact": "WORK \u00b7 TOOLS \u00b7 IDEAS",
+   "lines": [
+    {
+     "t": 65.239,
+     "d": 4.608,
+     "text": "Real wealth isn't paper. It's farms, factories, skills and ideas."
+    },
+    {
+     "t": 70.047,
+     "d": 4.949,
+     "text": "Everyone can get richer, but only by making more. So, what would you buy first?"
+    }
+   ]
+  }
+ ]
+}
