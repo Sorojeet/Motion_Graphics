@@ -1,0 +1,165 @@
+{
+ "duration": 79.17,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 8.687,
+   "num": "1000",
+   "unit": "YEARS ASLEEP",
+   "caption": "You wake up",
+   "fact": "YEAR 3026",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.773,
+     "text": "What if you woke up a thousand years in the future?"
+    },
+    {
+     "t": 3.323,
+     "d": 4.864,
+     "text": "The pod hisses open. The lab is silent, and nobody is waiting for you."
+    }
+   ]
+  },
+  {
+   "start": 8.687,
+   "end": 16.769,
+   "num": "0",
+   "unit": "STRENGTH",
+   "caption": "Legs give way",
+   "fact": "UNUSED MUSCLES WASTE AWAY",
+   "lines": [
+    {
+     "t": 8.687,
+     "d": 2.581,
+     "text": "You try to stand, and your legs give way."
+    },
+    {
+     "t": 11.469,
+     "d": 4.8,
+     "text": "Unused muscles waste away, so your first battle is just reaching the door."
+    }
+   ]
+  },
+  {
+   "start": 16.769,
+   "end": 28.306,
+   "num": "???",
+   "unit": "LANGUAGE",
+   "caption": "Lost for words",
+   "fact": "1000 YEARS CHANGES A LANGUAGE",
+   "lines": [
+    {
+     "t": 16.769,
+     "d": 4.565,
+     "text": "Outside, a drone asks you something. You don't understand a single word."
+    },
+    {
+     "t": 21.534,
+     "d": 6.272,
+     "text": "The English of a thousand years ago is unreadable to us today. Now you're the one from the past."
+    }
+   ]
+  },
+  {
+   "start": 28.306,
+   "end": 37.987,
+   "num": "0",
+   "unit": "ID \u00b7 MONEY",
+   "caption": "You don't exist",
+   "fact": "NO RECORD \u00b7 NO ACCOUNT",
+   "lines": [
+    {
+     "t": 28.306,
+     "d": 4.885,
+     "text": "Doors won't open for you. A food kiosk scans your face, and finds nothing."
+    },
+    {
+     "t": 33.391,
+     "d": 4.096,
+     "text": "No identity, no money, no record that you were ever born."
+    }
+   ]
+  },
+  {
+   "start": 37.987,
+   "end": 48.927,
+   "num": "1000",
+   "unit": "YEARS OF GERMS",
+   "caption": "A dangerous cough",
+   "fact": "GERMS KEEP EVOLVING",
+   "lines": [
+    {
+     "t": 37.987,
+     "d": 4.352,
+     "text": "Then you start to cough. Germs have kept evolving for a thousand years."
+    },
+    {
+     "t": 42.539,
+     "d": 5.888,
+     "text": "Your immune system has never met them, and your old germs could be just as dangerous to them."
+    }
+   ]
+  },
+  {
+   "start": 48.927,
+   "end": 59.441,
+   "num": "1",
+   "unit": "NIGHT ALONE",
+   "caption": "Survive the night",
+   "fact": "NO SHELTER",
+   "lines": [
+    {
+     "t": 48.927,
+     "d": 5.013,
+     "text": "Night falls. You curl up under a bridge, as silent trains glide overhead."
+    },
+    {
+     "t": 54.141,
+     "d": 4.8,
+     "text": "Everything is cleaner, faster and brighter, and you have never felt more lost."
+    }
+   ]
+  },
+  {
+   "start": 59.441,
+   "end": 69.783,
+   "num": "1",
+   "unit": "STRANGER",
+   "caption": "A helping hand",
+   "fact": "TRANSLATED IN REAL TIME",
+   "lines": [
+    {
+     "t": 59.441,
+     "d": 4.715,
+     "text": "At dawn, a stranger stops. Her earpiece translates your ancient words."
+    },
+    {
+     "t": 64.355,
+     "d": 4.928,
+     "text": "She takes you to a clinic, and for the first time, someone says your name back to you."
+    }
+   ]
+  },
+  {
+   "start": 69.783,
+   "end": 76.67,
+   "num": "YOU",
+   "unit": "ARE HISTORY",
+   "caption": "A living fossil",
+   "fact": "THE PAST HAS A VOICE",
+   "lines": [
+    {
+     "t": 69.783,
+     "d": 2.112,
+     "text": "To them, you're a living history book."
+    },
+    {
+     "t": 72.095,
+     "d": 4.075,
+     "text": "So, would you rather wake up in the future, or never wake up at all?"
+    }
+   ]
+  }
+ ]
+}
