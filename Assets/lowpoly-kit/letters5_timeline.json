@@ -1,0 +1,241 @@
+{
+ "duration": 74.688,
+ "shots": [
+  [
+   0.8,
+   9.714,
+   "envelope"
+  ],
+  [
+   9.714,
+   19.589,
+   "photos"
+  ],
+  [
+   19.589,
+   27.529,
+   "message"
+  ],
+  [
+   27.529,
+   32.055,
+   "memory"
+  ],
+  [
+   32.055,
+   46.734,
+   "watch"
+  ],
+  [
+   46.734,
+   53.324,
+   "home"
+  ],
+  [
+   53.324,
+   66.629,
+   "years"
+  ],
+  [
+   66.629,
+   74.688,
+   "end"
+  ]
+ ],
+ "segments": [
+  {
+   "name": "envelope",
+   "start": 0.8,
+   "end": 9.714,
+   "lines": [
+    {
+     "t": 0.8,
+     "d": 3.2,
+     "v": "n",
+     "text": "After twelve years, the boy had opened his eyes."
+    },
+    {
+     "t": 4.35,
+     "d": 4.864,
+     "v": "n",
+     "text": "By the window lay an envelope, addressed to his mother, in her husband's handwriting."
+    }
+   ]
+  },
+  {
+   "name": "photos",
+   "start": 9.714,
+   "end": 19.589,
+   "lines": [
+    {
+     "t": 9.714,
+     "d": 3.691,
+     "v": "n",
+     "text": "Inside was a photograph from the day their son was born."
+    },
+    {
+     "t": 13.755,
+     "d": 1.771,
+     "v": "n",
+     "text": "Behind it, a second one."
+    },
+    {
+     "t": 15.825,
+     "d": 3.264,
+     "v": "n",
+     "text": "This same hospital room. The same bed. Empty."
+    }
+   ]
+  },
+  {
+   "name": "message",
+   "start": 19.589,
+   "end": 27.529,
+   "lines": [
+    {
+     "t": 19.589,
+     "d": 1.877,
+     "v": "n",
+     "text": "On the back, a final message."
+    },
+    {
+     "t": 21.767,
+     "d": 5.163,
+     "v": "w",
+     "text": "The boy has returned. But the world has not finished collecting what it is owed."
+    }
+   ]
+  },
+  {
+   "name": "memory",
+   "start": 27.529,
+   "end": 32.055,
+   "lines": [
+    {
+     "t": 27.529,
+     "d": 3.925,
+     "v": "n",
+     "text": "Before the accident, he had promised their son would live a full life."
+    }
+   ]
+  },
+  {
+   "name": "watch",
+   "start": 32.055,
+   "end": 46.734,
+   "lines": [
+    {
+     "t": 32.055,
+     "d": 2.261,
+     "v": "n",
+     "text": "The boy picked up his father's wristwatch."
+    },
+    {
+     "t": 34.616,
+     "d": 2.539,
+     "v": "n",
+     "text": "For the first time, it started ticking again."
+    },
+    {
+     "t": 37.505,
+     "d": 1.877,
+     "v": "n",
+     "text": "Inside, a hidden photograph."
+    },
+    {
+     "t": 39.632,
+     "d": 2.027,
+     "v": "n",
+     "text": "His father, outside their home."
+    },
+    {
+     "t": 41.959,
+     "d": 1.045,
+     "v": "n",
+     "text": "On the back:"
+    },
+    {
+     "t": 43.254,
+     "d": 2.88,
+     "v": "w",
+     "text": "The future belongs to those who keep living."
+    }
+   ]
+  },
+  {
+   "name": "home",
+   "start": 46.734,
+   "end": 53.324,
+   "lines": [
+    {
+     "t": 46.734,
+     "d": 1.813,
+     "v": "n",
+     "text": "Weeks later, they went home."
+    },
+    {
+     "t": 48.847,
+     "d": 1.707,
+     "v": "n",
+     "text": "The basement door was gone."
+    },
+    {
+     "t": 50.854,
+     "d": 1.92,
+     "v": "n",
+     "text": "And no more letters ever came."
+    }
+   ]
+  },
+  {
+   "name": "years",
+   "start": 53.324,
+   "end": 66.629,
+   "lines": [
+    {
+     "t": 53.324,
+     "d": 1.195,
+     "v": "n",
+     "text": "Years passed."
+    },
+    {
+     "t": 54.819,
+     "d": 4.523,
+     "v": "n",
+     "text": "He grew older, built a family, and lived the life his father wanted for him."
+    },
+    {
+     "t": 59.691,
+     "d": 4.501,
+     "v": "n",
+     "text": "On his thirtieth birthday, he found a tiny engraving inside the watch."
+    },
+    {
+     "t": 64.543,
+     "d": 1.387,
+     "v": "w",
+     "text": "Keep living, son."
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 66.629,
+   "end": 74.688,
+   "lines": [
+    {
+     "t": 66.629,
+     "d": 1.771,
+     "v": "n",
+     "text": "Some people leave this world."
+    },
+    {
+     "t": 68.8,
+     "d": 2.688,
+     "v": "n",
+     "text": "But their love never learns how to disappear."
+    }
+   ]
+  }
+ ]
+}
