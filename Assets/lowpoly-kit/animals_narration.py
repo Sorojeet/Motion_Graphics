@@ -5,18 +5,19 @@ from pathlib import Path
 import numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 here=Path(__file__).resolve().parent; K=here.parent/'voices/kokoro'; VOICE=sys.argv[1] if len(sys.argv)>1 else 'am_michael'
-# Sources: Klein et al. 2007, Proc. R. Soc. B (87 of 115 leading crops benefit from animal pollination; 60% of production volume
-# comes from crops that don't depend on animal pollinators, e.g. wind-pollinated wheat, rice, maize);
-# FAO SOFIA (fish provide ~3.3 billion people with ~20% of their animal protein); fungi and bacteria are not animals and keep decomposing;
-# hand pollination of apple and pear orchards in Sichuan, China.
-SEG=[('0','ANIMALS LEFT','Silent morning','ONLY HUMANS REMAIN',["What if every animal on Earth vanished, except us?","No birdsong at dawn. The barn is empty, and the fields are perfectly still."]),
+# Scenario: every vertebrate (mammals, birds, fish, reptiles, amphibians) vanishes; insects stay.
+# Sources: FAO / Knowledge4Policy (fish give ~3.3 billion people ~20% of animal protein);
+# Nyffeler et al. 2018, Science of Nature (insectivorous birds eat 400-500 million tonnes of insects/arthropods a year, likely the lower end);
+# Boyles et al. 2011, Science (bats' pest control worth more than $3.7 billion a year to US agriculture);
+# STRI / Yale, Estrada-Villegas et al. 2022 (over 80% of tropical tree species can be dispersed by animals).
+SEG=[('0','ANIMALS LEFT','Silent morning','INSECTS STAY · ANIMALS GO',["What if every mammal, bird, fish and reptile vanished, but insects stayed?","No birdsong at dawn. The barn is empty, and the fields are perfectly still."]),
 ('0','MEAT · MILK · EGGS','The empty barn','LIVESTOCK GONE',["On day one, breakfast changes. No eggs, no milk, no meat.","Every cow, chicken and pig on the planet is simply gone."]),
 ('3.3B','PEOPLE','The empty lake','FISH GIVE THEM 20% OF ANIMAL PROTEIN',["Fishing boats come back with empty nets.","More than three billion people get a fifth of their animal protein from fish. Now there's none."]),
-('87','OF 115 CROPS','Flowers wait','BENEFIT FROM ANIMAL POLLINATORS',["Then spring comes, and the flowers wait for bees that never arrive.","Most of our leading crops rely on animals to carry their pollen."]),
-('0','FRUIT','Empty orchards','APPLES · ALMONDS · COFFEE · COCOA',["The orchards bloom, but no fruit forms. Apples, almonds, coffee and cocoa start to disappear.","Prices soar, and diets shrink to bread and rice."]),
-('60%','STILL GROWS','The wind still works','WHEAT · RICE · MAIZE',["But we won't starve completely. Wheat, rice and corn are pollinated by the wind.","And fungi and bacteria aren't animals, so dead leaves still rot back into soil."]),
-('BY HAND','POLLINATION','Humans become bees','DONE IN SOME ORCHARDS IN CHINA',["So people climb ladders with brushes, pollinating flowers by hand, as some farmers in China already do.","It's slow, expensive work, on billions of trees."]),
-('ALONE','ON EARTH','A lonely planet','NATURE IS NOT OPTIONAL',["We'd survive, hungrier and poorer, on a far quieter planet.","But would it still feel like home? Which animal would you miss the most?"])]
+('BEES','STILL HERE','Insects remain','MOST CROPS STILL POLLINATED',["Spring comes, and the bees are still buzzing, so most crops still get pollinated.","But everything that used to eat insects is gone."]),
+('400M','TONNES','Nobody eats the bugs','INSECTS EATEN BY BIRDS EACH YEAR',["Birds alone eat around four hundred million tonnes of insects every year.","Without birds, bats, frogs and lizards, insect numbers explode."]),
+('$3.7B+','A YEAR','Pests take over','BATS\' PEST CONTROL · US FARMS',["Caterpillars strip the orchards, and swarms chew through the crops.","In the US alone, bats save farmers billions of dollars a year in pest control. Now that help is gone."]),
+('80%','TROPICAL TREES','Humans fight back','SEEDS SPREAD BY ANIMALS',["So farmers fight back with nets and sprays, doing the work that birds did for free.","And forests slowly change, because most tropical trees rely on animals to spread their seeds."]),
+('ALONE','WITH BUGS','A lonely planet','NATURE IS NOT OPTIONAL',["We'd survive, hungrier and itchier, on a planet ruled by insects.","Which animal would you miss the most?"])]
 k=Kokoro(str(K/'models/kokoro-v1.0.onnx'),str(K/'voices-michael-bella.npz')); sr=24000; P=[np.zeros(int(.35*sr),'float32')]; t=.35; out=[]
 for n_,u_,cap,fact,ss in SEG:
     st=t; L=[]

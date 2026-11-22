@@ -1,163 +1,163 @@
 {
- "duration": 80.258,
+ "duration": 80.365,
  "segments": [
   {
    "start": 0.35,
-   "end": 9.327,
+   "end": 10.735,
    "num": "0",
    "unit": "ANIMALS LEFT",
    "caption": "Silent morning",
-   "fact": "ONLY HUMANS REMAIN",
+   "fact": "INSECTS STAY \u00b7 ANIMALS GO",
    "lines": [
     {
      "t": 0.35,
-     "d": 3.179,
-     "text": "What if every animal on Earth vanished, except us?"
+     "d": 4.587,
+     "text": "What if every mammal, bird, fish and reptile vanished, but insects stayed?"
     },
     {
-     "t": 3.729,
+     "t": 5.137,
      "d": 5.099,
      "text": "No birdsong at dawn. The barn is empty, and the fields are perfectly still."
     }
    ]
   },
   {
-   "start": 9.327,
-   "end": 17.686,
+   "start": 10.735,
+   "end": 19.094,
    "num": "0",
    "unit": "MEAT \u00b7 MILK \u00b7 EGGS",
    "caption": "The empty barn",
    "fact": "LIVESTOCK GONE",
    "lines": [
     {
-     "t": 9.327,
+     "t": 10.735,
      "d": 4.096,
      "text": "On day one, breakfast changes. No eggs, no milk, no meat."
     },
     {
-     "t": 13.623,
+     "t": 15.031,
      "d": 3.563,
      "text": "Every cow, chicken and pig on the planet is simply gone."
     }
    ]
   },
   {
-   "start": 17.686,
-   "end": 26.941,
+   "start": 19.094,
+   "end": 28.349,
    "num": "3.3B",
    "unit": "PEOPLE",
    "caption": "The empty lake",
    "fact": "FISH GIVE THEM 20% OF ANIMAL PROTEIN",
    "lines": [
     {
-     "t": 17.686,
+     "t": 19.094,
      "d": 2.389,
      "text": "Fishing boats come back with empty nets."
     },
     {
-     "t": 20.275,
+     "t": 21.683,
      "d": 6.165,
      "text": "More than three billion people get a fifth of their animal protein from fish. Now there's none."
     }
    ]
   },
   {
-   "start": 26.941,
-   "end": 35.939,
-   "num": "87",
-   "unit": "OF 115 CROPS",
-   "caption": "Flowers wait",
-   "fact": "BENEFIT FROM ANIMAL POLLINATORS",
+   "start": 28.349,
+   "end": 37.006,
+   "num": "BEES",
+   "unit": "STILL HERE",
+   "caption": "Insects remain",
+   "fact": "MOST CROPS STILL POLLINATED",
    "lines": [
     {
-     "t": 26.941,
-     "d": 4.245,
-     "text": "Then spring comes, and the flowers wait for bees that never arrive."
+     "t": 28.349,
+     "d": 5.205,
+     "text": "Spring comes, and the bees are still buzzing, so most crops still get pollinated."
     },
     {
-     "t": 31.386,
-     "d": 4.053,
-     "text": "Most of our leading crops rely on animals to carry their pollen."
+     "t": 33.754,
+     "d": 2.752,
+     "text": "But everything that used to eat insects is gone."
     }
    ]
   },
   {
-   "start": 35.939,
-   "end": 46.325,
-   "num": "0",
-   "unit": "FRUIT",
-   "caption": "Empty orchards",
-   "fact": "APPLES \u00b7 ALMONDS \u00b7 COFFEE \u00b7 COCOA",
+   "start": 37.006,
+   "end": 46.794,
+   "num": "400M",
+   "unit": "TONNES",
+   "caption": "Nobody eats the bugs",
+   "fact": "INSECTS EATEN BY BIRDS EACH YEAR",
    "lines": [
     {
-     "t": 35.939,
-     "d": 6.592,
-     "text": "The orchards bloom, but no fruit forms. Apples, almonds, coffee and cocoa start to disappear."
+     "t": 37.006,
+     "d": 4.629,
+     "text": "Birds alone eat around four hundred million tonnes of insects every year."
     },
     {
-     "t": 42.731,
-     "d": 3.093,
-     "text": "Prices soar, and diets shrink to bread and rice."
+     "t": 41.835,
+     "d": 4.459,
+     "text": "Without birds, bats, frogs and lizards, insect numbers explode."
     }
    ]
   },
   {
-   "start": 46.325,
-   "end": 57.713,
-   "num": "60%",
-   "unit": "STILL GROWS",
-   "caption": "The wind still works",
-   "fact": "WHEAT \u00b7 RICE \u00b7 MAIZE",
+   "start": 46.794,
+   "end": 58.545,
+   "num": "$3.7B+",
+   "unit": "A YEAR",
+   "caption": "Pests take over",
+   "fact": "BATS' PEST CONTROL \u00b7 US FARMS",
    "lines": [
     {
-     "t": 46.325,
-     "d": 5.376,
-     "text": "But we won't starve completely. Wheat, rice and corn are pollinated by the wind."
+     "t": 46.794,
+     "d": 3.861,
+     "text": "Caterpillars strip the orchards, and swarms chew through the crops."
     },
     {
-     "t": 51.901,
-     "d": 5.312,
-     "text": "And fungi and bacteria aren't animals, so dead leaves still rot back into soil."
+     "t": 50.855,
+     "d": 7.189,
+     "text": "In the US alone, bats save farmers billions of dollars a year in pest control. Now that help is gone."
     }
    ]
   },
   {
-   "start": 57.713,
-   "end": 69.207,
-   "num": "BY HAND",
-   "unit": "POLLINATION",
-   "caption": "Humans become bees",
-   "fact": "DONE IN SOME ORCHARDS IN CHINA",
+   "start": 58.545,
+   "end": 70.743,
+   "num": "80%",
+   "unit": "TROPICAL TREES",
+   "caption": "Humans fight back",
+   "fact": "SEEDS SPREAD BY ANIMALS",
    "lines": [
     {
-     "t": 57.713,
-     "d": 7.424,
-     "text": "So people climb ladders with brushes, pollinating flowers by hand, as some farmers in China already do."
+     "t": 58.545,
+     "d": 5.163,
+     "text": "So farmers fight back with nets and sprays, doing the work that birds did for free."
     },
     {
-     "t": 65.337,
-     "d": 3.371,
-     "text": "It's slow, expensive work, on billions of trees."
+     "t": 63.907,
+     "d": 6.336,
+     "text": "And forests slowly change, because most tropical trees rely on animals to spread their seeds."
     }
    ]
   },
   {
-   "start": 69.207,
-   "end": 77.758,
+   "start": 70.743,
+   "end": 77.865,
    "num": "ALONE",
-   "unit": "ON EARTH",
+   "unit": "WITH BUGS",
    "caption": "A lonely planet",
    "fact": "NATURE IS NOT OPTIONAL",
    "lines": [
     {
-     "t": 69.207,
-     "d": 3.819,
-     "text": "We'd survive, hungrier and poorer, on a far quieter planet."
+     "t": 70.743,
+     "d": 4.267,
+     "text": "We'd survive, hungrier and itchier, on a planet ruled by insects."
     },
     {
-     "t": 73.226,
-     "d": 4.032,
-     "text": "But would it still feel like home? Which animal would you miss the most?"
+     "t": 75.21,
+     "d": 2.155,
+     "text": "Which animal would you miss the most?"
     }
    ]
   }
