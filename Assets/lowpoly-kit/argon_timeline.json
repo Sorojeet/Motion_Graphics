@@ -1,0 +1,165 @@
+{
+ "duration": 78.573,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 11.802,
+   "num": "78%",
+   "unit": "ARGON",
+   "caption": "Swap the air",
+   "fact": "N\u2082 \u2192 Ar",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 4.267,
+     "text": "What if every nitrogen molecule in the air was swapped for argon?"
+    },
+    {
+     "t": 4.817,
+     "d": 6.485,
+     "text": "At first, nothing seems to happen. Both gases are invisible, and your lungs mostly ignore them."
+    }
+   ]
+  },
+  {
+   "start": 11.802,
+   "end": 20.054,
+   "num": "+32%",
+   "unit": "AIR PRESSURE",
+   "caption": "Heavier sky",
+   "fact": "ARGON 40 VS NITROGEN 28",
+   "lines": [
+    {
+     "t": 11.802,
+     "d": 4.245,
+     "text": "But argon is heavier. The whole sky now weighs about a third more."
+    },
+    {
+     "t": 16.247,
+     "d": 3.307,
+     "text": "Air pressure jumps, and everyone's ears pop at once."
+    }
+   ]
+  },
+  {
+   "start": 20.054,
+   "end": 29.181,
+   "num": "2.3\u00d7",
+   "unit": "MORE NARCOTIC",
+   "caption": "A strange haze",
+   "fact": "ARGON VS NITROGEN",
+   "lines": [
+    {
+     "t": 20.054,
+     "d": 3.2,
+     "text": "Argon is also more narcotic than nitrogen."
+    },
+    {
+     "t": 23.454,
+     "d": 5.227,
+     "text": "At this pressure, some people feel slightly tipsy, like scuba divers going deep."
+    }
+   ]
+  },
+  {
+   "start": 29.181,
+   "end": 35.427,
+   "num": "\u22127%",
+   "unit": "SPEED OF SOUND",
+   "caption": "Deeper voices",
+   "fact": "HEAVIER GAS \u00b7 SLOWER SOUND",
+   "lines": [
+    {
+     "t": 29.181,
+     "d": 2.901,
+     "text": "Sound travels a little slower through the heavier air."
+    },
+    {
+     "t": 32.282,
+     "d": 2.645,
+     "text": "So voices and music sound a touch deeper."
+    }
+   ]
+  },
+  {
+   "start": 35.427,
+   "end": 45.109,
+   "num": "HOTTER",
+   "unit": "FLAMES",
+   "caption": "Fires burn hotter",
+   "fact": "ARGON SOAKS UP LESS HEAT",
+   "lines": [
+    {
+     "t": 35.427,
+     "d": 5.995,
+     "text": "Fires change too. Argon soaks up less heat than nitrogen, so flames burn hotter."
+    },
+    {
+     "t": 41.622,
+     "d": 2.987,
+     "text": "Stoves roar, and wildfires race up the hills."
+    }
+   ]
+  },
+  {
+   "start": 45.109,
+   "end": 56.369,
+   "num": "0",
+   "unit": "NEW NITROGEN",
+   "caption": "Plants starve",
+   "fact": "N BUILDS PROTEIN \u00b7 DNA",
+   "lines": [
+    {
+     "t": 45.109,
+     "d": 5.803,
+     "text": "Then the real problem. Every living thing needs nitrogen to build proteins and DNA."
+    },
+    {
+     "t": 51.111,
+     "d": 4.757,
+     "text": "Bacteria and lightning used to pull it from the air. Now there's nothing to pull."
+    }
+   ]
+  },
+  {
+   "start": 56.369,
+   "end": 65.666,
+   "num": "~50%",
+   "unit": "OF HUMANITY",
+   "caption": "Fertilizer fails",
+   "fact": "FED BY NITROGEN FERTILIZER",
+   "lines": [
+    {
+     "t": 56.369,
+     "d": 5.312,
+     "text": "Factories can't make fertilizer either, and fertilizer helps feed about half the world."
+    },
+    {
+     "t": 61.881,
+     "d": 3.285,
+     "text": "Year by year, the soil runs low, and harvests shrink."
+    }
+   ]
+  },
+  {
+   "start": 65.666,
+   "end": 76.073,
+   "num": "TRICKLE",
+   "unit": "OF N\u2082",
+   "caption": "A slow leak",
+   "fact": "SOIL BACTERIA RELEASE N\u2082",
+   "lines": [
+    {
+     "t": 65.666,
+     "d": 6.059,
+     "text": "Soil bacteria still breathe a little nitrogen back into the air, but it's a trickle against an ocean."
+    },
+    {
+     "t": 71.925,
+     "d": 3.648,
+     "text": "Would we survive on a planet with no nitrogen to spare?"
+    }
+   ]
+  }
+ ]
+}
