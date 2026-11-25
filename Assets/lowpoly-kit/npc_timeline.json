@@ -1,0 +1,165 @@
+{
+ "duration": 74.306,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 9.861,
+   "num": "NPC",
+   "unit": "#4127",
+   "caption": "Spawned",
+   "fact": "PEDESTRIAN \u00b7 NO NAME",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 3.584,
+     "text": "What if you woke up as a background character in a crime game?"
+    },
+    {
+     "t": 4.134,
+     "d": 5.227,
+     "text": "You blink into existence on a sidewalk, ten seconds before the player drives by."
+    }
+   ]
+  },
+  {
+   "start": 9.861,
+   "end": 17.579,
+   "num": "3",
+   "unit": "LINES",
+   "caption": "Your script",
+   "fact": "THAT'S ALL YOU CAN SAY",
+   "lines": [
+    {
+     "t": 9.861,
+     "d": 3.904,
+     "text": "You try to scream for help. Instead, you say: Nice weather today."
+    },
+    {
+     "t": 13.965,
+     "d": 3.115,
+     "text": "You only have three lines, and you'll say them forever."
+    }
+   ]
+  },
+  {
+   "start": 17.579,
+   "end": 26.215,
+   "num": "1",
+   "unit": "PATH",
+   "caption": "The loop",
+   "fact": "SIDEWALK \u00b7 CORNER \u00b7 BACK",
+   "lines": [
+    {
+     "t": 17.579,
+     "d": 4.416,
+     "text": "Your legs walk on their own. To the corner, turn around, and walk back."
+    },
+    {
+     "t": 22.195,
+     "d": 3.52,
+     "text": "You've passed this same hot dog stand four hundred times."
+    }
+   ]
+  },
+  {
+   "start": 26.215,
+   "end": 37.049,
+   "num": "\u2605\u2605\u2605",
+   "unit": "WANTED",
+   "caption": "The player arrives",
+   "fact": "CHAOS INCOMING",
+   "lines": [
+    {
+     "t": 26.215,
+     "d": 5.76,
+     "text": "Then the player shows up. Car horns, explosions, a stolen fire truck on the sidewalk."
+    },
+    {
+     "t": 32.175,
+     "d": 4.373,
+     "text": "Everyone runs in exactly the same direction, flailing their arms."
+    }
+   ]
+  },
+  {
+   "start": 37.049,
+   "end": 45.301,
+   "num": "0",
+   "unit": "HEALTH",
+   "caption": "Respawn",
+   "fact": "BACK IN 3\u2026 2\u2026 1\u2026",
+   "lines": [
+    {
+     "t": 37.049,
+     "d": 3.541,
+     "text": "A car clips you, and you go flying like a rag doll."
+    },
+    {
+     "t": 40.79,
+     "d": 4.011,
+     "text": "Then you blink, and you're back on the same sidewalk, like nothing happened."
+    }
+   ]
+  },
+  {
+   "start": 45.301,
+   "end": 56.731,
+   "num": "???",
+   "unit": "GLITCH",
+   "caption": "The edge of the map",
+   "fact": "OUT OF RENDER RANGE",
+   "lines": [
+    {
+     "t": 45.301,
+     "d": 5.013,
+     "text": "So you try to escape. You walk and walk, until the city stops loading behind you."
+    },
+    {
+     "t": 50.514,
+     "d": 5.717,
+     "text": "Past the edge of the map, there's nothing. Just grey fog, and a floating car with no driver."
+    }
+   ]
+  },
+  {
+   "start": 56.731,
+   "end": 64.77,
+   "num": "1",
+   "unit": "NEW LINE",
+   "caption": "Breaking the script",
+   "fact": "FREE_WILL.EXE",
+   "lines": [
+    {
+     "t": 56.731,
+     "d": 4.139,
+     "text": "You go back, and this time, when the player stops, you say something new."
+    },
+    {
+     "t": 61.07,
+     "d": 3.2,
+     "text": "Hey. Want a hot dog? And the whole game freezes."
+    }
+   ]
+  },
+  {
+   "start": 64.77,
+   "end": 71.806,
+   "num": "NPC",
+   "unit": "\u2192 YOU",
+   "caption": "Main character?",
+   "fact": "THE PLAYER IS WATCHING",
+   "lines": [
+    {
+     "t": 64.77,
+     "d": 2.923,
+     "text": "The player stares at you, and you stare right back."
+    },
+    {
+     "t": 67.893,
+     "d": 3.413,
+     "text": "So, if you were an NPC, what would your one line be?"
+    }
+   ]
+  }
+ ]
+}
