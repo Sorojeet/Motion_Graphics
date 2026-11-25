@@ -92,7 +92,7 @@ window.renderAt=t=>{ let k=SH.findIndex(s=>t<s[1]); if(k<0)k=NS-1; const T0=SH[k
  peds.forEach((q,i)=>{ const p=q.p; reset(p); const L=60; if(pedMode===1){ const x=((q.x0+9*tt)%L+L)%L-30; p.position.set(x,.2,q.z+(i%3)*.4); p.rotation.y=Math.PI/2; p.userData.pose(tt*12+i,.8); arms(p,-2.8+Math.sin(tt*20+i)*.5,-2.6+Math.cos(tt*18+i)*.5); mood(p,'shock'); }
   else { const x=((q.x0+q.dir*1.3*tt)%L+L)%L-30; p.position.set(x,.2,q.z); p.rotation.y=q.dir*Math.PI/2; p.userData.pose(tt*5+i,.35); mood(p,'calm'); if(pedMode===2&&freeze>0){ p.userData.pose(freeze*5+i,.35); } } p.visible=!inVoid&&p.position.distanceTo(V(cam.position.x,.2,cam.position.z))>(pedMode===1?3:1.6); });
  // ---- hands
- hands.visible=handsOn; const bob=walk?Math.sin(tt*6):0; hL.position.y=-.27+bob*.025; hR.position.y=-.27-bob*.025; hL.rotation.x=.35+bob*.15; hR.rotation.x=.35-bob*.15; if(k===6&&u>.4){ hR.position.set(.14,-.2,-.62); hR.rotation.set(.9,-.2,0); } else hR.position.set(.16,hR.position.y,-.62);
+ hands.visible=false; const bob=walk?Math.sin(tt*6):0; hL.position.y=-.27+bob*.025; hR.position.y=-.27-bob*.025; hL.rotation.x=.35+bob*.15; hR.rotation.x=.35-bob*.15; if(k===6&&u>.4){ hR.position.set(.14,-.2,-.62); hR.rotation.set(.9,-.2,0); } else hR.position.set(.16,hR.position.y,-.62);
  // ---- bubbles
  const fwd=V(0,0,-1).applyQuaternion(cam.quaternion), upv=V(0,1,0).applyQuaternion(cam.quaternion);
  lines.forEach((s,i)=>{ const on=(lineShow===i)||(lineShow===3); s.visible=on; if(on){ const yy=lineShow===3?(.5-i*.13):.48; s.position.copy(cam.position).add(fwd.clone().multiplyScalar(2.6)).add(upv.clone().multiplyScalar(yy*1.3)); s.quaternion.copy(cam.quaternion); s.scale.setScalar(lineShow===3?.85:1); } });
