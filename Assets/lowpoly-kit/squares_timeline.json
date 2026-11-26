@@ -1,5 +1,5 @@
 {
- "duration": 65.773,
+ "duration": 65.538,
  "segments": [
   {
    "start": 0.35,
@@ -43,119 +43,119 @@
   },
   {
    "start": 16.15,
-   "end": 24.551,
-   "num": "BUMP",
-   "unit": "BUMP",
-   "caption": "The bus ride",
-   "fact": "SQUARE WHEELS",
+   "end": 24.317,
+   "num": "TICK",
+   "unit": "TOCK",
+   "caption": "Telling time",
+   "fact": "SQUARE CLOCK",
    "lines": [
     {
      "t": 16.15,
-     "d": 4.16,
-     "text": "The bus has square wheels. Every few meters, the whole thing lurches."
+     "d": 4.267,
+     "text": "The town clock is a square, and its hands get stuck in every corner."
     },
     {
-     "t": 20.51,
-     "d": 3.541,
-     "text": "Ka-thunk. Ka-thunk. Ka-thunk. Everyone arrives seasick."
+     "t": 20.617,
+     "d": 3.2,
+     "text": "So the whole town is always running four minutes late."
     }
    ]
   },
   {
-   "start": 24.551,
-   "end": 32.995,
+   "start": 24.317,
+   "end": 32.761,
    "num": "0",
    "unit": "GEARS",
    "caption": "Nothing spins",
    "fact": "NO GEARS \u00b7 NO BEARINGS \u00b7 NO FANS",
    "lines": [
     {
-     "t": 24.551,
+     "t": 24.317,
      "d": 4.395,
      "text": "At work, nothing spins. No gears, no ball bearings, no fans."
     },
     {
-     "t": 29.146,
+     "t": 28.911,
      "d": 3.349,
      "text": "The factory runs on people sliding boxes around."
     }
    ]
   },
   {
-   "start": 32.995,
-   "end": 39.882,
+   "start": 32.761,
+   "end": 39.647,
    "num": "1",
    "unit": "CUBE BALL",
    "caption": "Sports day",
    "fact": "IT DOESN'T ROLL",
    "lines": [
     {
-     "t": 32.995,
+     "t": 32.761,
      "d": 4.437,
      "text": "Football is chaos. The ball is a cube. It doesn't roll, it tumbles."
     },
     {
-     "t": 37.633,
+     "t": 37.398,
      "d": 1.749,
      "text": "The goalkeeper just sits on it."
     }
    ]
   },
   {
-   "start": 39.882,
-   "end": 45.83,
+   "start": 39.647,
+   "end": 45.595,
    "num": "\u25a1",
    "unit": "PIZZA",
    "caption": "Lunch break",
    "fact": "SAME BOX AS ALWAYS",
    "lines": [
     {
-     "t": 39.882,
+     "t": 39.647,
      "d": 2.88,
      "text": "Lunch is pizza, which is honestly fine."
     },
     {
-     "t": 42.962,
+     "t": 42.727,
      "d": 2.368,
      "text": "It always came in a square box anyway."
     }
    ]
   },
   {
-   "start": 45.83,
-   "end": 57.495,
+   "start": 45.595,
+   "end": 57.261,
    "num": "SMOOTH",
    "unit": "RIDE",
    "caption": "The genius fix",
    "fact": "SQUARE WHEELS \u00b7 BUMPY ROAD",
    "lines": [
     {
-     "t": 45.83,
+     "t": 45.595,
      "d": 4.672,
      "text": "Then an engineer has an idea. Instead of fixing the wheels, fix the road."
     },
     {
-     "t": 50.702,
+     "t": 50.467,
      "d": 6.293,
      "text": "On a road of perfectly shaped bumps, square wheels roll smoothly. And this works in real life."
     }
    ]
   },
   {
-   "start": 57.495,
-   "end": 63.273,
+   "start": 57.261,
+   "end": 63.038,
    "num": "ZERO",
    "unit": "CIRCLES",
    "caption": "A square world",
    "fact": "LIFE FINDS CORNERS",
    "lines": [
     {
-     "t": 57.495,
+     "t": 57.261,
      "d": 3.221,
      "text": "So life goes on, just with a few more corners."
     },
     {
-     "t": 60.917,
+     "t": 60.682,
      "d": 1.856,
      "text": "Which circle would you miss the most?"
     }

@@ -9,7 +9,7 @@ here=Path(__file__).resolve().parent; K=here.parent/'voices/kokoro'; VOICE=sys.a
 # (Stan Wagon's square-wheeled trike, Macalester College; Exploratorium exhibit; Hall & Wagon 1992, "Roads and Wheels").
 SEG=[('0','CIRCLES','Wake up','NO ROUND SHAPES ALLOWED',["What if circles simply didn't exist?","Your day starts badly. Your alarm clock is a cube, and so is the sun."]),
 ('4','CORNERS','Breakfast','SQUARE EVERYTHING',["Breakfast is a square egg in a square pan, with a mug that has four corners.","Your spoon can never reach the cereal stuck in them."]),
-('BUMP','BUMP','The bus ride','SQUARE WHEELS',["The bus has square wheels. Every few meters, the whole thing lurches.","Ka-thunk. Ka-thunk. Ka-thunk. Everyone arrives seasick."]),
+('TICK','TOCK','Telling time','SQUARE CLOCK',["The town clock is a square, and its hands get stuck in every corner.","So the whole town is always running four minutes late."]),
 ('0','GEARS','Nothing spins','NO GEARS · NO BEARINGS · NO FANS',["At work, nothing spins. No gears, no ball bearings, no fans.","The factory runs on people sliding boxes around."]),
 ('1','CUBE BALL','Sports day','IT DOESN\'T ROLL',["Football is chaos. The ball is a cube. It doesn't roll, it tumbles.","The goalkeeper just sits on it."]),
 ('□','PIZZA','Lunch break','SAME BOX AS ALWAYS',["Lunch is pizza, which is honestly fine.","It always came in a square box anyway."]),
