@@ -1,0 +1,165 @@
+{
+ "duration": 81.666,
+ "segments": [
+  {
+   "start": 0.35,
+   "end": 11.077,
+   "num": "1M",
+   "unit": "YEARS AGO",
+   "caption": "The first spark",
+   "fact": "EARLIEST SURE CONTROLLED FIRE",
+   "lines": [
+    {
+     "t": 0.35,
+     "d": 2.773,
+     "text": "What if humans never learned to control fire?"
+    },
+    {
+     "t": 3.323,
+     "d": 7.253,
+     "text": "A million years ago, our ancestors gathered around their first campfires. Now imagine that spark never caught."
+    }
+   ]
+  },
+  {
+   "start": 11.077,
+   "end": 22.123,
+   "num": "9+",
+   "unit": "HOURS A DAY",
+   "caption": "Chewing all day",
+   "fact": "RAW FOOD FOR A HUMAN BRAIN",
+   "lines": [
+    {
+     "t": 11.077,
+     "d": 4.544,
+     "text": "Without cooking, everything is eaten raw: roots, leaves and tough meat."
+    },
+    {
+     "t": 15.821,
+     "d": 5.803,
+     "text": "To feed a brain like ours on raw food, we'd need to eat for more than nine hours a day."
+    }
+   ]
+  },
+  {
+   "start": 22.123,
+   "end": 32.765,
+   "num": "SMALL",
+   "unit": "BRAINS",
+   "caption": "A different human",
+   "fact": "THE COOKING HYPOTHESIS",
+   "lines": [
+    {
+     "t": 22.123,
+     "d": 4.523,
+     "text": "Many scientists think cooking freed up the energy to grow our big brains."
+    },
+    {
+     "t": 26.846,
+     "d": 5.419,
+     "text": "Without it, our ancestors might have kept smaller brains, bigger jaws and bigger bellies."
+    }
+   ]
+  },
+  {
+   "start": 32.765,
+   "end": 41.059,
+   "num": "0",
+   "unit": "LIGHT",
+   "caption": "Long dark nights",
+   "fact": "NO WARMTH \u00b7 NO PROTECTION",
+   "lines": [
+    {
+     "t": 32.765,
+     "d": 4.501,
+     "text": "Nights are pitch black and cold, with no fire to keep predators away."
+    },
+    {
+     "t": 37.466,
+     "d": 3.093,
+     "text": "And nobody sits around the flames telling stories."
+    }
+   ]
+  },
+  {
+   "start": 41.059,
+   "end": 49.482,
+   "num": "COLD",
+   "unit": "LANDS",
+   "caption": "Stuck in the warmth",
+   "fact": "NO FIRE TO SURVIVE THE COLD",
+   "lines": [
+    {
+     "t": 41.059,
+     "d": 4.459,
+     "text": "Without fire for warmth, the icy north would be far harder to settle."
+    },
+    {
+     "t": 45.718,
+     "d": 3.264,
+     "text": "Humans might never have spread across the whole planet."
+    }
+   ]
+  },
+  {
+   "start": 49.482,
+   "end": 60.614,
+   "num": "1085\u00b0C",
+   "unit": "COPPER",
+   "caption": "No metal",
+   "fact": "NO POTTERY \u00b7 NO GLASS \u00b7 NO BRICKS",
+   "lines": [
+    {
+     "t": 49.482,
+     "d": 4.181,
+     "text": "No fire also means no pottery, no glass and no bricks."
+    },
+    {
+     "t": 53.863,
+     "d": 6.251,
+     "text": "And metal? Copper only melts at over a thousand degrees, so the Bronze Age never begins."
+    }
+   ]
+  },
+  {
+   "start": 60.614,
+   "end": 69.954,
+   "num": "0",
+   "unit": "ENGINES",
+   "caption": "No machines",
+   "fact": "NO STEAM \u00b7 NO POWER PLANTS",
+   "lines": [
+    {
+     "t": 60.614,
+     "d": 4.309,
+     "text": "No steam engines, no power plants, no factories, no rockets."
+    },
+    {
+     "t": 65.123,
+     "d": 4.331,
+     "text": "Even today, most of the world's electricity comes from burning fuel."
+    }
+   ]
+  },
+  {
+   "start": 69.954,
+   "end": 79.166,
+   "num": "NO",
+   "unit": "CITIES",
+   "caption": "The world today",
+   "fact": "STILL ON THE SAVANNA",
+   "lines": [
+    {
+     "t": 69.954,
+     "d": 5.717,
+     "text": "Today, there might be no cities at all. Just small groups of humans, foraging under the sun."
+    },
+    {
+     "t": 75.871,
+     "d": 2.795,
+     "text": "So, was fire our most important discovery?"
+    }
+   ]
+  }
+ ]
+}
